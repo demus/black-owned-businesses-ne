@@ -1,0 +1,604 @@
+steven@steven-PC MINGW64 ~/Desktop/Documents/src/black-owned-restaurants (master)
+$ poetry run python -m scrape_geometry > log.txt
+INFO:root:Processing row at index 0
+INFO:root:{'business_title': 'Betty¦s African Kitchen', 'business_type': 'Restaurant', 'address': '2434 Main St, Bridgeport, CT 06606', 'phone': '(203) 870-0600', 'website': None, 'menu_url': None, 'latitude': 41.19599914550781, 'longitude': -73.1998519897461}
+INFO:root:Processing row at index 1
+INFO:root:{'business_title': "Miss Thelma's", 'business_type': 'Restaurant', 'address': '140 Fairfield Ave 1, Bridgeport, CT 06604', 'phone': '(203) 337-9957', 'website': 'http://www.missthelmas.com/', 'menu_url': 'https://locu.com/places/miss-thelmas-bridgeport-us/', 'latitude': 41.179107666015625, 'longitude': -73.19010925292969}
+INFO:root:Processing row at index 2
+INFO:root:{'business_title': "Shandal's Vegetarian Cafe", 'business_type': 'Restaurant', 'address': '520 Capitol Ave, Bridgeport, CT 06606', 'phone': '(203) 331-9777', 'website': 'https://www.facebook.com/Shandals-Vegetarian-Cafe-138932232940462/', 'menu_url': 'https://www.zomato.com/fairfield-county/shandals-vegetarian-cafe-bridgeport/menu', 'latitude': 41.196693420410156, 'longitude': -73.20059204101562}
+INFO:root:Processing row at index 3
+INFO:root:{'business_title': 'Surf vs Turf LLC', 'business_type': 'Restaurant', 'address': '2043 Fairfield Ave, Bridgeport, CT 06605', 'phone': '(203) 923-2019', 'website': 'https://www.surfvsturfct.com/', 'menu_url': 'https://www.surfvsturfct.com/menu/', 'latitude': 41.166114807128906, 'longitude': -73.21794128417969}
+INFO:root:Processing row at index 4
+INFO:root:{'business_title': 'Ten20', 'business_type': 'Restaurant', 'address': '1450 Barnum Ave, Bridgeport, CT 06610', 'phone': '(203) 549-8029', 'website': None, 'menu_url': 'https://places.singleplatform.com/ten20/menu?ref=Microsoft', 'latitude': 41.18708419799805, 'longitude': -73.16341400146484}
+INFO:root:Processing row at index 5
+INFO:root:{'business_title': 'Trap Chicken', 'business_type': 'Restaurant', 'address': '500 Park Ave, Bridgeport, CT 06610', 'phone': '(203) 212-1990', 'website': None, 'menu_url': None, 'latitude': 41.168907165527344, 'longitude': -73.19403076171875}
+INFO:root:Processing row at index 6
+INFO:root:{'business_title': 'Jrs Meatless Cuisine And Juices', 'business_type': 'Restaurant', 'address': '3927 Main St, Bridgeport, CT 06606', 'phone': '(203) 549-9355', 'website': None, 'menu_url': None, 'latitude': 41.214332580566406, 'longitude': -73.21207427978516}
+INFO:root:Processing row at index 7
+INFO:root:{'business_title': 'Perfect Poundcakes', 'business_type': None, 'address': '221 Burnside Ave, East Hartford, CT 06118', 'phone': '(860) 834-2229', 'website': 'https://www.facebook.com/perfectpoundcakes/', 'menu_url': 'https://places.singleplatform.com/perfect-poundcakes-at-burnside-fish-market/menu?ref=Microsoft', 'latitude': 41.77546310424805, 'longitude': -72.62997436523438}
+INFO:root:Processing row at index 8
+INFO:root:{'business_title': 'Sidibe African Resaurant - Nhyira', 'business_type': None, 'address': '242 Burnside Ave, East Hartford, CT 06108', 'phone': '(860) 216-6780', 'website': 'https://www.facebook.com/sidibeafricanresaurant/', 'menu_url': None, 'latitude': 41.77562713623047, 'longitude': -72.62866973876953}
+INFO:root:Processing row at index 9
+INFO:root:{'business_title': 'Sun Splash Jamaican Restaurant', 'business_type': 'Restaurant', 'address': '692 Maple Ave, Hartford, CT 06114', 'phone': '(860) 548-3050', 'website': 'https://www.sunsplashbarandgrill.com/', 'menu_url': 'https://www.sunsplashbarandgrill.com/menus', 'latitude': 41.74131774902344, 'longitude': -72.68329620361328}
+INFO:root:Processing row at index 10
+INFO:root:{'business_title': 'Bomb Wings & Rice Bar', 'business_type': 'Restaurant', 'address': '2373 Whitney Ave, Hamden, CT 06518', 'phone': '(203) 745-5510', 'website': 'http://www.toobomb.com/', 'menu_url': 'https://www.toobomb.com/menu', 'latitude': 41.383792877197266, 'longitude': -72.9017562866211}
+INFO:root:Processing row at index 11
+INFO:root:{'business_title': 'Berkins Blend Cafe', 'business_type': 'Restaurant', 'address': '1003 Hebron Ave, Glastonbury, CT 06033', 'phone': '(860) 430-5866', 'website': 'https://berkinsblendcafe.com/', 'menu_url': 'https://berkinsblendcafe.com/menu', 'latitude': 41.717071533203125, 'longitude': -72.57461547851562}
+INFO:root:Processing row at index 12
+INFO:root:{'business_title': 'Capital Ice Cream', 'business_type': None, 'address': '389 CAPITOL Ave, Hartford, CT 06106', 'phone': '(860) 906-1308', 'website': 'https://capitalicecream.com/', 'menu_url': None, 'latitude': 41.76383590698242, 'longitude': -72.68856811523438}
+INFO:root:Processing row at index 13
+INFO:root:{'business_title': 'Karobean Kitchen', 'business_type': 'Restaurant', 'address': '2790 Main St, Hartford, CT 06106', 'phone': '(855) 525-4782', 'website': None, 'menu_url': 'https://places.singleplatform.com/karobean-kitchen/menu?ref=Microsoft', 'latitude': 41.7916374206543, 'longitude': -72.66935729980469}
+INFO:root:Processing row at index 14
+ERROR:root:NoAddressError at index 14
+INFO:root:Processing row at index 15
+INFO:root:{'business_title': "Carson's Kitchen", 'business_type': 'Restaurant', 'address': '3155 Main St, Hartford, CT 06120', 'phone': '(860) 244-0943', 'website': 'https://carsons-kitchen-llc.business.site/', 'menu_url': 'https://kaosamai.business.site/', 'latitude': 41.79472351074219, 'longitude': -72.6646728515625}
+INFO:root:Processing row at index 16
+INFO:root:{'business_title': "Dunn's River Jamaican Restaurant", 'business_type': 'Restaurant', 'address': '2996 Main St, Hartford, CT 06120', 'phone': '(860) 547-1600', 'website': None, 'menu_url': 'https://places.singleplatform.com/dunns-river-jamaican-restaurant-llc/menu?ref=Microsoft', 'latitude': 41.79331970214844, 'longitude': -72.66625213623047}
+INFO:root:Processing row at index 17
+INFO:root:{'business_title': 'Fire & Spice Vegan Restaurant', 'business_type': 'Restaurant', 'address': '491 Capitol Ave, Hartford, CT 06106', 'phone': '(860) 519-0476', 'website': 'http://fireandspiceveganrestaurant.com/', 'menu_url': 'http://fireandspiceveganrestaurant.com/menu.php', 'latitude': 41.76352310180664, 'longitude': -72.69215393066406}
+INFO:root:Processing row at index 18
+INFO:root:{'business_title': 'Juiced Up', 'business_type': None, 'address': '231 Asylum St, Hartford, CT 06103', 'phone': '(860) 247-2292', 'website': 'https://www.facebook.com/juicedupjb/', 'menu_url': 'https://www.yelp.com/menu/juiced-up-hartford?adjust_creative=bing&utm_campaign=yelp_feed&utm_medium=feed_v2&utm_source=bing', 'latitude': 41.767333984375, 'longitude': -72.67742156982422}
+INFO:root:Processing row at index 19
+INFO:root:{'business_title': 'Hot Pots', 'business_type': 'Restaurant', 'address': '2374 Main St, Hartford, CT 06120', 'phone': '(860) 241-0200', 'website': None, 'menu_url': 'https://www.zomato.com/hartford/hot-pots-hartford/menu', 'latitude': 41.786861419677734, 'longitude': -72.6738052368164}
+INFO:root:Processing row at index 20
+INFO:root:{'business_title': 'Pabs African Restaurant', 'business_type': 'Restaurant', 'address': '1166 Burnside Ave, East Hartford, CT 06108', 'phone': '(860) 206-3784', 'website': 'https://pabsafricanrestaurant.com/', 'menu_url': 'https://places.singleplatform.com/pabs-african-restaurant/menu?ref=Microsoft', 'latitude': 41.7836799621582, 'longitude': -72.58821105957031}
+INFO:root:Processing row at index 21
+INFO:root:{'business_title': "Scotts' Jamaican Bakery", 'business_type': None, 'address': '1344 Albany Ave, Hartford, CT 06112', 'phone': '(860) 247-3855', 'website': 'http://www.scottsjamaicanbakery.com/', 'menu_url': 'https://www.scottsjamaicanbakery.com/menus', 'latitude': 41.783111572265625, 'longitude': -72.698974609375}
+INFO:root:Processing row at index 22
+INFO:root:{'business_title': "Sister's Restaurant", 'business_type': 'Restaurant', 'address': '2756 Main St, Hartford, CT 06120', 'phone': '(860) 527-1234', 'website': None, 'menu_url': 'https://places.singleplatform.com/sisters-restaurant-4/menu?ref=Microsoft', 'latitude': 41.79118347167969, 'longitude': -72.66983795166016}
+INFO:root:Processing row at index 23
+INFO:root:{'business_title': "Stella's and Mazie's", 'business_type': 'Restaurant', 'address': '461 Capitol Ave, Hartford, CT 06106', 'phone': '(860) 308-2175', 'website': 'http://www.eatsomethinggood.com/', 'menu_url': 'https://www.eatsomethinggood.com/menus', 'latitude': 41.76362228393555, 'longitude': -72.69107055664062}
+INFO:root:Processing row at index 24
+INFO:root:{'business_title': 'Sun Splash Bar & Grill', 'business_type': 'Restaurant', 'address': '428 Franklin Ave, Hartford, CT 06114', 'phone': '(860) 904-9310', 'website': 'http://www.sunsplashbarandgrill.com/', 'menu_url': 'https://www.sunsplashbarandgrill.com/menus', 'latitude': 41.73781204223633, 'longitude': -72.6753921508789}
+INFO:root:Processing row at index 25
+INFO:root:{'business_title': 'Soulbaila', 'business_type': 'Restaurant', 'address': '735 Wethersfield Ave, Hartford, CT 06114', 'phone': '(860) 461-0324', 'website': 'https://www.soulbailavibes.com/', 'menu_url': 'https://www.soulbailavibes.com/menu', 'latitude': 41.735809326171875, 'longitude': -72.67069244384766}
+INFO:root:Processing row at index 26
+INFO:root:{'business_title': 'Berkins Blend Cafe', 'business_type': 'Restaurant', 'address': '1003 Hebron Ave, Glastonbury, CT 06033', 'phone': '(860) 430-5866', 'website': 'https://berkinsblendcafe.com/', 'menu_url': 'https://berkinsblendcafe.com/menu', 'latitude': 41.717071533203125, 'longitude': -72.57461547851562}
+INFO:root:Processing row at index 27
+INFO:root:{'business_title': "Thomas' Smokey Pit Stop", 'business_type': 'Restaurant', 'address': '182 Middle Turnpike W, Manchester, CT 06040', 'phone': '(860) 646-1400', 'website': 'http://thomassmokeypitstop.com/', 'menu_url': None, 'latitude': 41.78245162963867, 'longitude': -72.53192138671875}
+INFO:root:Processing row at index 28
+INFO:root:{'business_title': "Anthony's Jamaican Restaurant", 'business_type': 'Restaurant', 'address': '410 Middle Tpke W, Manchester, CT 06040', 'phone': '(860) 643-8200', 'website': 'https://www.anthonysjamaicanrestaurant.com/', 'menu_url': 'https://www.anthonysjamaicanrestaurant.com/menu', 'latitude': 41.780635833740234, 'longitude': -72.54145050048828}
+INFO:root:Processing row at index 29
+INFO:root:{'business_title': "Bentley's Little Jamaica Cuisine", 'business_type': 'Restaurant', 'address': '29 W Main St, Meriden, CT 06451', 'phone': '(203) 235-5662', 'website': 'https://www.facebook.com/Bentleys-little-Jamaica-cuisine-117039752151800/', 'menu_url': None, 'latitude': 41.53824234008789, 'longitude': -72.80353546142578}
+INFO:root:Processing row at index 30
+INFO:root:{'business_title': 'B&B Wings and Things', 'business_type': 'Restaurant', 'address': '540 Main St, Middletown, CT', 'phone': '(860) 358-9542', 'website': 'https://bandbwingsandthings.com/', 'menu_url': 'https://bandbwingsandthings.com/our-menu', 'latitude': 41.5634651184082, 'longitude': -72.65158081054688}
+INFO:root:Processing row at index 31
+INFO:root:{'business_title': 'Living Right Health Bar', 'business_type': None, 'address': '399 N Main St, Naugatuck, CT 06770', 'phone': '(203) 714-6205', 'website': 'https://livingrighthb.com/', 'menu_url': 'https://livingrighthb.com/menu/', 'latitude': 41.501285552978516, 'longitude': -73.04702758789062}
+INFO:root:Processing row at index 32
+INFO:root:{'business_title': "My Wife Didn't Cook", 'business_type': 'Restaurant', 'address': '89 W Main St, New Britain, CT 06051', 'phone': '(860) 259-6987', 'website': 'https://www.mywifedidntcookct.com/', 'menu_url': 'https://places.singleplatform.com/my-wife-didnt-cook/menu?ref=Microsoft', 'latitude': 41.66743469238281, 'longitude': -72.78398895263672}
+INFO:root:Processing row at index 33
+INFO:root:{'business_title': 'African Queens Market', 'business_type': 'Retail', 'address': '491 Campbell Ave, West Haven, CT 06516', 'phone': '(203) 931-0799', 'website': 'http://africantreemarket.com/', 'menu_url': None, 'latitude': 41.27162170410156, 'longitude': -72.94957733154297}
+INFO:root:Processing row at index 34
+INFO:root:{'business_title': 'Ninth Square Market', 'business_type': 'Restaurant', 'address': '72 Orange St, New Haven, CT 06510', 'phone': '(203) 603-9809', 'website': 'http://www.infonewhaven.com/content/ninth-square-market', 'menu_url': 'https://places.singleplatform.com/ninth-square-market-llc/menu?ref=Microsoft', 'latitude': 41.30453109741211, 'longitude': -72.9249496459961}
+INFO:root:Processing row at index 35
+INFO:root:{'business_title': "Sandra's Next Generation", 'business_type': 'Restaurant', 'address': '636 Congress Ave, New Haven, CT 06519', 'phone': '(203) 787-4123', 'website': 'http://www.sandrasnextgeneration.com/', 'menu_url': 'https://www.sandrasnextgeneration.com/menus-2', 'latitude': 41.30010986328125, 'longitude': -72.93952178955078}
+INFO:root:Processing row at index 36
+INFO:root:{'business_title': "Dilly's Cafe", 'business_type': 'Restaurant', 'address': '39-43 Market Sq, Newington, CT 06111', 'phone': '(860) 785-8362', 'website': 'https://www.dillyscafe.com/', 'menu_url': None, 'latitude': 41.69635772705078, 'longitude': -72.72225189208984}
+INFO:root:Processing row at index 37
+ERROR:root:NoAddressError at index 37
+INFO:root:Processing row at index 38
+INFO:root:{'business_title': '26 Dartmouth Pl, Newington, CT 06111', 'business_type': None, 'address': '26 Dartmouth Pl, Newington, CT 06111', 'phone': None, 'website': None, 'menu_url': None, 'latitude': 41.67437744140625, 'longitude': -72.74392700195312}
+INFO:root:Processing row at index 39
+INFO:root:{'business_title': 'Miss Barbara Jean¦s Soul Food Kitchen', 'business_type': 'Restaurant', 'address': '115 Main St, Norwalk, CT 06851', 'phone': '(203) 939-9598', 'website': 'http://msbarbarajeans.com/', 'menu_url': 'https://places.singleplatform.com/miss-barbara-jeans-soul-food-kitchen/menu?ref=Microsoft', 'latitude': 41.12266159057617, 'longitude': -73.41536712646484}
+INFO:root:Processing row at index 40
+INFO:root:{'business_title': 'No Leftovers', 'business_type': 'Restaurant', 'address': '182 Connecticut Ave, Norwalk, CT 06854', 'phone': '(203) 354-4333', 'website': 'https://www.noleftoversrestaurant.com/', 'menu_url': 'https://www.noleftoversrestaurant.com/menu', 'latitude': 41.10342025756836, 'longitude': -73.43376159667969}
+INFO:root:Processing row at index 41
+INFO:root:{'business_title': "Tony's Caribbean Kitchen", 'business_type': 'Restaurant', 'address': '90 Truman St, New London, CT 06320', 'phone': '(860) 443-0750', 'website': 'https://www.facebook.com/Tonys-Caribbean-Kitchen-1852447614973403/', 'menu_url': 'https://www.yelp.com/menu/tonys-caribbean-kitchen-new-london?adjust_creative=bing&utm_campaign=yelp_feed&utm_medium=feed_v2&utm_source=bing', 'latitude': 41.35174560546875, 'longitude': -72.10252380371094}
+INFO:root:Processing row at index 42
+INFO:root:{'business_title': "Mommy's Delicious Food", 'business_type': 'Restaurant', 'address': '595 W Main St, Norwich, CT 06360', 'phone': '(860) 383-2079', 'website': None, 'menu_url': None, 'latitude': 41.516361236572266, 'longitude': -72.10009002685547}
+INFO:root:Processing row at index 43
+INFO:root:{'business_title': 'Jamaican Kitchen', 'business_type': 'Restaurant', 'address': '781 Cromwell Ave, Rocky Hill, CT 06067', 'phone': '(860) 375-8048', 'website': 'http://jamaicankitchenct.com/', 'menu_url': 'https://www.jamaicankitchenct.com/menu/', 'latitude': 41.64936828613281, 'longitude': -72.6787338256836}
+INFO:root:Processing row at index 44
+INFO:root:{'business_title': 'Teff Stamford', 'business_type': 'Restaurant', 'address': '113 W Main St, Stamford, CT 06902', 'phone': '(203) 998-7474', 'website': 'http://www.teffrestaurant.com/', 'menu_url': 'http://www.allmenus.com/ct/stamford/497192-teff/menu/', 'latitude': 41.0507926940918, 'longitude': -73.54663848876953}
+INFO:root:Processing row at index 45
+INFO:root:{'business_title': 'La Perle', 'business_type': 'Restaurant', 'address': '15 Bank St, Stamford, CT 06902', 'phone': '(203) 388-8600', 'website': 'https://www.laperlect.com/', 'menu_url': 'https://places.singleplatform.com/la-perle-4/menu?ref=Microsoft', 'latitude': 41.05306625366211, 'longitude': -73.54051971435547}
+INFO:root:Processing row at index 46
+INFO:root:{'business_title': 'PUAG', 'business_type': None, 'address': '75 3rd St, Stamford, CT 06905', 'phone': '(203) 357-5339', 'website': 'http://puageats.com/', 'menu_url': 'https://puageats.com/menu/', 'latitude': 41.06502151489258, 'longitude': -73.53931427001953}
+INFO:root:Processing row at index 47
+INFO:root:{'business_title': 'Soul Tasty', 'business_type': 'Restaurant', 'address': '29 W Main St, Stamford, CT 06902', 'phone': '(203) 504-2625', 'website': 'http://www.soultastyct.com/', 'menu_url': 'http://www.soultastyct.com/menu/', 'latitude': 41.052242279052734, 'longitude': -73.54499053955078}
+INFO:root:Processing row at index 48
+INFO:root:{'business_title': 'Kingston Kafe', 'business_type': 'Restaurant', 'address': '730 Barnum Ave, Stratford, CT 06614', 'phone': '(203) 540-5825', 'website': 'https://www.kingstonkafe.com/', 'menu_url': 'https://locu.com/places/kingston-kafe-stratford-us-1/', 'latitude': 41.19877243041992, 'longitude': -73.12692260742188}
+INFO:root:Processing row at index 49
+INFO:root:{'business_title': "IT'S All About The Flavour Restaurant Caribbean, Cajun, Southern", 'business_type': None, 'address': '871 Stafford Rd, Storrs, CT 06268', 'phone': '(860) 477-1547', 'website': 'https://www.facebook.com/ItsAllAboutTheFlavour1/', 'menu_url': None, 'latitude': 41.785152435302734, 'longitude': -72.27623748779297}
+INFO:root:Processing row at index 50
+INFO:root:{'business_title': 'Jamaican Kitchen', 'business_type': 'Restaurant', 'address': '243 Hartford Tpke, Vernon, CT 06066', 'phone': '(860) 375-8048', 'website': 'http://jamaicankitchenct.com/', 'menu_url': 'https://www.jamaicankitchenct.com/menu/', 'latitude': 41.825782775878906, 'longitude': -72.49584197998047}
+INFO:root:Processing row at index 51
+INFO:root:{'business_title': "Craig's Kitchen", 'business_type': 'Restaurant', 'address': '13 W Main St, Vernon, CT 06066', 'phone': '(860) 871-6099', 'website': 'http://craigssoulfood.com/', 'menu_url': 'https://craigssoulfood.com/menu/', 'latitude': 41.867008209228516, 'longitude': -72.44950103759766}
+INFO:root:Processing row at index 52
+INFO:root:{'business_title': 'The Art of Yum', 'business_type': None, 'address': '146 Grand St, Waterbury, CT 06702', 'phone': '(203) 527-4044', 'website': 'https://www.theartofyum.com/', 'menu_url': None, 'latitude': 41.55376434326172, 'longitude': -73.04175567626953}
+INFO:root:Processing row at index 53
+INFO:root:{'business_title': "Mikey's Jamaican Restaurant", 'business_type': 'Restaurant', 'address': '736 E Main St, Waterbury, CT 06702', 'phone': '(203) 755-8112', 'website': 'https://www.facebook.com/MikeysJamaicanRestaurant/', 'menu_url': 'https://places.singleplatform.com/mikeys-jamaican-restaurant/menu?ref=Microsoft', 'latitude': 41.55363845825195, 'longitude': -73.0279769897461}
+INFO:root:Processing row at index 54
+INFO:root:{'business_title': "Mama Sue's Worlds Greatest Soul", 'business_type': None, 'address': '537 Congress Ave, Waterbury, CT 06708', 'phone': '(203) 753-0063', 'website': None, 'menu_url': None, 'latitude': 41.53633117675781, 'longitude': -73.05191802978516}
+INFO:root:Processing row at index 55
+INFO:root:{'business_title': 'Divine Health Juice Bar LLC', 'business_type': None, 'address': '1902 N Main St, Waterbury, CT 06704', 'phone': '(203) 527-7184', 'website': 'https://www.facebook.com/DivineHealthJuicBar/', 'menu_url': None, 'latitude': 41.576961517333984, 'longitude': -73.02667999267578}
+INFO:root:Processing row at index 56
+INFO:root:{'business_title': 'Jamaican Me Crazy', 'business_type': 'Restaurant', 'address': '776 Main St, Willimantic, CT 06226', 'phone': '(860) 942-8831', 'website': 'https://www.jamaicanmecrazyllc.com/', 'menu_url': 'https://www.jamaicanmecrazyllc.com/menu/', 'latitude': 41.71212387084961, 'longitude': -72.21351623535156}
+INFO:root:Processing row at index 57
+ERROR:root:NoAddressError at index 57
+INFO:root:Processing row at index 58
+INFO:root:{'business_title': "Lilly's Soul Food Restaurant", 'business_type': 'Restaurant', 'address': '305 Windsor Ave, Windsor, CT 06095', 'phone': '(860) 241-8132', 'website': None, 'menu_url': 'https://www.yelp.com/menu/lillys-soul-food-restaurant-windsor?adjust_creative=bing&utm_campaign=yelp_feed&utm_medium=feed_v2&utm_source=bing', 'latitude': 41.81158447265625, 'longitude': -72.6584701538086}
+INFO:root:Processing row at index 59
+INFO:root:{'business_title': 'Rock City Pizza', 'business_type': None, 'address': '568 Cambridge St 568, Boston, MA 02134', 'phone': '(617) 782-7625', 'website': 'http://rockcitypizzamenu.com/?utm_source=organic_bing&utm_medium=bing_pw', 'menu_url': 'https://slicelife.com/restaurants/ma/boston/02134/rock-city-pizza-boston/menu', 'latitude': 42.35231018066406, 'longitude': -71.14047241210938}
+INFO:root:Processing row at index 60
+INFO:root:{'business_title': 'M&M LINKS Jewelry and Accessories', 'business_type': 'Retail', 'address': '236 N Pleasant St Ste 103/104, Amherst, MA 01002', 'phone': '(877) 226-9793', 'website': 'https://www.m2mlinks.com/', 'menu_url': None, 'latitude': 42.379268646240234, 'longitude': -72.51998901367188}
+INFO:root:Processing row at index 61
+INFO:root:{'business_title': "Auntie Elsie's Crisps", 'business_type': None, 'address': '40 Daniel Shays Highway Ste #4, Belchertown, MA 01007', 'phone': '(413) 213-1175', 'website': 'http://auntieelsies.com/', 'menu_url': None, 'latitude': 42.29194259643555, 'longitude': -72.40687561035156}
+INFO:root:Processing row at index 62
+INFO:root:{'business_title': 'Reps Fitness Studio', 'business_type': None, 'address': '316 Cambridge St Ste 2, Boston, MA 02114', 'phone': '(857) 250-4616', 'website': 'http://www.reps57.com/', 'menu_url': None, 'latitude': 42.35983657836914, 'longitude': -71.07054138183594}
+INFO:root:Processing row at index 63
+INFO:root:{'business_title': "Giacomo's Ristorante", 'business_type': 'Restaurant', 'address': '355 Hanover St, Boston, MA 02113', 'phone': '(617) 523-9026', 'website': None, 'menu_url': 'https://locu.com/places/giacomos-restaurant-boston-us-1/', 'latitude': 42.36459732055664, 'longitude': -71.05348205566406}
+INFO:root:Processing row at index 64
+ERROR:root:NoAddressError at index 64
+INFO:root:Processing row at index 65
+INFO:root:{'business_title': 'EverybodyFights', 'business_type': None, 'address': '15 Channel Ctr St, Boston, MA 02210', 'phone': '(857) 250-4140', 'website': 'https://www.facebook.com/Everybodyfights/', 'menu_url': None, 'latitude': 42.345787048339844, 'longitude': -71.05136108398438}
+INFO:root:Processing row at index 66
+INFO:root:{'business_title': 'trillfit', 'business_type': None, 'address': '1484 Tremont St, Boston, MA 02120', 'phone': '(617) 544-7690', 'website': 'http://www.trill.fit/', 'menu_url': None, 'latitude': 42.33217239379883, 'longitude': -71.09884643554688}
+INFO:root:Processing row at index 67
+INFO:root:{'business_title': 'Brown Ave, Boston, MA 02131', 'business_type': None, 'address': 'Brown Ave, Boston, MA 02131', 'phone': None, 'website': None, 'menu_url': None, 'latitude': 42.2852249908501, 'longitude': -71.1203899750188}
+INFO:root:Processing row at index 68
+INFO:root:{'business_title': 'Organic Bath Co.', 'business_type': None, 'address': '50 Terminal St Ste 720, Charlestown, MA 02129', 'phone': '(617) 273-2523', 'website': 'https://www.organicbath.co/', 'menu_url': None, 'latitude': 42.38196563720703, 'longitude': -71.05976104736328}
+INFO:root:Processing row at index 69
+ERROR:root:StateValidationError at index 69
+INFO:root:Processing row at index 70
+ERROR:root:NoAddressError at index 70
+INFO:root:Processing row at index 71
+INFO:root:{'business_title': 'Flames Restaurant', 'business_type': 'Restaurant', 'address': '469 Blue Hill Ave, Boston, MA 02121', 'phone': '(617) 989-0000', 'website': 'https://www.facebook.com/Flames-Restaurant-448872851813773/', 'menu_url': 'https://places.singleplatform.com/flames-restaurant/menu?ref=Microsoft', 'latitude': 42.308921813964844, 'longitude': -71.08293914794922}
+INFO:root:Processing row at index 72
+INFO:root:{'business_title': 'Fresh Food Generation', 'business_type': None, 'address': '196 Quincy St, Boston, MA 02121', 'phone': '(617) 602-7185', 'website': 'https://www.freshfoodgeneration.com/', 'menu_url': None, 'latitude': 42.31288528442383, 'longitude': -71.0748519897461}
+INFO:root:Processing row at index 73
+INFO:root:{'business_title': "Larry J's BBQ Cafe", 'business_type': 'Restaurant', 'address': '600 D St, Boston, MA 02210', 'phone': '(617) 348-9800', 'website': 'http://larryjsbbqcafe.com/', 'menu_url': 'https://locu.com/places/larry-js-house-of-q-boston-us-1/', 'latitude': 42.34835433959961, 'longitude': -71.03962707519531}
+INFO:root:Processing row at index 74
+INFO:root:{'business_title': 'Next Step Soul Food Cafe', 'business_type': 'Restaurant', 'address': '657 Washington St, Dorchester Center, MA 02124', 'phone': '(617) 514-6456', 'website': None, 'menu_url': 'https://www.yelp.com/menu/next-step-soul-food-cafe-boston?adjust_creative=bing&utm_campaign=yelp_feed&utm_medium=feed_v2&utm_source=bing', 'latitude': 42.28886795043945, 'longitude': -71.0711669921875}
+INFO:root:Processing row at index 75
+INFO:root:{'business_title': 'Nu Flav Restaurant', 'business_type': 'Restaurant', 'address': '1100 Blue Hill Ave, Boston, MA 02124', 'phone': '(617) 506-7092', 'website': None, 'menu_url': 'https://places.singleplatform.com/nuflav-restaurant/menu?ref=Microsoft', 'latitude': 42.286930084228516, 'longitude': -71.0904769897461}
+INFO:root:Processing row at index 76
+INFO:root:{'business_title': 'P&R Restaurant and Ice Cream Parlor', 'business_type': 'Restaurant', 'address': '208 Dudley St, Roxbury, MA 02119', 'phone': '(617) 442-2020', 'website': 'http://www.eatpandr.com/', 'menu_url': 'https://places.singleplatform.com/pr-restaurant-and-ice-cream-parlor/menu?ref=Microsoft', 'latitude': 42.3284912109375, 'longitude': -71.08104705810547}
+INFO:root:Processing row at index 77
+INFO:root:{'business_title': 'Savvor Restaurant and Lounge', 'business_type': 'Restaurant', 'address': '180 Lincoln St, Boston, MA 02111', 'phone': '(857) 250-2165', 'website': 'http://www.savvorbostonlounge.com/', 'menu_url': 'https://www.savvorbostonlounge.com/menus', 'latitude': 42.3505859375, 'longitude': -71.05866241455078}
+INFO:root:Processing row at index 78
+INFO:root:{'business_title': 'Tawakal Halal Cafe', 'business_type': 'Restaurant', 'address': '389 Maverick St, Boston, MA 02128', 'phone': '(617) 418-5890', 'website': 'https://www.facebook.com/TawakalHalalCafe/', 'menu_url': None, 'latitude': 42.36580276489258, 'longitude': -71.02897644042969}
+INFO:root:Processing row at index 79
+INFO:root:{'business_title': 'Urban Grape', 'business_type': 'Retail', 'address': '303 Columbus Ave, Boston, MA 02116', 'phone': '(857) 250-2509', 'website': 'http://theurbangrape.com/', 'menu_url': None, 'latitude': 42.34645080566406, 'longitude': -71.07447814941406}
+INFO:root:Processing row at index 80
+INFO:root:{'business_title': "JJ's Caffe", 'business_type': 'Restaurant', 'address': '610 N Main St, Brockton, MA 02301', 'phone': '(508) 510-4227', 'website': 'https://www.jjscaffe.com/', 'menu_url': 'https://www.jjscaffe.com/menu/', 'latitude': 42.09859085083008, 'longitude': -71.01997375488281}
+INFO:root:Processing row at index 81
+INFO:root:{'business_title': "Rhythm 'n Wraps", 'business_type': None, 'address': '1096 Commonwealth Ave, Boston, MA 02215', 'phone': '(617) 566-4144', 'website': 'https://www.rhythmnwraps.com/', 'menu_url': 'https://places.singleplatform.com/rhythm-n-wraps/menu?ref=Microsoft', 'latitude': 42.352073669433594, 'longitude': -71.12445831298828}
+INFO:root:Processing row at index 82
+ERROR:root:NoAddressError at index 82
+INFO:root:Processing row at index 83
+INFO:root:{'business_title': 'La F¦brica Central', 'business_type': 'Restaurant', 'address': '450 Massachusetts Ave, Cambridge, MA 02139', 'phone': '(857) 706-1125', 'website': 'https://www.lafabricacentral.com/', 'menu_url': 'https://www.lafabricacentral.com/menus', 'latitude': 42.363746643066406, 'longitude': -71.10091400146484}
+INFO:root:Processing row at index 84
+INFO:root:{'business_title': 'The Little Crepe Cafe', 'business_type': 'Restaurant', 'address': '102 Oxford St, Cambridge, MA', 'phone': '(857) 326-3184', 'website': 'https://www.littlecrepecafe.com/', 'menu_url': 'https://www.littlecrepecafe.com/menu', 'latitude': 42.38313674926758, 'longitude': -71.11614227294922}
+INFO:root:Processing row at index 85
+INFO:root:{'business_title': 'Oggi Gourmet', 'business_type': None, 'address': '30 Dunster St, Cambridge, MA 02138', 'phone': '(617) 492-6444', 'website': 'https://www.oggigourmetmenu.com/?utm_source=organic_bing&utm_medium=bing_pw', 'menu_url': 'https://slicelife.com/restaurants/ma/cambridge/02138/oggi-gourmet/menu', 'latitude': 42.37242889404297, 'longitude': -71.1190185546875}
+INFO:root:Processing row at index 86
+INFO:root:{'business_title': 'Coast Cafe', 'business_type': 'Restaurant', 'address': '233 River St, Cambridge, MA 02139', 'phone': '(617) 354-7644', 'website': 'https://coastsoulcafe.com/', 'menu_url': 'https://coastsoulcafe.com/our-menu/', 'latitude': 42.36300277709961, 'longitude': -71.11160278320312}
+INFO:root:Processing row at index 87
+INFO:root:{'business_title': 'Hazel¦s Kitchen', 'business_type': None, 'address': '76 Main St, Chicopee, MA 01020', 'phone': '(413) 315-8261', 'website': 'https://www.facebook.com/Hazels-Kitchen-166927287238980/', 'menu_url': None, 'latitude': 42.15849685668945, 'longitude': -72.583740234375}
+INFO:root:Processing row at index 88
+INFO:root:{'business_title': 'Glitterati Prom & Pagent Superstore', 'business_type': 'Retail', 'address': '30 Maple St, Danvers, MA 01923', 'phone': '(978) 539-8580', 'website': 'http://www.glitteratistyle.com/', 'menu_url': None, 'latitude': 42.56618118286133, 'longitude': -70.93621063232422}
+INFO:root:Processing row at index 89
+INFO:root:{'business_title': '50Kitchen', 'business_type': 'Restaurant', 'address': '1450 Dorchester Ave, Dorchester, MA 02122', 'phone': '(617) 474-2433', 'website': 'http://www.50kitchen.com/', 'menu_url': 'http://50kitchen.com/menu.html', 'latitude': 42.301109313964844, 'longitude': -71.05992126464844}
+INFO:root:Processing row at index 90
+INFO:root:{'business_title': "Auntie Vie's Bakery Cafe", 'business_type': None, 'address': '554 Dudley St, Dorchester, MA 02125', 'phone': '(617) 708-0013', 'website': 'https://www.facebook.com/Auntie-Vies-Bakery-Cafe-152960008211429/', 'menu_url': None, 'latitude': 42.321292877197266, 'longitude': -71.07217407226562}
+INFO:root:Processing row at index 91
+INFO:root:{'business_title': 'Bon Appetit Restaurant', 'business_type': 'Restaurant', 'address': '1138 Blue Hill Ave, Dorchester Center, MA 02124', 'phone': '(617) 825-5544', 'website': 'https://bonappetitgroup.com/', 'menu_url': 'https://www.zomato.com/boston/bon-appetit-dorchester/menu', 'latitude': 42.28544616699219, 'longitude': -71.09073638916016}
+INFO:root:Processing row at index 92
+INFO:root:{'business_title': 'B R E D', 'business_type': 'Restaurant', 'address': '2255 Dorchester Ave, Boston, MA 02124', 'phone': '(617) 698-0103', 'website': 'https://www.bredgourmet.com/', 'menu_url': 'https://places.singleplatform.com/bred-gourmet/menu?ref=Microsoft', 'latitude': 42.27338409423828, 'longitude': -71.06796264648438}
+INFO:root:Processing row at index 93
+INFO:root:{'business_title': 'Cape Verde Taste', 'business_type': 'Restaurant', 'address': '481 Geneva Ave, Boston, MA 02122', 'phone': '(617) 506-8824', 'website': None, 'menu_url': None, 'latitude': 42.299320220947266, 'longitude': -71.06471252441406}
+INFO:root:Processing row at index 94
+INFO:root:{'business_title': 'Restaurante Cesaria', 'business_type': 'Restaurant', 'address': '266 Bowdoin St, Boston, MA 02122', 'phone': '(617) 282-1998', 'website': 'https://www.restaurantcesaria.com/', 'menu_url': 'https://www.restaurantcesaria.com/menu/', 'latitude': 42.30681228637695, 'longitude': -71.06639862060547}
+INFO:root:Processing row at index 95
+INFO:root:{'business_title': "Clarke's Cakes & Cookies", 'business_type': None, 'address': '196 Quincy St., Dorchester, MA 02121', 'phone': None, 'website': 'http://clarkescakesandcookies.com/', 'menu_url': None, 'latitude': 42.31288528442383, 'longitude': -71.0748519897461}
+INFO:root:Processing row at index 96
+INFO:root:{'business_title': 'Down Home Delivery', 'business_type': 'Restaurant', 'address': '2 Bowdoin St, Dorchester, MA 02124', 'phone': '(617) 288-0813', 'website': 'http://www.downhomedelivery.com/', 'menu_url': 'http://www.downhomedelivery.com/menus.cfm', 'latitude': 42.29951477050781, 'longitude': -71.07324981689453}
+INFO:root:Processing row at index 97
+INFO:root:{'business_title': 'Family Affair Restaurant & Catering', 'business_type': 'Restaurant', 'address': '554 Columbia Rd, Boston, MA 02125', 'phone': '(617) 514-4458', 'website': 'https://www.facebook.com/FamAffairBoston/', 'menu_url': 'https://places.singleplatform.com/family-affair-restaurant-6/menu?ref=Microsoft', 'latitude': 42.3162727355957, 'longitude': -71.06599426269531}
+INFO:root:Processing row at index 98
+INFO:root:{'business_title': 'Next Step Soul Food Cafe', 'business_type': 'Restaurant', 'address': '657 Washington St, Dorchester Center, MA 02124', 'phone': '(617) 514-6456', 'website': None, 'menu_url': 'https://www.yelp.com/menu/next-step-soul-food-cafe-boston?adjust_creative=bing&utm_campaign=yelp_feed&utm_medium=feed_v2&utm_source=bing', 'latitude': 42.28886795043945, 'longitude': -71.0711669921875}
+INFO:root:Processing row at index 99
+INFO:root:{'business_title': 'Irie Jamaican Style Restaurant', 'business_type': 'Restaurant', 'address': '855 Washington St, Dorchester Center, MA 02124', 'phone': '(617) 929-3866', 'website': 'http://www.iriejamaicanstylerestaurant.net/', 'menu_url': 'http://www.iriejamaicanstylerestaurant.net/menu', 'latitude': 42.281898498535156, 'longitude': -71.07122039794922}
+INFO:root:Processing row at index 100
+INFO:root:{'business_title': 'Island Style', 'business_type': 'Restaurant', 'address': '183 Washington St, Dorchester, MA 02121', 'phone': '(617) 288-8300', 'website': 'http://islandstylerestaurant.com/', 'menu_url': 'http://www.islandstylerestaurant.com/menu.html', 'latitude': 42.30342483520508, 'longitude': -71.07855987548828}
+INFO:root:Processing row at index 101
+INFO:root:{'business_title': 'JP Roti Shop', 'business_type': 'Restaurant', 'address': '482 Washington St, Boston, MA 02124', 'phone': '(617) 825-4860', 'website': 'https://www.facebook.com/JP-ROTI-SHOP-1106702066057742/', 'menu_url': None, 'latitude': 42.29465103149414, 'longitude': -71.0719985961914}
+INFO:root:Processing row at index 102
+INFO:root:{'business_title': "Levi's Restaurant", 'business_type': 'Restaurant', 'address': '323 Washington St, Boston, MA 02121', 'phone': '(617) 265-1009', 'website': 'https://www.facebook.com/Levis323/', 'menu_url': None, 'latitude': 42.299957275390625, 'longitude': -71.07430267333984}
+INFO:root:Processing row at index 103
+INFO:root:{'business_title': 'M & M BBQ', 'business_type': 'Restaurant', 'address': '1250 Massachusetts Ave, Dorchester, MA 02125', 'phone': '(617) 307-7674', 'website': 'https://www.mandmribs.com/', 'menu_url': 'https://www.mandmribs.com/menu', 'latitude': 42.37276840209961, 'longitude': -71.11670684814453}
+INFO:root:Processing row at index 104
+INFO:root:{'business_title': "Murl's Kitchen", 'business_type': 'Restaurant', 'address': '143 Washington St, Dorchester, MA 02121', 'phone': '(617) 506-7331', 'website': 'https://www.facebook.com/murlskitchen/', 'menu_url': None, 'latitude': 42.30453872680664, 'longitude': -71.07947540283203}
+INFO:root:Processing row at index 105
+INFO:root:{'business_title': 'Natifnatal Restaurant', 'business_type': 'Restaurant', 'address': '830 Blue Hill Ave, Dorchester, MA 02124', 'phone': '(617) 326-6929', 'website': 'https://www.natifnatalma.com/', 'menu_url': 'https://places.singleplatform.com/natif-natal-restaurant/menu?ref=Microsoft', 'latitude': 42.2962532043457, 'longitude': -71.08741760253906}
+INFO:root:Processing row at index 106
+INFO:root:{'business_title': 'Next Step Soul Food Cafe', 'business_type': 'Restaurant', 'address': '657 Washington St, Dorchester Center, MA 02124', 'phone': '(617) 514-6456', 'website': None, 'menu_url': 'https://www.yelp.com/menu/next-step-soul-food-cafe-boston?adjust_creative=bing&utm_campaign=yelp_feed&utm_medium=feed_v2&utm_source=bing', 'latitude': 42.28886795043945, 'longitude': -71.0711669921875}
+INFO:root:Processing row at index 107
+INFO:root:{'business_title': 'Oasis Cafe', 'business_type': None, 'address': '340 Washington St, Dorchester, MA 02121', 'phone': '(617) 506-7192', 'website': None, 'menu_url': None, 'latitude': 42.2994499206543, 'longitude': -71.07372283935547}
+INFO:root:Processing row at index 108
+INFO:root:{'business_title': 'Oasis Vegan Veggie Parlor', 'business_type': 'Restaurant', 'address': '340 Washington St, Dorchester, MA 02121', 'phone': '(617) 237-9033', 'website': 'https://www.facebook.com/OasisVeganVeggieParlor/', 'menu_url': 'https://places.singleplatform.com/oasis-vegan-veggie-parlor/menu?ref=Microsoft', 'latitude': 42.2994499206543, 'longitude': -71.07372283935547}
+INFO:root:Processing row at index 109
+INFO:root:{'business_title': 'One Family Diner', 'business_type': 'Restaurant', 'address': '260 Bowdoin St, Dorchester, MA 02122', 'phone': '(617) 436-1577', 'website': 'https://www.facebook.com/OnefamilydinerDorchester/', 'menu_url': 'https://www.yelp.com/menu/one-family-diner-dorchester-2?adjust_creative=bing&utm_campaign=yelp_feed&utm_medium=feed_v2&utm_source=bing', 'latitude': 42.30669021606445, 'longitude': -71.06653594970703}
+INFO:root:Processing row at index 110
+INFO:root:{'business_title': 'Only One Jamaican Restaurant', 'business_type': 'Restaurant', 'address': '160 Norfolk St, Dorchester Center, MA 02124', 'phone': '(617) 822-0444', 'website': 'http://www.onlyonerestaurant.com/', 'menu_url': 'https://www.onlyonerestaurant.com/menus-1', 'latitude': 42.28721618652344, 'longitude': -71.07876586914062}
+INFO:root:Processing row at index 111
+INFO:root:{'business_title': 'Raphael Caribbean Cuisine', 'business_type': 'Restaurant', 'address': '487 Washington St, Dorchester Center, MA 02124', 'phone': '(617) 506-7875', 'website': None, 'menu_url': None, 'latitude': 42.29467010498047, 'longitude': -71.07215118408203}
+INFO:root:Processing row at index 112
+INFO:root:{'business_title': 'Ripple Cafe', 'business_type': 'Restaurant', 'address': '1906 Dorchester Ave, Boston, MA 02124', 'phone': '(617) 297-5621', 'website': 'https://ripple-cafe.business.site/', 'menu_url': 'https://kaosamai.business.site/', 'latitude': 42.284427642822266, 'longitude': -71.0646743774414}
+INFO:root:Processing row at index 113
+INFO:root:{'business_title': "Singh's Roti Shop", 'business_type': 'Restaurant', 'address': '692 Columbia Rd, Dorchester, MA 02125', 'phone': '(617) 282-7977', 'website': 'http://www.singhsrotishop.net/', 'menu_url': 'http://www.singhsrotishop.net/menu', 'latitude': 42.320091247558594, 'longitude': -71.0622787475586}
+INFO:root:Processing row at index 114
+INFO:root:{'business_title': 'Taste Of Eden', 'business_type': 'Restaurant', 'address': '38 Norfolk St, Boston, MA 02124', 'phone': '(617) 282-0077', 'website': 'https://www.tasteofedenjamerican.net/', 'menu_url': 'https://places.singleplatform.com/taste-of-eden-ja-american-restaurant/menu?ref=Microsoft', 'latitude': 42.289215087890625, 'longitude': -71.07284545898438}
+INFO:root:Processing row at index 115
+INFO:root:{'business_title': 'Vaughan Fish & Chips', 'business_type': 'Restaurant', 'address': '1 Erie St, Dorchester, MA 02121', 'phone': '(617) 825-1194', 'website': None, 'menu_url': 'https://www.zomato.com/boston/vaughan-fish-chips-dorchester/menu', 'latitude': 42.3032112121582, 'longitude': -71.07868957519531}
+INFO:root:Processing row at index 116
+INFO:root:{'business_title': 'Wingz and Tingz', 'business_type': None, 'address': '388 Blue Hill Ave, Boston, MA 02121', 'phone': '(617) 652-8580', 'website': 'http://wingzandtingz.com/', 'menu_url': 'https://www.wingzandtingz.com/menu/', 'latitude': 42.31143569946289, 'longitude': -71.08109283447266}
+INFO:root:Processing row at index 117
+INFO:root:{'business_title': 'Yelus', 'business_type': 'Restaurant', 'address': '116 Washington St, Dorchester, MA 02121', 'phone': '(857) 271-3926', 'website': 'https://www.yelusrestaurant.com/', 'menu_url': 'https://places.singleplatform.com/yelus/menu?ref=Microsoft', 'latitude': 42.30513000488281, 'longitude': -71.0802001953125}
+INFO:root:Processing row at index 118
+ERROR:root:NoAddressError at index 118
+INFO:root:Processing row at index 119
+INFO:root:{'business_title': 'The Taproom', 'business_type': 'Restaurant', 'address': '1 Mill Valley Rd Ste C, Hadley, MA 01035', 'phone': '(413) 387-0600', 'website': 'http://www.thetaproomhadley.com/', 'menu_url': None, 'latitude': 42.348907470703125, 'longitude': -72.56830596923828}
+INFO:root:Processing row at index 120
+INFO:root:{'business_title': 'Hot Oven Cookies', 'business_type': None, 'address': '1597 Main St, Springfield, MA', 'phone': '(413) 889-4099', 'website': 'https://www.hotovencookies.com/', 'menu_url': 'https://www.hotovencookies.com/menu', 'latitude': 42.10384750366211, 'longitude': -72.59315490722656}
+INFO:root:Processing row at index 121
+INFO:root:{'business_title': 'D Coal Pot', 'business_type': 'Restaurant', 'address': '984 Hyde Park Ave, Hyde Park, MA 02136', 'phone': '(857) 345-9512', 'website': 'https://www.facebook.com/D-Coal-Pot-137261126484637/', 'menu_url': 'https://places.singleplatform.com/d-coal-pot/menu?ref=Microsoft', 'latitude': 42.26605224609375, 'longitude': -71.12107849121094}
+INFO:root:Processing row at index 122
+INFO:root:{'business_title': 'Farah S Cafe Restaurant', 'business_type': 'Restaurant', 'address': '1158 River St, Hyde Park, MA 02136', 'phone': '(617) 910-3203', 'website': 'https://www.facebook.com/Farah-cafe-restaurant-560110081032362/', 'menu_url': None, 'latitude': 42.25639724731445, 'longitude': -71.12052154541016}
+INFO:root:Processing row at index 123
+INFO:root:{'business_title': 'Las Vegas Seafood Restaurant', 'business_type': 'Restaurant', 'address': '6 Maple St, Hyde Park, MA 02136', 'phone': '(617) 364-2772', 'website': 'https://www.facebook.com/LasVegasHydePark/', 'menu_url': None, 'latitude': 42.255767822265625, 'longitude': -71.12223815917969}
+INFO:root:Processing row at index 124
+INFO:root:{'business_title': 'Little Haiti Cuisine', 'business_type': 'Restaurant', 'address': '1184 Hyde Park Ave, Hyde Park, MA 02136', 'phone': '(617) 364-1313', 'website': 'https://www.facebook.com/littlehaitiinternationalcuisine/', 'menu_url': None, 'latitude': 42.25824737548828, 'longitude': -71.12352752685547}
+INFO:root:Processing row at index 125
+INFO:root:{'business_title': 'Wingz And Tingz', 'business_type': None, 'address': '10 Fairmount Ave, Hyde Park, MA 02136', 'phone': '(617) 474-9464', 'website': 'https://www.wingzandtingz.com/', 'menu_url': 'https://www.wingzandtingz.com/menu/', 'latitude': 42.25566482543945, 'longitude': -71.12104034423828}
+INFO:root:Processing row at index 126
+INFO:root:{'business_title': 'Zaz Restaurant', 'business_type': 'Restaurant', 'address': '1238 River St, Boston, MA 02136', 'phone': '(617) 276-3729', 'website': 'https://www.zazrestaurant.com/', 'menu_url': 'https://www.zazrestaurant.com/menu', 'latitude': 42.25593566894531, 'longitude': -71.12303924560547}
+INFO:root:Processing row at index 127
+INFO:root:{'business_title': 'Reps Fitness Studio', 'business_type': None, 'address': '316 Cambridge St Ste 2, Boston, MA 02114', 'phone': '(857) 250-4616', 'website': 'http://www.reps57.com/', 'menu_url': None, 'latitude': 42.35983657836914, 'longitude': -71.07054138183594}
+INFO:root:Processing row at index 128
+INFO:root:{'business_title': 'Blue Nile', 'business_type': 'Restaurant', 'address': '389 Centre St, Jamaica Plain, MA 02130', 'phone': '(617) 522-6453', 'website': 'http://bluenilejp.com/', 'menu_url': 'https://places.singleplatform.com/blue-nile-34/menu?ref=Microsoft', 'latitude': 42.322113037109375, 'longitude': -71.1095199584961}
+INFO:root:Processing row at index 129
+INFO:root:{'business_title': 'Exodus Bagels', 'business_type': None, 'address': '3346 Washington St, Jamaica Plain, MA 02130', 'phone': None, 'website': 'http://www.exodusbagels.com/', 'menu_url': None, 'latitude': 42.309574127197266, 'longitude': -71.10443115234375}
+INFO:root:Processing row at index 130
+INFO:root:{'business_title': 'Jamaica Mi Hungry', 'business_type': 'Restaurant', 'address': '225 Centre St, Roxbury, MA 02119', 'phone': '(617) 259-8017', 'website': None, 'menu_url': None, 'latitude': 42.3228759765625, 'longitude': -71.09931182861328}
+INFO:root:Processing row at index 131
+INFO:root:{'business_title': "Mad Jack's", 'business_type': 'Restaurant', 'address': '126 S Main St, Lanesborough, MA 01237', 'phone': '(413) 442-2290', 'website': 'http://www.madjacksbbqonline.com/', 'menu_url': 'http://nebula.wsimg.com/27dc882784c3adb1cbc350514e60e40e?AccessKeyId=E0EB5E6BF0F2299C755C&disposition=0&alloworigin=1', 'latitude': 42.51292419433594, 'longitude': -73.22897338867188}
+INFO:root:Processing row at index 132
+INFO:root:{'business_title': 'Habakkuk Media Services', 'business_type': None, 'address': '100 Commercial Rd, Leominster, MA 01453', 'phone': '(978) 537-7778', 'website': 'http://habakkukmedia.com/', 'menu_url': None, 'latitude': 42.53002166748047, 'longitude': -71.73997497558594}
+INFO:root:Processing row at index 133
+INFO:root:{'business_title': 'Comeketo Brazilian Steakhouse', 'business_type': 'Restaurant', 'address': '23 Sack Blvd, Leominster, MA 01453', 'phone': '(978) 466-1224', 'website': 'https://www.comeketo.com/', 'menu_url': 'https://www.comeketo.com/menu', 'latitude': 42.53235626220703, 'longitude': -71.74498748779297}
+INFO:root:Processing row at index 134
+INFO:root:{'business_title': 'Infused Kreyol', 'business_type': 'Restaurant', 'address': '423 Main St, Malden, MA 02148', 'phone': '(781) 388-0938', 'website': 'http://infusedkreyol.com/', 'menu_url': 'https://places.singleplatform.com/infused-kreyol/menu?ref=Microsoft', 'latitude': 42.426570892333984, 'longitude': -71.06694030761719}
+INFO:root:Processing row at index 135
+INFO:root:{'business_title': "Ali's Roti Restaurant", 'business_type': 'Restaurant', 'address': '1188 Blue Hill Ave, Mattapan, MA 02126', 'phone': '(617) 298-9850', 'website': 'https://www.facebook.com/Alis-Roti-Restaurant-163231053700708/', 'menu_url': None, 'latitude': 42.28376770019531, 'longitude': -71.09129333496094}
+INFO:root:Processing row at index 136
+INFO:root:{'business_title': 'Au Beurre Chaud Bakery', 'business_type': None, 'address': '721 River St, Hyde Park, MA 02136', 'phone': '(617) 364-3066', 'website': None, 'menu_url': 'https://www.yelp.com/menu/au-beurre-chaud-bakery-mattapan?adjust_creative=bing&utm_campaign=yelp_feed&utm_medium=feed_v2&utm_source=bing', 'latitude': 42.26361846923828, 'longitude': -71.10250091552734}
+INFO:root:Processing row at index 137
+INFO:root:{'business_title': 'Blue Mountain Jamaican Restaurant', 'business_type': 'Restaurant', 'address': '884 Morton St, Boston, MA 02126', 'phone': '(617) 533-7255', 'website': 'http://bluemountainjamaicanrestaurant.com/', 'menu_url': 'https://places.singleplatform.com/blue-mountain-jamaican-restaurant/menu?ref=Microsoft', 'latitude': 42.280853271484375, 'longitude': -71.08467864990234}
+INFO:root:Processing row at index 138
+INFO:root:{'business_title': 'Cafe Juice Up', 'business_type': 'Restaurant', 'address': '1290 Blue Hill Ave, Mattapan, MA 02126', 'phone': '(617) 702-1808', 'website': 'https://www.facebook.com/CafeJuiceUp/', 'menu_url': 'https://places.singleplatform.com/cafe-juice-up/menu?ref=Microsoft', 'latitude': 42.27971267700195, 'longitude': -71.09286499023438}
+INFO:root:Processing row at index 139
+INFO:root:{'business_title': 'Golden Krust Caribbean Restaurant', 'business_type': 'Restaurant', 'address': '1614 Blue Hill Ave, Mattapan, MA 02126', 'phone': '(617) 696-6200', 'website': 'http://www.goldenkrust.com/', 'menu_url': 'https://www.goldenkrust.com/menu/', 'latitude': 42.26886749267578, 'longitude': -71.0934066772461}
+INFO:root:Processing row at index 140
+INFO:root:{'business_title': 'Le Foyer Bakery', 'business_type': None, 'address': '132 Babson St, Mattapan, MA 02126', 'phone': '(617) 298-0535', 'website': None, 'menu_url': 'https://www.zomato.com/boston/le-foyer-bakery-boston/menu', 'latitude': 42.27042007446289, 'longitude': -71.09294128417969}
+INFO:root:Processing row at index 141
+INFO:root:{'business_title': 'P & R Ice Cream', 'business_type': 'Restaurant', 'address': '1284 Blue Hill Ave, Mattapan, MA 02126', 'phone': '(617) 296-0922', 'website': 'http://www.eatpandr.com/', 'menu_url': 'https://www.zomato.com/boston/p-r-ice-cream-and-restaurant-dorchester/menu', 'latitude': 42.27994918823242, 'longitude': -71.09278869628906}
+INFO:root:Processing row at index 142
+INFO:root:{'business_title': 'Pit Stop Barbecue', 'business_type': 'Restaurant', 'address': '888A Morton St, Boston, MA 02126', 'phone': '(617) 436-0485', 'website': 'http://www.pitstopbarbecue.com/', 'menu_url': 'http://www.pitstopbarbecue.com/kitchen.html', 'latitude': 42.280757904052734, 'longitude': -71.08421325683594}
+INFO:root:Processing row at index 143
+INFO:root:{'business_title': 'Prestige Cuisine', 'business_type': 'Restaurant', 'address': '924 Morton St., Mattapan, MA 02126', 'phone': '(617) 615-8009', 'website': None, 'menu_url': 'https://mymozo.com/myrestaurant/default?CompanyId=1021', 'latitude': 42.28067398071289, 'longitude': -71.0828628540039}
+INFO:root:Processing row at index 144
+INFO:root:{'business_title': 'Shea Butter Smoothies', 'business_type': None, 'address': '1556 Blue Hill Ave, Boston, MA 02126', 'phone': '(617) 922-2823', 'website': 'https://www.facebook.com/Shea-Butter-Smoothies-834607166718287/', 'menu_url': 'https://places.singleplatform.com/shea-butter-smoothies/menu?ref=Microsoft', 'latitude': 42.2703971862793, 'longitude': -71.09358978271484}
+INFO:root:Processing row at index 145
+INFO:root:{'business_title': 'Neighborhood Kitchen', 'business_type': 'Restaurant', 'address': '84 Spring St, Medford, MA 02155', 'phone': '(781) 391-9000', 'website': None, 'menu_url': 'https://www.yelp.com/menu/neighborhood-kitchen-medford?adjust_creative=bing&utm_campaign=yelp_feed&utm_medium=feed_v2&utm_source=bing', 'latitude': 42.41537857055664, 'longitude': -71.09309387207031}
+INFO:root:Processing row at index 146
+INFO:root:{'business_title': 'French Press Bakery & Cafe', 'business_type': None, 'address': '2020-74 Chapel St, Needham, MA', 'phone': '(781) 400-2660', 'website': 'https://www.frenchpressbakery.com/', 'menu_url': 'https://www.frenchpressbakery.com/lunch-menu/', 'latitude': 42.28150939941406, 'longitude': -71.23672485351562}
+INFO:root:Processing row at index 147
+INFO:root:{'business_title': 'Glitterati Prom & Pagent Superstore', 'business_type': 'Retail', 'address': '30 Maple St, Danvers, MA 01923', 'phone': '(978) 539-8580', 'website': 'http://www.glitteratistyle.com/', 'menu_url': None, 'latitude': 42.56618118286133, 'longitude': -70.93621063232422}
+INFO:root:Processing row at index 148
+INFO:root:{'business_title': '92nd Sauce', 'business_type': None, 'address': '239 Onota St, Pittsfield, MA 01201', 'phone': '(413) 344-4206', 'website': 'https://www.92ndsauce.com/', 'menu_url': None, 'latitude': 42.45890808105469, 'longitude': -73.26356506347656}
+INFO:root:Processing row at index 149
+INFO:root:{'business_title': 'Romans Restaurant & Cuchifritos', 'business_type': 'Restaurant', 'address': '496 Tyler St, Pittsfield, MA 01201', 'phone': '(413) 344-9166', 'website': 'http://romans-rc.com/', 'menu_url': 'https://www.yelp.com/menu/romans-restaurant-and-ccuchifritos-pittsfield?adjust_creative=bing&utm_campaign=yelp_feed&utm_medium=feed_v2&utm_source=bing', 'latitude': 42.4572639465332, 'longitude': -73.24019622802734}
+INFO:root:Processing row at index 150
+INFO:root:{'business_title': 'Smokey Divas', 'business_type': 'Restaurant', 'address': '239 Onota St, Pittsfield, MA 01201', 'phone': '(413) 344-4206', 'website': None, 'menu_url': 'https://places.singleplatform.com/smokey-divas/menu?ref=Microsoft', 'latitude': 42.45890808105469, 'longitude': -73.26356506347656}
+INFO:root:Processing row at index 151
+INFO:root:{'business_title': "Larry J's BBQ Cafe", 'business_type': 'Restaurant', 'address': '1148 N Shore Rd, Revere, MA 02151', 'phone': '(781) 286-6781', 'website': 'http://larryjsbbqcafe.com/', 'menu_url': 'https://places.singleplatform.com/larry-js-bbq/menu?ref=Microsoft', 'latitude': 42.41767120361328, 'longitude': -70.99102020263672}
+INFO:root:Processing row at index 152
+INFO:root:{'business_title': 'Obosa Restaurant', 'business_type': 'Restaurant', 'address': '146 Belgrade Ave, Roslindale, MA 02131', 'phone': '(617) 327-3700', 'website': 'http://obosafoods.com/', 'menu_url': 'https://www.yelp.com/menu/obos%C3%A1-restaurant-roslindale-2?adjust_creative=bing&utm_campaign=yelp_feed&utm_medium=feed_v2&utm_source=bing', 'latitude': 42.2861213684082, 'longitude': -71.13678741455078}
+INFO:root:Processing row at index 153
+INFO:root:{'business_title': 'R & S Jamaican Restaurant', 'business_type': 'Restaurant', 'address': '770 Blue Hill Ave, Boston, MA 02121', 'phone': '(617) 287-8600', 'website': None, 'menu_url': None, 'latitude': 42.29844665527344, 'longitude': -71.08673095703125}
+INFO:root:Processing row at index 154
+INFO:root:{'business_title': 'Frugal Bookstore', 'business_type': 'Retail', 'address': '57 Warren St, Roxbury, MA 02119', 'phone': '(617) 541-1722', 'website': 'https://frugalbookstore.net/', 'menu_url': None, 'latitude': 42.329036712646484, 'longitude': -71.08341217041016}
+INFO:root:Processing row at index 155
+INFO:root:{'business_title': "Ali's Roti Restaurant & Takeout", 'business_type': 'Restaurant', 'address': '1035 Tremont St, Roxbury Crossing, MA 02120', 'phone': '(617) 427-1079', 'website': 'https://www.facebook.com/Alis-Roti-Restaurant-Takeout-113549678677915/', 'menu_url': None, 'latitude': 42.33647155761719, 'longitude': -71.08544921875}
+INFO:root:Processing row at index 156
+INFO:root:{'business_title': 'Anshur Restaurant', 'business_type': 'Restaurant', 'address': '291 Roxbury St, Roxbury, MA 02119', 'phone': '(617) 427-0599', 'website': 'https://www.beyondmenu.com/36032/boston/ashur-restaurant-boston-02119/info.aspx', 'menu_url': 'https://www.beyondmenu.com/28187/salem/china-wok-salem-24153.aspx', 'latitude': 42.330257415771484, 'longitude': -71.09437561035156}
+INFO:root:Processing row at index 157
+INFO:root:{'business_title': 'Dayib Cafe', 'business_type': 'Restaurant', 'address': '722 Shawmut Ave, Roxbury, MA 02119', 'phone': '(617) 427-0099', 'website': None, 'menu_url': 'https://www.yelp.com/menu/dayib-cafe-roxbury?adjust_creative=bing&utm_campaign=yelp_feed&utm_medium=feed_v2&utm_source=bing', 'latitude': 42.332454681396484, 'longitude': -71.08369445800781}
+INFO:root:Processing row at index 158
+INFO:root:{'business_title': 'District 7 Tavern', 'business_type': None, 'address': '380 Warren St, Boston, MA 02119', 'phone': None, 'website': 'https://www.facebook.com/District7Tavern/', 'menu_url': None, 'latitude': 42.318050384521484, 'longitude': -71.08192443847656}
+INFO:root:Processing row at index 159
+INFO:root:{'business_title': 'Fasika Cafe', 'business_type': 'Restaurant', 'address': '51 Roxbury St, Roxbury, MA 02119', 'phone': '(617) 238-7979', 'website': 'https://www.facebook.com/Fasika-Cafe-392717221226084/', 'menu_url': 'https://places.singleplatform.com/fasika-ethopian-cafe/menu?ref=Microsoft', 'latitude': 42.32948684692383, 'longitude': -71.08570098876953}
+INFO:root:Processing row at index 160
+INFO:root:{'business_title': 'Fort Hill Bar & Grill', 'business_type': 'Restaurant', 'address': '2805 Washington St, Boston, MA 02119', 'phone': '(617) 442-7000', 'website': 'https://www.facebook.com/forthillbarandgrill/', 'menu_url': None, 'latitude': 42.32160568237305, 'longitude': -71.092041015625}
+INFO:root:Processing row at index 161
+INFO:root:{'business_title': 'Ideal Sub Shop', 'business_type': 'Restaurant', 'address': '522 Dudley St, Roxbury, MA 02119', 'phone': '(617) 442-1560', 'website': None, 'menu_url': None, 'latitude': 42.322330474853516, 'longitude': -71.07244873046875}
+INFO:root:Processing row at index 162
+INFO:root:{'business_title': "Maxine's On Saint James", 'business_type': 'Restaurant', 'address': '304 Dudley St, Roxbury, MA 02119', 'phone': '(617) 427-0927', 'website': 'http://www.maxinesonsaintjames.com/', 'menu_url': 'http://www.maxinesonsaintjames.com/menu', 'latitude': 42.3278694152832, 'longitude': -71.07759857177734}
+INFO:root:Processing row at index 163
+INFO:root:{'business_title': 'Nos Casa Cafe', 'business_type': 'Restaurant', 'address': '475 Dudley St, Roxbury, MA 02119', 'phone': '(617) 606-7060', 'website': 'https://www.noscasacafe.com/', 'menu_url': 'https://locu.com/places/nos-casa-boston-us/', 'latitude': 42.32334518432617, 'longitude': -71.0735092163086}
+INFO:root:Processing row at index 164
+INFO:root:{'business_title': 'Silver Slipper Restaurant', 'business_type': 'Restaurant', 'address': '2387 Washington St, Roxbury, MA 02119', 'phone': '(617) 442-4853', 'website': None, 'menu_url': 'https://www.zomato.com/boston/silver-slipper-restaurant-roxbury/menu', 'latitude': 42.32909393310547, 'longitude': -71.08493041992188}
+INFO:root:Processing row at index 165
+INFO:root:{'business_title': 'Soleil Restaurant', 'business_type': 'Restaurant', 'address': '2306 Washington St, Roxbury, MA 02119', 'phone': '(617) 541-9000', 'website': 'https://www.soleilboston.com/', 'menu_url': 'https://places.singleplatform.com/soleil-49/menu?ref=Microsoft', 'latitude': 42.330177307128906, 'longitude': -71.08418273925781}
+INFO:root:Processing row at index 166
+INFO:root:{'business_title': 'Suya Joint', 'business_type': 'Restaurant', 'address': '185 Dudley St, Roxbury, MA 02119', 'phone': '(617) 708-0245', 'website': 'https://www.suyajoint.com/', 'menu_url': 'https://www.yelp.com/menu/suya-joint-all-african-cuisine-roxbury?adjust_creative=bing&utm_campaign=yelp_feed&utm_medium=feed_v2&utm_source=bing', 'latitude': 42.32841110229492, 'longitude': -71.08204650878906}
+INFO:root:Processing row at index 167
+INFO:root:{'business_title': 'Top Mix Bar & Kitchen', 'business_type': 'Restaurant', 'address': '257 Norfolk Ave, Boston, MA 02119', 'phone': '(617) 652-8976', 'website': 'https://www.topmixbar.com/', 'menu_url': 'https://www.topmixbar.com/menu', 'latitude': 42.32379150390625, 'longitude': -71.06795501708984}
+INFO:root:Processing row at index 168
+INFO:root:{'business_title': 'Gypsy Apple', 'business_type': 'Restaurant', 'address': '65 Bridge St, Shelburne Falls, MA 01370', 'phone': '(413) 625-6345', 'website': 'https://www.gypsyapplebistro.com/', 'menu_url': 'https://www.gypsyapplebistro.com/menu', 'latitude': 42.60361099243164, 'longitude': -72.73822784423828}
+INFO:root:Processing row at index 169
+INFO:root:{'business_title': 'Fasika Ethiopian Restaurant', 'business_type': 'Restaurant', 'address': '145 Broadway, Somerville, MA 02145', 'phone': '(617) 628-9300', 'website': 'https://www.fasikaethiopian.com/', 'menu_url': 'https://www.fasikaethiopian.com/menu.aspx', 'latitude': 42.38829040527344, 'longitude': -71.0849380493164}
+INFO:root:Processing row at index 170
+INFO:root:{'business_title': 'Highland Creole Cuisine', 'business_type': 'Restaurant', 'address': '2 Highland Ave, Somerville, MA 02143', 'phone': '(617) 625-8333', 'website': 'https://highlandcreolecuisine.com/', 'menu_url': 'https://highlandcreolecuisine.com/menu', 'latitude': 42.38445281982422, 'longitude': -71.09264373779297}
+INFO:root:Processing row at index 171
+INFO:root:{'business_title': 'Petsi Pies', 'business_type': None, 'address': '285 Beacon St, Somerville, MA 02143', 'phone': '(617) 661-7437', 'website': 'https://petsipies.com/information-1', 'menu_url': 'https://www.zomato.com/boston/petsi-pies-somerville/menu', 'latitude': 42.38349914550781, 'longitude': -71.11280059814453}
+INFO:root:Processing row at index 172
+INFO:root:{'business_title': 'Pikliz International Kitchen', 'business_type': 'Restaurant', 'address': '288 Broadway, Somerville, MA 02145', 'phone': '(617) 625-6255', 'website': 'https://www.piklizint.com/', 'menu_url': 'https://www.piklizint.com/menu', 'latitude': 42.391685485839844, 'longitude': -71.09223937988281}
+INFO:root:Processing row at index 173
+INFO:root:{'business_title': 'Tan¦m', 'business_type': 'Restaurant', 'address': '1 Bow Market Way, Somerville, MA 02143', 'phone': '(617) 669-2144', 'website': 'http://tanam.co/', 'menu_url': 'https://tanam.co/', 'latitude': 42.38103103637695, 'longitude': -71.09825897216797}
+INFO:root:Processing row at index 174
+INFO:root:{'business_title': "Darryl's Corner Bar & Kitchen", 'business_type': 'Restaurant', 'address': '604 Columbus Ave, Boston, MA 02118', 'phone': '(617) 536-1100', 'website': 'http://darrylscornerbarboston.com/', 'menu_url': 'https://locu.com/places/darryls-corner-bar-and-kitchen-boston-us/', 'latitude': 42.33988571166992, 'longitude': -71.08263397216797}
+INFO:root:Processing row at index 175
+INFO:root:{'business_title': 'Lucy Ethiopian Cafe', 'business_type': 'Restaurant', 'address': '334 Massachusetts Ave, Boston, MA 02115', 'phone': '(617) 536-0415', 'website': 'https://www.facebook.com/Lucy-Ethiopian-Cafe-375251434602/', 'menu_url': 'https://places.singleplatform.com/lucy-ethiopian-cafe/menu?ref=Microsoft', 'latitude': 42.34243392944336, 'longitude': -71.08445739746094}
+INFO:root:Processing row at index 176
+INFO:root:{'business_title': 'MIDA', 'business_type': 'Restaurant', 'address': '782 Tremont St, Boston, MA 02118', 'phone': '(617) 936-3490', 'website': 'http://www.midaboston.com/', 'menu_url': 'http://www.midaboston.com/all-menus', 'latitude': 42.338993072509766, 'longitude': -71.08053588867188}
+INFO:root:Processing row at index 177
+INFO:root:{'business_title': "Slade's Bar & Grill", 'business_type': 'Restaurant', 'address': '958 Tremont St, Boston, MA 02120', 'phone': '(617) 442-4600', 'website': 'https://www.sladesbarandgrill.com/home', 'menu_url': 'https://www.sladesbarandgrill.com/menu', 'latitude': 42.33726119995117, 'longitude': -71.0836410522461}
+INFO:root:Processing row at index 178
+INFO:root:{'business_title': "Wally's Cafe", 'business_type': None, 'address': '427 Massachusetts Ave, Boston, MA 02118', 'phone': '(617) 424-1408', 'website': 'http://wallyscafe.com/', 'menu_url': None, 'latitude': 42.34071731567383, 'longitude': -71.08222961425781}
+INFO:root:Processing row at index 179
+INFO:root:{'business_title': 'White Lion Brewing', 'business_type': None, 'address': '1477 Main St, Springfield, MA 01101', 'phone': '(413) 326-1829', 'website': 'http://whitelionbrewing.com/', 'menu_url': None, 'latitude': 42.10307693481445, 'longitude': -72.59149932861328}
+INFO:root:Processing row at index 180
+INFO:root:{'business_title': 'Olive Tree Books-n-Voices', 'business_type': 'Retail', 'address': '97 Hancock St, Springfield, MA 01109', 'phone': '(413) 737-6400', 'website': 'http://olivetreebooksonline.com/', 'menu_url': None, 'latitude': 42.1071891784668, 'longitude': -72.56839752197266}
+INFO:root:Processing row at index 181
+INFO:root:{'business_title': "Smokey Joe's Cigar Lounge", 'business_type': 'Retail', 'address': '395 Dwight St, Springfield, MA 01103', 'phone': '(413) 391-7944', 'website': 'http://www.smokeyjoescigars.com/', 'menu_url': None, 'latitude': 42.10569763183594, 'longitude': -72.59142303466797}
+INFO:root:Processing row at index 182
+INFO:root:{'business_title': 'The Head Shop', 'business_type': 'Retail', 'address': '524 Main St, West Springfield, MA 01089', 'phone': '(413) 273-1720', 'website': 'http://www.theheadshop413.com/', 'menu_url': None, 'latitude': 42.10203170776367, 'longitude': -72.60952758789062}
+INFO:root:Processing row at index 183
+INFO:root:{'business_title': 'Gardening the Community', 'business_type': None, 'address': '200 Walnut St, Springfield, MA 01105', 'phone': '(413) 693-5340', 'website': 'http://www.gardeningthecommunity.org/', 'menu_url': None, 'latitude': 42.10381317138672, 'longitude': -72.5709457397461}
+INFO:root:Processing row at index 184
+INFO:root:{'business_title': "Bumpy's Natural and Organic Foods", 'business_type': 'Retail', 'address': '908 Allen St, Springfield, MA 01118', 'phone': '(413) 209-9471', 'website': 'http://bumpysbargains.com/', 'menu_url': None, 'latitude': 42.091121673583984, 'longitude': -72.53069305419922}
+INFO:root:Processing row at index 185
+ERROR:root:NoAddressError at index 185
+INFO:root:Processing row at index 186
+INFO:root:{'business_title': 'Big Mamou', 'business_type': 'Restaurant', 'address': '63 Liberty St, Springfield, MA 01103', 'phone': '(413) 732-1011', 'website': 'https://chefwaynes-bigmamou.com/', 'menu_url': 'https://chefwaynes-bigmamou.com/lunch-menu', 'latitude': 42.10637283325195, 'longitude': -72.595703125}
+INFO:root:Processing row at index 187
+INFO:root:{'business_title': "Chicked's Chicken And Grill", 'business_type': None, 'address': '1375 Carew St, Springfield, MA 01104', 'phone': '(413) 301-8582', 'website': None, 'menu_url': None, 'latitude': 42.1368293762207, 'longitude': -72.569091796875}
+INFO:root:Processing row at index 188
+INFO:root:{'business_title': "Crispy's", 'business_type': 'Restaurant', 'address': '17 Rutland St, Springfield, MA 01109', 'phone': '(413) 310-3722', 'website': None, 'menu_url': None, 'latitude': 42.11178207397461, 'longitude': -72.56075286865234}
+INFO:root:Processing row at index 189
+INFO:root:{'business_title': "Erica's Hall of Fame Kitchen", 'business_type': 'Restaurant', 'address': '666 State St, Springfield, MA 01109', 'phone': '(413) 391-7072', 'website': 'https://www.facebook.com/Ericas-Hall-of-Fame-Kitchen-893214307380784/', 'menu_url': 'https://places.singleplatform.com/ericas-hall-of-fame-kitchen/menu?ref=Microsoft', 'latitude': 42.11006546020508, 'longitude': -72.57015991210938}
+INFO:root:Processing row at index 190
+INFO:root:{'business_title': 'Eye Seafood', 'business_type': 'Restaurant', 'address': '810 Cottage St, Springfield, MA 01104', 'phone': '(413) 750-8804', 'website': 'https://eye-seafood.business.site/', 'menu_url': 'https://kaosamai.business.site/', 'latitude': 42.14191818237305, 'longitude': -72.52410125732422}
+INFO:root:Processing row at index 191
+INFO:root:{'business_title': "Garden of Eat'n", 'business_type': 'Restaurant', 'address': '439 White St, Springfield, MA 01108', 'phone': '(413) 233-7216', 'website': 'https://www.facebook.com/Garden-of-Eatn-Springfield-355919694804583/', 'menu_url': None, 'latitude': 42.0880241394043, 'longitude': -72.54975128173828}
+INFO:root:Processing row at index 192
+INFO:root:{'business_title': 'Golden Krust Caribbean Restaurant', 'business_type': 'Restaurant', 'address': '320 Wilbraham Rd, Springfield, MA 01109', 'phone': '(413) 731-7720', 'website': 'http://www.goldenkrust.com/', 'menu_url': 'https://www.goldenkrust.com/menu/', 'latitude': 42.11296463012695, 'longitude': -72.55243682861328}
+INFO:root:Processing row at index 193
+INFO:root:{'business_title': 'Grannys Baking Table', 'business_type': None, 'address': '309 Bridge St, Springfield, MA 01103', 'phone': '(413) 333-4828', 'website': 'https://www.grannysbakingtable.com/', 'menu_url': None, 'latitude': 42.10419464111328, 'longitude': -72.59087371826172}
+INFO:root:Processing row at index 194
+INFO:root:{'business_title': "Iona's Cafe & Grill", 'business_type': 'Restaurant', 'address': '37 Oak St, Indian Orchard, MA 01151', 'phone': '(413) 543-1718', 'website': 'https://www.facebook.com/ionascafegrill1/', 'menu_url': 'https://places.singleplatform.com/ionas-cafe--grill/menu?ref=Microsoft', 'latitude': 42.15934753417969, 'longitude': -72.5030288696289}
+INFO:root:Processing row at index 195
+INFO:root:{'business_title': "Khi & Eli's Food for the Soul", 'business_type': 'Restaurant', 'address': '882 Sumner Ave, Springfield, MA 01108', 'phone': '(413) 732-0860', 'website': 'http://www.yummycuisinespringfield.com/', 'menu_url': 'http://www.allmenus.com/ma/springfield/501226-khi--elis-food-for-the-soul/menu/', 'latitude': 42.088722229003906, 'longitude': -72.54488372802734}
+INFO:root:Processing row at index 196
+INFO:root:{'business_title': "SouLao'd Kitchen", 'business_type': 'Restaurant', 'address': '606 Page Blvd, Springfield, MA 01104', 'phone': '(413) 316-3202', 'website': 'https://soulaod-kitchen.business.site/', 'menu_url': 'https://kaosamai.business.site/', 'latitude': 42.140586853027344, 'longitude': -72.55866241455078}
+INFO:root:Processing row at index 197
+INFO:root:{'business_title': 'Souper Sweet Sandwich Shop', 'business_type': 'Restaurant', 'address': '929 Belmont Ave, Springfield, MA 01108', 'phone': '(413) 209-8260', 'website': 'http://www.soupersweetsandwichshop.com/', 'menu_url': 'http://www.soupersweetsandwichshop.com/menu.html', 'latitude': 42.083736419677734, 'longitude': -72.5445556640625}
+INFO:root:Processing row at index 198
+INFO:root:{'business_title': 'Try Me Too', 'business_type': 'Restaurant', 'address': '827 State St, Springfield, MA 01109', 'phone': '(413) 333-2144', 'website': 'http://trymetoospringfield.com/', 'menu_url': 'https://places.singleplatform.com/try-me-too/menu?ref=Microsoft', 'latitude': 42.11098861694336, 'longitude': -72.56424713134766}
+INFO:root:Processing row at index 199
+INFO:root:{'business_title': 'Wing Madness', 'business_type': 'Restaurant', 'address': '1287 Liberty St, Springfield, MA 01104', 'phone': '(413) 278-2916', 'website': 'http://wingmadness.com/', 'menu_url': 'https://www.yelp.com/menu/wing-madness-springfield?adjust_creative=bing&utm_campaign=yelp_feed&utm_medium=feed_v2&utm_source=bing', 'latitude': 42.13779067993164, 'longitude': -72.58320617675781}
+INFO:root:Processing row at index 200
+INFO:root:{'business_title': 'Wingz & Wafflez', 'business_type': 'Restaurant', 'address': '74 Island Pond Rd, Springfield, MA 01118', 'phone': '(413) 417-6292', 'website': 'http://wingzwafflez.com/', 'menu_url': None, 'latitude': 42.09552001953125, 'longitude': -72.55078125}
+INFO:root:Processing row at index 201
+INFO:root:{'business_title': 'Yaad Food Jamaican Restaurant', 'business_type': 'Restaurant', 'address': '89 Main St, Indian Orchard, MA 01151', 'phone': '(413) 883-8364', 'website': 'https://www.facebook.com/Yaad-Food-Jamaican-Restaurant-1592794164311469/', 'menu_url': 'https://places.singleplatform.com/yaad-food-jamaican-restaurant/menu?ref=Microsoft', 'latitude': 42.159942626953125, 'longitude': -72.50623321533203}
+INFO:root:Processing row at index 202
+INFO:root:{'business_title': 'Ore a Love Story Restaurant', 'business_type': 'Restaurant', 'address': '434 Pearl St, Stoughton, MA 02072', 'phone': '(774) 219-0614', 'website': 'https://orealovestory.netwaiter.com/', 'menu_url': 'https://cafemoxo.netwaiter.com/springfield/about/', 'latitude': 42.13618469238281, 'longitude': -71.11174011230469}
+INFO:root:Processing row at index 203
+INFO:root:{'business_title': 'Karibu Restaurant', 'business_type': 'Restaurant', 'address': '10 Crescent St, Waltham, MA 02453', 'phone': '(781) 899-7444', 'website': 'https://tasteofkaribu.com/', 'menu_url': 'https://locu.com/places/karibu-restaurant-waltham-us/', 'latitude': 42.371761322021484, 'longitude': -71.2372817993164}
+INFO:root:Processing row at index 204
+ERROR:root:NoAddressError at index 204
+INFO:root:Processing row at index 205
+INFO:root:{'business_title': 'Belmont Vegetarian', 'business_type': 'Restaurant', 'address': '157 Belmont St, Worcester, MA 01608', 'phone': '(508) 798-8898', 'website': 'http://belmontvegetarian.com/', 'menu_url': 'http://www.belmontvegetarian.com/menu.html', 'latitude': 42.27244186401367, 'longitude': -71.78907775878906}
+INFO:root:Processing row at index 206
+ERROR:root:NoAddressError at index 206
+INFO:root:Processing row at index 207
+INFO:root:{'business_title': 'Kings & Queens Hairstudio', 'business_type': None, 'address': '50 Maine St, Brunswick, ME 04011', 'phone': '(207) 373-0966', 'website': 'https://www.vagaro.com/kingsandqueensllc', 'menu_url': None, 'latitude': 43.91771697998047, 'longitude': -69.96646118164062}
+INFO:root:Processing row at index 208
+INFO:root:{'business_title': 'Taste Jamaica', 'business_type': 'Restaurant', 'address': '190 State St, Ellsworth, ME 04605', 'phone': '(207) 412-2449', 'website': 'https://tastejamaicamaine.wixsite.com/fastfood', 'menu_url': 'https://olabbq.wixsite.com/home/menu', 'latitude': 44.55002212524414, 'longitude': -68.42703247070312}
+INFO:root:Processing row at index 209
+INFO:root:{'business_title': "Jeff's Jamaican Cuisine", 'business_type': 'Restaurant', 'address': '20 Bow St, Freeport, ME 04032', 'phone': '(207) 312-9119', 'website': 'https://www.facebook.com/Cuisinejamaica/', 'menu_url': None, 'latitude': 43.856868743896484, 'longitude': -70.10171508789062}
+INFO:root:Processing row at index 210
+INFO:root:{'business_title': 'Baraka', 'business_type': 'Retail', 'address': '234 Lisbon St, Lewiston, ME 04240', 'phone': '(207) 782-7838', 'website': None, 'menu_url': None, 'latitude': 44.094913482666016, 'longitude': -70.21621704101562}
+INFO:root:Processing row at index 211
+INFO:root:{'business_title': 'Goshen Supermarket', 'business_type': 'Retail', 'address': '179 Lincoln St, Lewiston, ME 04240', 'phone': '(207) 784-6000', 'website': None, 'menu_url': None, 'latitude': 44.0921745300293, 'longitude': -70.21871948242188}
+INFO:root:Processing row at index 212
+INFO:root:{'business_title': 'Global Halal Market', 'business_type': 'Retail', 'address': '263 Lisbon St, Lewiston, ME 04240', 'phone': '(207) 786-9000', 'website': None, 'menu_url': None, 'latitude': 44.094329833984375, 'longitude': -70.21585083007812}
+INFO:root:Processing row at index 213
+INFO:root:{'business_title': 'Mashallah Store', 'business_type': 'Retail', 'address': '248 Lisbon St, Lewiston, ME 04240', 'phone': '(207) 755-0417', 'website': None, 'menu_url': None, 'latitude': 44.094573974609375, 'longitude': -70.21601104736328}
+INFO:root:Processing row at index 214
+INFO:root:{'business_title': 'Mogadishu Store', 'business_type': 'Retail', 'address': '240 Lisbon St Ste 1, Lewiston, ME 04240', 'phone': '(207) 777-7757', 'website': None, 'menu_url': None, 'latitude': 44.09482192993164, 'longitude': -70.2161636352539}
+INFO:root:Processing row at index 215
+INFO:root:{'business_title': 'Nasri Grocery Store', 'business_type': 'Retail', 'address': '205 Main St, Lewiston, ME 04240', 'phone': '(207) 784-3779', 'website': None, 'menu_url': None, 'latitude': 44.099464416503906, 'longitude': -70.21713256835938}
+INFO:root:Processing row at index 216
+INFO:root:{'business_title': 'Alabama BBQ', 'business_type': None, 'address': '838 Lisbon St, Lewiston, ME 04240', 'phone': '(207) 241-2314', 'website': None, 'menu_url': None, 'latitude': 44.08488082885742, 'longitude': -70.20439147949219}
+INFO:root:Processing row at index 217
+ERROR:root:NoAddressError at index 217
+INFO:root:Processing row at index 218
+INFO:root:{'business_title': 'American Diamond Cleaning', 'business_type': None, 'address': '18 Cumberland St, Westbrook, ME 04092', 'phone': '(207) 887-9204', 'website': 'http://adcleanmaine.com/', 'menu_url': None, 'latitude': 43.68157958984375, 'longitude': -70.34788513183594}
+INFO:root:Processing row at index 219
+INFO:root:{'business_title': 'Portland Trading Company', 'business_type': 'Retail', 'address': '157 Middle St, Portland, ME 04101', 'phone': '(207) 899-0228', 'website': 'http://www.portlandtradingco.com/', 'menu_url': None, 'latitude': 43.65802764892578, 'longitude': -70.2540283203125}
+INFO:root:Processing row at index 220
+ERROR:root:NoAddressError at index 220
+INFO:root:Processing row at index 221
+ERROR:root:NoAddressError at index 221
+INFO:root:Processing row at index 222
+INFO:root:{'business_title': 'Rwanda Bean Coffee', 'business_type': None, 'address': '463 Stevens Ave, Portland, ME 04103', 'phone': '(207) 956-6686', 'website': 'http://rwandabean.com/', 'menu_url': 'https://places.singleplatform.com/rwanda-bean-coffee/menu?ref=Microsoft', 'latitude': 43.67427444458008, 'longitude': -70.29524230957031}
+INFO:root:Processing row at index 223
+INFO:root:{'business_title': 'Knitting Nook', 'business_type': 'Restaurant', 'address': '124 Sawyer St, South Portland, ME 04106', 'phone': '(207) 767-5648', 'website': 'http://knittingnookme.com/', 'menu_url': None, 'latitude': 43.6473503112793, 'longitude': -70.24068450927734}
+INFO:root:Processing row at index 224
+INFO:root:{'business_title': 'Cultivating Community', 'business_type': None, 'address': '52 Mayo St, Portland, ME 04101', 'phone': '(207) 761-4769', 'website': 'http://www.cultivatingcommunity.org/', 'menu_url': None, 'latitude': 43.664058685302734, 'longitude': -70.25574493408203}
+INFO:root:Processing row at index 225
+ERROR:root:NoAddressError at index 225
+INFO:root:Processing row at index 226
+INFO:root:{'business_title': 'African SuperMarket', 'business_type': 'Retail', 'address': '44 Washington Ave, Portland, ME 04101', 'phone': '(207) 409-4085', 'website': 'https://www.facebook.com/AfricanSuperMarket/', 'menu_url': None, 'latitude': 43.66481018066406, 'longitude': -70.25183868408203}
+INFO:root:Processing row at index 227
+INFO:root:{'business_title': 'Banadir Halal Market', 'business_type': 'Retail', 'address': '630 Forest Ave, Portland, ME 04101', 'phone': '(207) 772-9464', 'website': None, 'menu_url': None, 'latitude': 43.66991424560547, 'longitude': -70.28350067138672}
+INFO:root:Processing row at index 228
+INFO:root:{'business_title': 'Ebenezer African Grocery Store', 'business_type': 'Retail', 'address': '656 Congress St, Portland, ME 04101', 'phone': '(207) 774-2241', 'website': None, 'menu_url': None, 'latitude': 43.653385162353516, 'longitude': -70.2651138305664}
+INFO:root:Processing row at index 229
+INFO:root:{'business_title': 'Moriah STORE', 'business_type': 'Retail', 'address': '364 Cumberland Ave, Portland, ME 04101', 'phone': '(207) 252-4605', 'website': 'https://www.facebook.com/Moriah-STORE-982291558539730/', 'menu_url': None, 'latitude': 43.657527923583984, 'longitude': -70.26220703125}
+INFO:root:Processing row at index 230
+ERROR:root:NoAddressError at index 230
+INFO:root:Processing row at index 231
+INFO:root:{'business_title': 'Peace Food Market', 'business_type': 'Retail', 'address': '21 Chestnut St, Portland, ME 04101', 'phone': '(207) 541-3969', 'website': None, 'menu_url': None, 'latitude': 43.65956115722656, 'longitude': -70.25841522216797}
+INFO:root:Processing row at index 232
+ERROR:root:NoAddressError at index 232
+INFO:root:Processing row at index 233
+INFO:root:{'business_title': "Mariama's Beauty Supply", 'business_type': None, 'address': '1037 Forest Ave, Portland, ME 04103', 'phone': '(207) 536-4644', 'website': 'http://www.mariamasbeautysupply.com/', 'menu_url': None, 'latitude': 43.682796478271484, 'longitude': -70.29058837890625}
+INFO:root:Processing row at index 234
+INFO:root:{'business_title': '207 Bar & Restaurant', 'business_type': 'Restaurant', 'address': '337 Cumberland Ave, Portland, ME 04101', 'phone': None, 'website': None, 'menu_url': None, 'latitude': 43.65808868408203, 'longitude': -70.26126861572266}
+INFO:root:Processing row at index 235
+INFO:root:{'business_title': 'Asmara Restaurant', 'business_type': 'Restaurant', 'address': '51 Oak St, Portland, ME 04101', 'phone': '(207) 253-5122', 'website': 'http://www.asmaramaine.com/', 'menu_url': 'http://www.asmaramaine.com/menu.html', 'latitude': 43.655006408691406, 'longitude': -70.26152038574219}
+INFO:root:Processing row at index 236
+ERROR:root:NoAddressError at index 236
+INFO:root:Processing row at index 237
+INFO:root:{'business_title': 'Magnus on Water', 'business_type': 'Restaurant', 'address': '12 Water St, Biddeford, ME', 'phone': '(207) 494-9052', 'website': 'https://www.magnusonwater.com/', 'menu_url': 'https://www.magnusonwater.com/menu', 'latitude': 43.49245071411133, 'longitude': -70.45008850097656}
+INFO:root:Processing row at index 238
+INFO:root:{'business_title': 'Red Sea', 'business_type': 'Restaurant', 'address': '30 Washington Ave, Portland, ME 04101', 'phone': '(207) 805-1488', 'website': 'https://www.facebook.com/habrom2/', 'menu_url': 'https://www.zomato.com/portland-me/red-sea-portland-portland/menu', 'latitude': 43.664344787597656, 'longitude': -70.25159454345703}
+INFO:root:Processing row at index 239
+INFO:root:{'business_title': 'Yardie Ting', 'business_type': 'Restaurant', 'address': '28 Monument Sq, Portland, ME 04101', 'phone': '(207) 835-0236', 'website': 'https://www.facebook.com/yardieting/', 'menu_url': 'https://places.singleplatform.com/yardie-ting/menu?ref=Microsoft', 'latitude': 43.65711975097656, 'longitude': -70.25919342041016}
+INFO:root:Processing row at index 240
+ERROR:root:NoAddressError at index 240
+INFO:root:Processing row at index 241
+INFO:root:{'business_title': 'Hair Extreme Barber Shop', 'business_type': None, 'address': '890 Main St, Sanford, ME 04073', 'phone': '(207) 459-4574', 'website': None, 'menu_url': None, 'latitude': 43.44074630737305, 'longitude': -70.77549743652344}
+INFO:root:Processing row at index 242
+INFO:root:{'business_title': 'One Love Cuisine', 'business_type': 'Restaurant', 'address': '6 Lebanon St, Sanford, ME 04073', 'phone': '(207) 850-1024', 'website': 'https://www.facebook.com/1nelovecuisine/', 'menu_url': 'https://places.singleplatform.com/one-love-cuisine-0/menu?ref=Microsoft', 'latitude': 43.44050598144531, 'longitude': -70.77787017822266}
+INFO:root:Processing row at index 243
+INFO:root:{'business_title': "Richie's Jerk & BBQ", 'business_type': 'Restaurant', 'address': '35 Washington St, Sanford, ME 04073', 'phone': '(772) 634-2735', 'website': 'https://richies-jerkbbq.business.site/', 'menu_url': 'https://kaosamai.business.site/', 'latitude': 43.439945220947266, 'longitude': -70.77421569824219}
+INFO:root:Processing row at index 244
+INFO:root:{'business_title': 'Me Lon Togo', 'business_type': 'Restaurant', 'address': '220 Main St, Waterville, ME 04901', 'phone': '(207) 872-9146', 'website': 'http://www.melontogobistro.com/', 'menu_url': 'https://www.melontogobistro.com/', 'latitude': 44.554237365722656, 'longitude': -69.6315689086914}
+INFO:root:Processing row at index 245
+INFO:root:{'business_title': 'Sunshine Cookshop', 'business_type': None, 'address': '37 Pleasant St, Claremont, NH 03743', 'phone': '(603) 543-0003', 'website': 'https://www.sunshinecookshop.com/', 'menu_url': None, 'latitude': 43.37179183959961, 'longitude': -72.33868408203125}
+INFO:root:Processing row at index 246
+INFO:root:{'business_title': 'Drinkwater Productions & Marketing', 'business_type': None, 'address': '6 Franklin St, Exeter, NH 03833', 'phone': '(978) 375-2252', 'website': 'https://www.facebook.com/Drinkwater-Productions-Marketing-594670373969124/', 'menu_url': None, 'latitude': 42.98057174682617, 'longitude': -70.94432067871094}
+INFO:root:Processing row at index 247
+INFO:root:{'business_title': 'Ooo La La Creative Cakes', 'business_type': None, 'address': '62 Canal St, Laconia, NH 03246', 'phone': '(603) 455-2989', 'website': 'http://ooolalacreativecakes.com/', 'menu_url': None, 'latitude': 43.52919387817383, 'longitude': -71.46952056884766}
+INFO:root:Processing row at index 248
+INFO:root:{'business_title': 'The Lancaster Motel', 'business_type': 'Hotel', 'address': '112 Main St, Lancaster, NH 03584', 'phone': '(603) 788-4921', 'website': 'http://www.thelancastermotel.com/', 'menu_url': None, 'latitude': 44.4903678894043, 'longitude': -71.56979370117188}
+INFO:root:Processing row at index 249
+ERROR:root:NoAddressError at index 249
+INFO:root:Processing row at index 250
+ERROR:root:NoAddressError at index 250
+INFO:root:Processing row at index 251
+ERROR:root:NoAddressError at index 251
+INFO:root:Processing row at index 252
+INFO:root:{'business_title': 'Glow Hair Braiding', 'business_type': None, 'address': '389 Chestnut St, Manchester, NH 03104', 'phone': '(603) 232-0858', 'website': 'https://www.facebook.com/Glow-Hair-Braiding-1786411418295884/', 'menu_url': None, 'latitude': 42.99082946777344, 'longitude': -71.46063995361328}
+INFO:root:Processing row at index 253
+INFO:root:{'business_title': 'Rootz Natural Hair Shop llc', 'business_type': None, 'address': '186 Granite St, Manchester, NH 03106', 'phone': '(857) 204-4555', 'website': 'http://rootznaturalhairshopllc.booksy.com/', 'menu_url': None, 'latitude': 43.0986213684082, 'longitude': -71.45185852050781}
+INFO:root:Processing row at index 254
+INFO:root:{'business_title': 'Shear Talk Prov 18:10', 'business_type': None, 'address': '215 Lake Ave, Manchester, NH 03103', 'phone': None, 'website': None, 'menu_url': None, 'latitude': 42.987239837646484, 'longitude': -71.45720672607422}
+INFO:root:Processing row at index 255
+INFO:root:{'business_title': "Madear's Southern Eatery & Bakery", 'business_type': None, 'address': '141 Main St, Pembroke, NH 03275', 'phone': None, 'website': 'https://madears603.com/', 'menu_url': None, 'latitude': 43.1313591003418, 'longitude': -71.45267486572266}
+INFO:root:Processing row at index 256
+INFO:root:{'business_title': 'MR. BAKER CHEESECAKE CO.', 'business_type': None, 'address': '443 Lake Ave, Manchester, NH 03103', 'phone': '(603) 263-4743', 'website': 'https://mrbakercheesecakeco.com/', 'menu_url': 'https://places.singleplatform.com/mr-baker-cheesecake-llc/menu?ref=Microsoft', 'latitude': 42.987274169921875, 'longitude': -71.44611358642578}
+INFO:root:Processing row at index 257
+INFO:root:{'business_title': 'The Pint Publik House', 'business_type': 'Restaurant', 'address': '1111 Elm St, Manchester, NH 03101', 'phone': '(603) 206-5463', 'website': 'https://www.pintpublikhouse.com/', 'menu_url': 'http://www.pintpublikhouse.com/menus/', 'latitude': 42.99394989013672, 'longitude': -71.46282958984375}
+INFO:root:Processing row at index 258
+INFO:root:{'business_title': 'Greenleaf', 'business_type': 'Restaurant', 'address': '54 Nashua St, Milford, NH 03055', 'phone': '(603) 213-5447', 'website': 'http://greenleafmilford.com/', 'menu_url': 'https://greenleafmilford.com/food-drinks', 'latitude': 42.83552169799805, 'longitude': -71.64802551269531}
+INFO:root:Processing row at index 259
+ERROR:root:NoAddressError at index 259
+INFO:root:Processing row at index 260
+ERROR:root:NoAddressError at index 260
+INFO:root:Processing row at index 261
+ERROR:root:NoAddressError at index 261
+INFO:root:Processing row at index 262
+INFO:root:{'business_title': 'Soel Sistas', 'business_type': 'Restaurant', 'address': '70 Temple St, Nashua, NH 03060', 'phone': '(603) 943-1469', 'website': 'https://soel-sistas-llc-catering-service.business.site/', 'menu_url': 'https://kaosamai.business.site/', 'latitude': 42.76190948486328, 'longitude': -71.45974731445312}
+INFO:root:Processing row at index 263
+INFO:root:{'business_title': 'Grounds', 'business_type': None, 'address': '374 Main St, New London, NH 03257', 'phone': '(603) 526-6010', 'website': 'http://www.grounds374.com/', 'menu_url': None, 'latitude': 43.41347122192383, 'longitude': -71.9827880859375}
+INFO:root:Processing row at index 264
+INFO:root:{'business_title': 'Cup of Joe', 'business_type': None, 'address': '31 Market St, Portsmouth, NH 03801', 'phone': '(603) 294-9404', 'website': 'https://www.cupofjoenh.com/', 'menu_url': 'https://www.cupofjoenh.com/menu', 'latitude': 43.07760238647461, 'longitude': -70.75751495361328}
+INFO:root:Processing row at index 265
+ERROR:root:NoAddressError at index 265
+INFO:root:Processing row at index 266
+INFO:root:{'business_title': 'Bangin¦ Wingz', 'business_type': None, 'address': '258 Greenville Ave, Johnston, RI 02919', 'phone': '(401) 204-6733', 'website': 'https://bangin-wings.business.site/', 'menu_url': 'https://kaosamai.business.site/', 'latitude': 41.83884048461914, 'longitude': -71.48303985595703}
+INFO:root:Processing row at index 267
+INFO:root:{'business_title': 'Humming Bird', 'business_type': 'Restaurant', 'address': '104 Broadway, Newport, RI 02840', 'phone': '(401) 619-0032', 'website': 'http://www.hummingbirdnewport.com/', 'menu_url': 'https://hummingbirdnewport.com/order-takeout', 'latitude': 41.490570068359375, 'longitude': -71.31311798095703}
+INFO:root:Processing row at index 268
+INFO:root:{'business_title': 'White Dog Distilling', 'business_type': 'Retail', 'address': '560 Mineral Spring Ave 2-116, Pawtucket, RI 02860', 'phone': '(401) 475-3789', 'website': 'https://www.whitedogdistilling.com/', 'menu_url': None, 'latitude': 41.872711181640625, 'longitude': -71.4074935913086}
+INFO:root:Processing row at index 269
+INFO:root:{'business_title': 'Bake. Eat. Love', 'business_type': None, 'address': '1005 Main St Ste 8231-a, Pawtucket, RI 02860', 'phone': '(401) 302-0207', 'website': 'https://bakeeatlovebakery.com/', 'menu_url': 'https://www.bakeeatlovebakery.com/menuoptions.htm', 'latitude': 41.86308288574219, 'longitude': -71.3992691040039}
+INFO:root:Processing row at index 270
+ERROR:root:NoAddressError at index 270
+INFO:root:Processing row at index 271
+INFO:root:{'business_title': 'Monte Cara Restaurant', 'business_type': 'Restaurant', 'address': '528 Lonsdale Ave, Pawtucket, RI 02860', 'phone': '(401) 728-2480', 'website': 'http://montecararestaurant.com/', 'menu_url': 'http://montecararestaurant.com/menu', 'latitude': 41.88151931762695, 'longitude': -71.40020751953125}
+INFO:root:Processing row at index 272
+INFO:root:{'business_title': 'Village Restaurant', 'business_type': 'Restaurant', 'address': '200 Main St, Pawtucket, RI 02860', 'phone': '(401) 727-8444', 'website': 'https://www.villagepawtucket.com/', 'menu_url': 'https://www.villagepawtucket.com/menu.aspx', 'latitude': 41.87678146362305, 'longitude': -71.38422393798828}
+INFO:root:Processing row at index 273
+INFO:root:{'business_title': 'Blended Sisters Beauty Supply', 'business_type': 'Retail', 'address': '47 Rathbone St, Providence, RI 02908', 'phone': '(401) 710-3270', 'website': 'http://blendedsistersbeautysupply.com/', 'menu_url': None, 'latitude': 41.83037185668945, 'longitude': -71.42913055419922}
+INFO:root:Processing row at index 274
+INFO:root:{'business_title': 'Baker Street Cafe', 'business_type': 'Restaurant', 'address': '75 Baker St, Providence, RI 02905', 'phone': '(401) 490-5025', 'website': 'http://bakerstreetcafe.org/', 'menu_url': 'https://locu.com/places/baker-street-rue-providence-us/', 'latitude': 41.793357849121094, 'longitude': -71.40007781982422}
+INFO:root:Processing row at index 275
+ERROR:root:NoAddressError at index 275
+INFO:root:Processing row at index 276
+INFO:root:{'business_title': 'Brooklyn Coffee & Tea House', 'business_type': None, 'address': '209 Douglas Ave, Providence, RI 02908', 'phone': '(401) 345-9099', 'website': 'http://brooklyncoffeeteahouse.com/', 'menu_url': None, 'latitude': 41.837432861328125, 'longitude': -71.42288970947266}
+INFO:root:Processing row at index 277
+INFO:root:{'business_title': 'Bucktown', 'business_type': 'Restaurant', 'address': '471 W Fountain St, Providence, RI 02903', 'phone': '(401) 343-0441', 'website': 'https://www.bucktownpvd.com/', 'menu_url': 'https://www.bucktownpvd.com/menus/', 'latitude': 41.818538665771484, 'longitude': -71.4256820678711}
+INFO:root:Processing row at index 278
+INFO:root:{'business_title': 'Flames', 'business_type': 'Restaurant', 'address': '734 Eddy St, Providence, RI 02903', 'phone': '(401) 331-2225', 'website': None, 'menu_url': 'https://places.singleplatform.com/flames-restaurant-5/menu?ref=Microsoft', 'latitude': 41.80819320678711, 'longitude': -71.40724182128906}
+INFO:root:Processing row at index 279
+INFO:root:{'business_title': 'Food For the Soul', 'business_type': 'Restaurant', 'address': '149 Admiral St, Providence, RI 02908', 'phone': '(401) 490-2796', 'website': 'https://www.facebook.com/Food-For-The-Soul-185821341455383/', 'menu_url': 'https://places.singleplatform.com/food-for-the-soul-4/menu?ref=Microsoft', 'latitude': 41.84267807006836, 'longitude': -71.42191314697266}
+INFO:root:Processing row at index 280
+INFO:root:{'business_title': 'Food For the Soul', 'business_type': 'Restaurant', 'address': '149 Admiral St, Providence, RI 02908', 'phone': '(401) 490-2796', 'website': 'https://www.facebook.com/Food-For-The-Soul-185821341455383/', 'menu_url': 'https://places.singleplatform.com/food-for-the-soul-4/menu?ref=Microsoft', 'latitude': 41.84267807006836, 'longitude': -71.42191314697266}
+INFO:root:Processing row at index 281
+INFO:root:{'business_title': 'Garden Of Eve Restaurant', 'business_type': 'Restaurant', 'address': '405 Harris Ave, Providence, RI 02909', 'phone': '(401) 688-5166', 'website': 'http://gardenofeveri.com/', 'menu_url': 'http://gardenofeveri.com/menu/', 'latitude': 41.82492446899414, 'longitude': -71.4337387084961}
+INFO:root:Processing row at index 282
+INFO:root:{'business_title': 'Glorious African Food', 'business_type': 'Restaurant', 'address': '1230 Elmwood Ave, Providence, RI 02907', 'phone': '(401) 228-7070', 'website': 'http://gloriousafricanfood.com/', 'menu_url': 'http://gloriousafricanfood.com/menu/', 'latitude': 41.777976989746094, 'longitude': -71.4209976196289}
+INFO:root:Processing row at index 283
+ERROR:root:NoAddressError at index 283
+INFO:root:Processing row at index 284
+INFO:root:{'business_title': 'Island House Restaurant', 'business_type': 'Restaurant', 'address': '242 Broad St, Providence, RI 02903', 'phone': '(401) 572-3011', 'website': 'https://islandhouserestaurantri.com/', 'menu_url': 'https://places.singleplatform.com/island-house-1/menu?ref=Microsoft', 'latitude': 41.81610107421875, 'longitude': -71.41983795166016}
+INFO:root:Processing row at index 285
+INFO:root:{'business_title': 'Pan-A-Day', 'business_type': 'Restaurant', 'address': '7 Parade St, Providence, RI 02909', 'phone': '(401) 273-1506', 'website': 'https://www.facebook.com/Pan-a-Day-Take-Away-707306776122157/', 'menu_url': 'https://www.yelp.com/menu/pan-a-day-take-away-providence-3?adjust_creative=bing&utm_campaign=yelp_feed&utm_medium=feed_v2&utm_source=bing', 'latitude': 41.81611251831055, 'longitude': -71.43335723876953}
+INFO:root:Processing row at index 286
+ERROR:root:NoAddressError at index 286
+INFO:root:Processing row at index 287
+ERROR:root:NoAddressError at index 287
+INFO:root:Processing row at index 288
+ERROR:root:NoAddressError at index 288
+INFO:root:Processing row at index 289
+INFO:root:{'business_title': 'The District', 'business_type': None, 'address': '54 South St, Providence, RI 02903', 'phone': '(401) 421-0050', 'website': 'http://thedistrictri.com/', 'menu_url': 'http://thedistrictri.com/menu/', 'latitude': 41.81732940673828, 'longitude': -71.40763854980469}
+INFO:root:Processing row at index 290
+INFO:root:{'business_title': 'The Glow Cafe & Juice Bar', 'business_type': None, 'address': '389 Admiral St, Providence, RI 02908', 'phone': '(401) 421-7000', 'website': 'https://eatdrinkglow.com/', 'menu_url': 'https://eatdrinkglow.com/menu', 'latitude': 41.8460807800293, 'longitude': -71.42897033691406}
+INFO:root:Processing row at index 291
+INFO:root:{'business_title': 'Troop PVD', 'business_type': 'Restaurant', 'address': '60 Valley St, Providence, RI 02908', 'phone': '(401) 473-2900', 'website': 'https://www.trooppvd.com/', 'menu_url': 'https://www.trooppvd.com/menus', 'latitude': 41.81923294067383, 'longitude': -71.44071960449219}
+INFO:root:Processing row at index 292
+ERROR:root:NoAddressError at index 292
+INFO:root:Processing row at index 293
+ERROR:root:NoAddressError at index 293
+INFO:root:Processing row at index 294
+INFO:root:{'business_title': "Bugg'd Outt BBQ", 'business_type': None, 'address': '614 N Main St, Woonsocket, RI 02896', 'phone': '(401) 524-2745', 'website': 'https://www.buggdouttbbq.com/', 'menu_url': None, 'latitude': 42.01357650756836, 'longitude': -71.51383972167969}
+INFO:root:Processing row at index 295
+INFO:root:{'business_title': 'Genuine Jamaican', 'business_type': None, 'address': '609 Barnet Center Rd, Barnet, VT 05821', 'phone': '(802) 633-2676', 'website': 'http://genuinejamaican.com/', 'menu_url': None, 'latitude': 44.31748962402344, 'longitude': -72.08502960205078}
+INFO:root:Processing row at index 296
+INFO:root:{'business_title': 'Jamaican Jewelz Catering/ food stand', 'business_type': 'Restaurant', 'address': '63 Reese Circle, Bellows Falls, VT 05101', 'phone': '(802) 380-7322', 'website': 'https://jamaicanjewelz.com/', 'menu_url': None, 'latitude': 43.134029388427734, 'longitude': -72.46196746826172}
+INFO:root:Processing row at index 297
+INFO:root:{'business_title': 'Arkham', 'business_type': 'Retail', 'address': '16 Harmony Pl, Brattleboro, VT 05301', 'phone': '(802) 251-0800', 'website': 'http://arkhambar.com/', 'menu_url': None, 'latitude': 42.852195739746094, 'longitude': -72.55941009521484}
+INFO:root:Processing row at index 298
+ERROR:root:NoAddressError at index 298
+INFO:root:Processing row at index 299
+INFO:root:{'business_title': 'Strafford Organic Creamery', 'business_type': None, 'address': '53 Rockbottom Rd, Strafford, VT 05072', 'phone': '(802) 765-4180', 'website': 'http://straffordcreamery.com/', 'menu_url': None, 'latitude': 43.86125946044922, 'longitude': -72.41325378417969}
+INFO:root:Processing row at index 300
+INFO:root:{'business_title': 'Atlas Hair Studio', 'business_type': None, 'address': '71 Main St, Winooski, VT 05404', 'phone': '(802) 355-5590', 'website': None, 'menu_url': None, 'latitude': 44.49184036254883, 'longitude': -73.1865234375}
