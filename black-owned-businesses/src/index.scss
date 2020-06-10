@@ -1,0 +1,38 @@
+@import "./components/Map.scss";
+@import "./components/PlaceDetailsPopup.scss";
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.leaflet-popup-content {
+  margin: 0;
+}
+
+.leaflet-popup-content-wrapper {
+  padding: 0;
+}
+
+.leaflet-container {
+  a.leaflet-popup-close-button {
+    color: white;
+    &:hover {
+      color: #d6d6d6;
+    }
+  }
+}
+
+.colors {
+  display: flex;
+}
+.color-test {
+  width: 50px;
+  height: 50px;
+}

@@ -1,0 +1,32 @@
+@import "../components/ImagePreview.scss";
+@import "../components/ContactInformationSection.scss";
+@import "../components/TagSection.scss";
+@import "./WebsiteSection.scss";
+@import "./MenuSection.scss";
+
+.popup {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+
+  .sections > :not(:last-child) {
+    box-shadow: 0px 1px 0 0px #e6e6e6;
+  }
+
+  .sections > * {
+    padding: 1rem 1rem;
+  }
+
+  // used in website and menu sections
+  .website-url,
+  .menu-url {
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .icon {
+    margin-right: 1rem;
+    width: 28px;
+  }
+}
