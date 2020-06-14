@@ -3,8 +3,8 @@ import logging
 import pandas as pd
 from selenium.common.exceptions import TimeoutException
 
-from scrape_geometry.util.feature_collection import FeatureCollection
-from scrape_geometry.util.maps_driver import (
+from scrape.util.feature_collection import FeatureCollection
+from scrape.util.maps_driver import (
     MapsDriver,
     NoAddressError,
     NoSearchResultError,
@@ -17,7 +17,7 @@ logging.getLogger().setLevel(logging.INFO)
 
 if __name__ == "__main__":
     businesses_df = pd.read_csv(
-        "./scrape_geometry/data/new_england_black_owned_businesses.csv"
+        "./scrape/data/new_england_black_owned_businesses.csv"
     )
     feature_collection = FeatureCollection()
 

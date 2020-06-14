@@ -1,6 +1,6 @@
 import pytest
 
-from scrape_geometry.util.maps_driver import (
+from scrape.util.maps_driver import (
     MapsDriver,
     NoAddressError,
     NoSearchResultError,
