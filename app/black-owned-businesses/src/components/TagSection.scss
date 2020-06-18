@@ -1,0 +1,12 @@
+@import "../ui/Pill.scss";
+
+.tags {
+  .pill:not(:last-child) {
+    margin-right: 0.5rem;
+  }
+}
+
+.pill {
+  background-color:rgb(139, 139, 139);
+  color: white;
+}
