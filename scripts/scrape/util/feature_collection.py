@@ -1,4 +1,5 @@
 import json
+import os
 from time import time
 
 
@@ -20,5 +21,5 @@ class FeatureCollection:
         return json.dumps(self.feature_collection)
 
     def dump(self, filename):
-        with open(f"{filename}-{time()}", "w") as features_json:
+        with open(os.path.join('./scrape/output', filename), "w") as features_json:
             json.dump(self.feature_collection, features_json)

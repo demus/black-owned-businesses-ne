@@ -1,0 +1,294 @@
+row_id,business_title,business_type,address,phone,website,menu_url,latitude,longitude
+1,Miss Thelma's,Restaurant,"140 Fairfield Ave 1, Bridgeport, CT 06604",(203) 337-9957,http://www.missthelmas.com/,https://locu.com/places/miss-thelmas-bridgeport-us/,41.17910767,-73.19010925
+2,Shandals Vegetarian Cafe,Restaurant,"520 Capitol Ave, Bridgeport, CT 06606",(203) 331-9777,http://www.happycow.net/reviews.php?id=13288,https://www.zomato.com/fairfield-county/shandals-vegetarian-cafe-bridgeport/menu,41.19669342,-73.20059204
+3,SURF VS TURF,Restaurant,"2043 FAIRFIELD Ave, BRIDGEPORT, CT 06605",(203) 923-2019,https://ordersurfvsturfct.com/?utm_source=bing&utm_medium=websiteurl&utm_campaign=search,https://OrderSurfVsTurfCT.com/?utm_source=bing&utm_medium=menuurl&utm_campaign=search,41.16602325,-73.21772003
+4,Ten20CT,Restaurant,"1450 Barnum Ave, Bridgeport, CT 06610",(203) 549-8029,https://www.ten20-ct.com/,,41.1870842,-73.163414
+5,Trap Chicken LLC,Restaurant,"1725 Barnum Ave, Bridgeport, CT 06610",,https://www.facebook.com/trapchicken/,,41.18888855,-73.15823364
+7,Perfect Poundcakes,Restaurant,"221 Burnside Ave, East Hartford, CT 06108",(860) 834-2229,https://perfectpoundcakes.org/,https://places.singleplatform.com/perfect-poundcakes-at-burnside-fish-market/menu?ref=Microsoft,41.775463099999996,-72.62997437
+8,Sidibe African Resaurant - Nhyira,Restaurant,"242 Burnside Ave, East Hartford, CT 06108",(860) 216-6780,https://www.facebook.com/sidibeafricanresaurant/,,41.77562714,-72.62866974
+9,Sun Splash Jamaican Restaurant,Restaurant,"692 Maple Ave, Hartford, CT 06114",(860) 548-3050,https://www.sunsplashbarandgrill.com/,https://www.sunsplashbarandgrill.com/menus,41.74131775,-72.6832962
+10,Bomb Wings & Rice Bar,Restaurant,"2373 Whitney Ave, Hamden, CT 06518",(203) 745-5510,http://www.toobomb.com/,https://www.toobomb.com/menu,41.38375473,-72.90151978
+11,Berkins Blend Cafe,Coffee Shop,"1003 Hebron Ave, Glastonbury, CT 06033",(860) 430-5866,http://berkinsblendcafe.com/,https://berkinsblendcafe.com/menu,41.71707153,-72.57461548
+12,Capital Ice Cream,Restaurant,"389 CAPITOL Ave, Hartford, CT 06106",(860) 906-1308,https://capitalicecream.com/,,41.76383591,-72.68856812
+14,Bernice Bragadosus Restaurant,Restaurant,"849 Albany Ave, Hartford, CT 06112",(860) 549-2104,http://eatjamaican.com/hartford-ct.html,https://places.singleplatform.com/bernice-bragadosus-restaurant/menu?ref=Microsoft,41.78003311,-72.69062042
+15,Carson's Kitchen,Restaurant,"3155 Main St, Hartford, CT 06120",(860) 244-0943,https://carsons-kitchen-llc.business.site/,https://kaosamai.business.site/,41.79472351,-72.66467285
+16,Dunn's River Jamaican Restaurant,Restaurant,"2996 Main St, Hartford, CT 06120",(860) 547-1600,https://www.grubhub.com/restaurant/dunns-river-jamaican-restaurant-2996-main-st-hartford/907073,https://places.singleplatform.com/dunns-river-jamaican-restaurant-llc/menu?ref=Microsoft,41.79331970000001,-72.66625214
+17,Fire & Spice Vegan Restaurant,Restaurant,"491 Capitol Ave, Hartford, CT 06106",(860) 519-0476,http://fireandspiceveganrestaurant.com/,http://fireandspiceveganrestaurant.com/menu.php,41.7635231,-72.69215393
+18,Juiced Up,Restaurant,"231 Asylum St, Hartford, CT 06103",(860) 247-2292,https://www.facebook.com/juicedupjb/,,41.76733398,-72.67742157
+19,Hot Pots,Restaurant,"2374 Main St, Hartford, CT 06120",(860) 241-0200,http://www.hotpots2go.com/menus/hotPots_storeMenu.pdf,https://www.zomato.com/hartford/hot-pots-hartford/menu,41.78686142,-72.67380524
+20,Pabs African Restaurant,Restaurant,"1166 Burnside Ave, East Hartford, CT 06108",(860) 206-4295,https://www.pabsafricanrestaurant.com/,https://places.singleplatform.com/pabs-african-restaurant/menu?ref=Microsoft,41.78367996,-72.58821106
+21,Scotts' Jamaican Bakery,Restaurant,"3381 Main St, Hartford, CT 06120",(860) 246-6599,http://www.scottsjamaicanbakery.com/,https://www.scottsjamaicanbakery.com/menus,41.79758453,-72.66287231
+22,Sisters Restaurant LLC,Restaurant,"2756 Main St, Hartford, CT 06120",(860) 527-1234,https://www.facebook.com/pages/Sisters-Restaurant-LLC/113449715355482,https://places.singleplatform.com/sisters-restaurant-4/menu?ref=Microsoft,41.79118347,-72.66983795
+23,Stella's & Mazie's,Restaurant,"461 Capitol Ave, Hartford, CT 06106",(860) 308-2175,http://www.eatsomethinggood.com/,https://www.eatsomethinggood.com/menus,41.76362228,-72.69107056
+24,Sun Splash Bar & Grill,Restaurant,"428 Franklin Ave, Hartford, CT 06114",(860) 904-9310,http://www.sunsplashbarandgrill.com/,https://www.sunsplashbarandgrill.com/menus,41.73781204,-72.67539215
+25,Soulbaila,Restaurant,"735 Wethersfield Ave, Hartford, CT 06114",(860) 461-0324,https://www.soulbailavibes.com/,https://www.soulbailavibes.com/menu,41.73580933,-72.67069244
+26,Berkins Blend Cafe,Coffee Shop,"1003 Hebron Ave, Glastonbury, CT 06033",(860) 430-5866,http://berkinsblendcafe.com/,https://berkinsblendcafe.com/menu,41.71707153,-72.57461548
+27,Thomas' Smokey Pit Stop,Restaurant,"182 Middle Turnpike W, Manchester, CT 06040",(860) 646-1400,http://thomassmokeypitstop.com/,,41.78245163,-72.53192139
+28,Anthony's Jamaican Restaurant,Restaurant,"410 Middle Tpke W, Manchester, CT 06040",(860) 643-8200,https://www.anthonysjamaicanrestaurant.com/,https://www.anthonysjamaicanrestaurant.com/menu,41.78063583,-72.5414505
+29,Bentleys little Jamaica cuisine,Restaurant,"29 W Main St, Meriden, CT 06451",(203) 235-5662,https://www.facebook.com/Bentleys-little-Jamaica-cuisine-117039752151800/,,41.53824234,-72.80353546
+30,B&B Wings and Things,Restaurant,"540 Main St, Middletown, CT",(860) 358-9542,https://bandbwingsandthings.com/,https://bandbwingsandthings.com/our-menu,41.56346512,-72.65158081
+31,Living Right Health Bar,Restaurant,"399 N Main St, Naugatuck, CT 06770",(203) 714-6205,https://livingrighthb.com/,https://livingrighthb.com/menu/,41.50128555,-73.04702759
+32,My Wife Didn't Cook,Restaurant,"89 W Main St, New Britain, CT 06051",(860) 259-6987,https://www.mywifedidntcookct.com/,https://places.singleplatform.com/my-wife-didnt-cook/menu?ref=Microsoft,41.66743469,-72.78398895
+33,African Queens Market,Restaurant,"491 Campbell Ave, West Haven, CT 06516",(203) 931-0799,http://africantreemarket.com/,,41.2716217,-72.94957733
+34,Ninth Square Market,Restaurant,"72 Orange St, New Haven, CT 06510",(203) 603-9809,http://www.infonewhaven.com/content/ninth-square-market,https://places.singleplatform.com/ninth-square-market-llc/menu?ref=Microsoft,41.3045311,-72.92494965
+35,Sandra's Next Generation,Restaurant,"636 Congress Ave, New Haven, CT 06519",(203) 787-4123,http://www.sandrasnextgeneration.com/,https://www.sandrasnextgeneration.com/menus-2,41.30010986,-72.93952179
+36,Dilly's Cafe,Restaurant,"39-43 Market Sq, Newington, CT 06111",(860) 785-8362,https://www.dillyscafe.com/,,41.69635773,-72.72225189
+39,Miss Barbara Jean’s Soul Food Kitchen,Restaurant,"115 Main St, Norwalk, CT 06851",(203) 939-9598,http://msbarbarajeans.com/,https://places.singleplatform.com/miss-barbara-jeans-soul-food-kitchen/menu?ref=Microsoft,41.12266159,-73.41536713
+40,No Leftovers,Restaurant,"182 Connecticut Ave, Norwalk, CT 06854",(203) 318-6250,https://www.noleftoversrestaurant.com/,https://www.noleftoversrestaurant.com/menu,41.10342026,-73.4337616
+41,Tony's Caribbean Kitchen,Restaurant,"90 Truman St, New London, CT 06320",(860) 443-0750,https://www.facebook.com/Tonys-Caribbean-Kitchen-1852447614973403/,,41.35174561,-72.1025238
+42,Mommy's Delicious Food,Restaurant,"595 W Main St, Norwich, CT 06360",(860) 383-2079,https://www.facebook.com/mommysdeliciousfood/,,41.51636505,-72.1000824
+43,Jamaican Kitchen,Restaurant,"243 Hartford Tpke, Vernon, CT 06066",(860) 375-8048,http://jamaicankitchenct.com/,https://www.jamaicankitchenct.com/menu/,41.82578278,-72.49584198
+44,Teff Stamford,Restaurant,"113 W Main Street Cross Street Tresser Blvd, Stamford, CT 06902",(203) 998-7474,http://www.teffrestaurant.com/,http://www.allmenus.com/ct/stamford/497192-teff/menu/,41.05079269,-73.54663849
+45,La Perle,Restaurant,"15 Bank St, Stamford, CT 06902",(203) 550-2464,https://www.laperlect.com/,https://places.singleplatform.com/la-perle-4/menu?ref=Microsoft,41.05306625,-73.54051971
+46,PUAG,Restaurant,"75 3rd St, Stamford, CT 06905",(203) 357-5339,http://puageats.com/,https://puageats.com/menu/,41.06502151,-73.53931427
+47,Soul Tasty,Restaurant,"29 W Main St, Stamford, CT 06902",(203) 504-2625,http://www.soultastyct.com/,http://www.soultastyct.com/menu/,41.05224228,-73.54499054
+48,Kingston Kafe,Restaurant,"730 Barnum Ave, Stratford, CT 06614",(203) 540-5825,https://www.kingstonkafe.com/,https://locu.com/places/kingston-kafe-stratford-us-1/,41.19877243,-73.12692261
+49,"IT'S All About The Flavour Restaurant Caribbean, Cajun, Southern",Restaurant,"871 Stafford Rd, Storrs, CT 06268",(860) 477-1547,https://www.facebook.com/ItsAllAboutTheFlavour1/,,41.78515244,-72.27623749
+50,Jamaican Kitchen,Restaurant,"243 Hartford Tpke, Vernon, CT 06066",(860) 375-8048,http://jamaicankitchenct.com/,https://www.jamaicankitchenct.com/menu/,41.82578278,-72.49584198
+51,Craig's Kitchen,Restaurant,"13 W Main St, Vernon, CT 06066",(860) 871-6099,http://craigssoulfood.com/,https://craigssoulfood.com/menu/,41.86700821,-72.44950104
+52,The Art of Yum,Restaurant,"146 GRAND St, Waterbury, CT 06702",(203) 527-4044,https://www.theartofyum.com/,,41.55376434,-73.04175568
+53,Mikey's Jamaican Restaurant,Restaurant,"736 E Main St, Waterbury, CT 06702",(203) 755-8112,https://www.facebook.com/MikeysJamaicanRestaurant/,https://places.singleplatform.com/mikeys-jamaican-restaurant/menu?ref=Microsoft,41.55363846,-73.02797699
+54,Mama Sue's Soul Kitchen,Restaurant,"537 Congress Ave, Waterbury, CT 06708",(203) 695-6771,https://www.facebook.com/mamasuessoulfoodkitchen/,,41.53777695,-73.04800415
+55,Divine Health Juice Bar LLC,Restaurant,"1902 N Main St, Waterbury, CT 06704",(203) 527-7184,https://www.facebook.com/DivineHealthJuicBar/,,41.57696152,-73.02667999
+56,Jamaican Me Crazy,Restaurant,"776 Main St, Willimantic, CT 06226",(860) 942-8831,https://www.jamaicanmecrazyllc.com/,https://www.jamaicanmecrazyllc.com/menu/,41.71212387,-72.21351624
+58,Lilly's Soul Food Restaurant,Restaurant,"305 Windsor Ave, Windsor, CT 06095",(860) 241-8132,https://www.facebook.com/LillysSoulfood/,,41.81158447,-72.65847015
+59,Rock City Pizza,Restaurant,"568 Cambridge St 568, Boston, MA 02134",(617) 782-7625,http://rockcitypizzamenu.com/?utm_source=organic_bing&utm_medium=bing_pw,http://www.allmenus.com/ma/allston/373865-rock-city-pizza/menu/,42.35231018,-71.14047241
+60,M&M LINKS Jewelry and Accessories,Jewelry Store,"236 N Pleasant St Ste 103/104, Amherst, MA 01002",(877) 226-9793,https://www.m2mlinks.com/,,42.37926865,-72.51998901
+61,Auntie Elsie's Crisps,Restaurant,"40 Daniel Shays Highway Ste #4, Belchertown, MA 01007",(413) 213-1175,http://auntieelsies.com/,,42.29194260000001,-72.40687561
+62,Reps Fitness Studio,Gym/Fitness,"316 Cambridge St Ste 2, Boston, MA 02114",(857) 250-4616,http://www.reps57.com/,,42.35983658,-71.07054138
+63,Panza Restaurant,Catering/Private Chef,"326 Hanover St, Boston, MA 02113",(617) 557-9248,https://www.facebook.com/Panza-234336576610295/,https://locu.com/places/panza-boston-us/,42.36465454,-71.05381775
+65,EverybodyFights,Gym/Fitness,"15 Channel Ctr St, Boston, MA 02210",(857) 250-4140,https://www.facebook.com/Everybodyfights/,,42.34578705,-71.05136108
+66,trillfit,Gym/Fitness,"1484 Tremont St, Boston, MA 02120",(617) 544-7690,http://www.trill.fit/,,42.33217239,-71.09884644
+67,"Brown Ave, Boston, MA 02131",Health/Beauty,"Brown Ave, Boston, MA 02131",,https://brownandcoconut.com/,,42.284385,-71.12091001
+68,Organic Bath Co.,Health/Beauty,"50 Terminal St Ste 720, Charlestown, MA 02129",(617) 273-2523,https://www.organicbath.co/,,42.38196564,-71.05976105
+69,Boston Pet Sitters,Pet/Animal Services,"144 Commonwealth Ave Ste 3, Boston, MA 02116",(617) 247-7387,https://www.bostonpetsitters.com/,,42.35186768,-71.07759094
+71,Flames Restaurant,Restaurant,"469 Blue Hill Ave, Boston, MA 02121",(617) 989-0000,https://www.facebook.com/Flames-Restaurant-116810905012950/,https://places.singleplatform.com/flames-restaurant/menu?ref=Microsoft,42.30892181,-71.08293915
+72,Fresh Food Generation,Restaurant,"196 Quincy St, Boston, MA 02121",(617) 602-7185,https://www.freshfoodgeneration.com/,,42.31288528,-71.07485199
+73,Larry J's BBQ Cafe,Restaurant,"600 D St, Boston, MA 02210",(617) 348-9800,http://larryjsbbqcafe.com/,https://locu.com/places/larry-js-house-of-q-boston-us-1/,42.34835434,-71.03962708
+74,Next Step Soul Food Cafe,Restaurant,"657 Washington St, Dorchester Center, MA 02124",(617) 514-4916,https://straffordcreamery.com/about-us/,,42.28886795,-71.07116699
+75,Nu Flav Restaurant,Restaurant,"1100 Blue Hill Ave, Boston, MA 02124",(617) 506-7092,https://nuflavrestaurantboston.com/?utm_source=bing&utm_medium=websiteurl&utm_campaign=search,https://NuFlavRestaurantBoston.com/?utm_source=bing&utm_medium=menuurl&utm_campaign=search,42.28693008,-71.09047699
+76,P&R Restaurant and Ice Cream Parlor,Restaurant,"208 Dudley St, Roxbury, MA 02119",(617) 442-2020,http://www.eatpandr.com/,https://places.singleplatform.com/pr-restaurant-and-ice-cream-parlor/menu?ref=Microsoft,42.32849121,-71.08104706
+77,Savvor Restaurant,Restaurant,"180 Lincoln St, Boston, MA 02111",(857) 250-2165,http://www.savvorbostonlounge.com/,https://www.savvorbostonlounge.com/menus,42.35058594,-71.05866241
+78,Tawakal Halal Cafe,Restaurant,"389 Maverick St, East Boston, MA 02128",(617) 418-5890,https://www.facebook.com/TawakalHalalCafe/,,42.36580276,-71.02897644
+79,Urban Grape,Wine Store,"303 Columbus Ave, Boston, MA 02116",(857) 250-2509,http://theurbangrape.com/,,42.34645081,-71.07447815
+80,JJ's Caffe,Restaurant,"610 N Main St, Brockton, MA 02301",(508) 510-4227,https://www.jjscaffe.com/,,42.09859085,-71.01997375
+81,Rhythm 'n Wraps,Restaurant,"1096 Commonwealth Ave, Boston, MA 02215",(617) 566-4144,https://www.rhythmnwraps.com/,https://places.singleplatform.com/rhythm-n-wraps/menu?ref=Microsoft,42.35207367,-71.12445831
+84,The Little Crepe Cafe,Restaurant,"102 Oxford St, Cambridge, MA",(857) 326-3184,https://www.littlecrepecafe.com/,https://www.littlecrepecafe.com/menu,42.38313675,-71.11614227
+85,Oggi Gourmet,Restaurant,"30 Dunster St, Cambridge, MA 02138",(617) 492-6444,https://www.oggigourmetmenu.com/?utm_source=organic_bing&utm_medium=bing_pw,https://slicelife.com/restaurants/ma/cambridge/02138/oggi-gourmet/menu,42.37242889,-71.11901855
+86,Coast Cafe,Restaurant,"233 River St, Cambridge, MA 02139",(617) 354-7644,https://coastsoulcafe.com/,https://coastsoulcafe.com/our-menu/,42.36300278,-71.11160278
+87,Hazel's Kitchen,Restaurant,"930 Chicopee St, Chicopee, MA 01013",(413) 315-8261,https://www.facebook.com/pages/category/Caribbean-Restaurant/Hazels-Kitchen-166927287238980/,,42.19021988,-72.60272217
+88,Glitterati Prom & Pagent Superstore,Clothing,"30 Maple St, Danvers, MA 01923",(978) 539-8580,http://www.glitteratistyle.com/,,42.56618118,-70.93621063
+89,50Kitchen,Restaurant,"1450 Dorchester Ave, Dorchester, MA 02122",(617) 474-2433,http://50kitchen.com/,,42.30110931,-71.05992126
+90,Auntie Vie's Bakery Cafe,Restaurant,"554 Dudley St, Dorchester, MA 02125",(617) 708-0013,https://www.facebook.com/Auntie-Vies-Bakery-Cafe-152960008211429/,,42.32129288,-71.07217407
+91,Bon Appetit Restaurant,Restaurant,"1138 Blue Hill Ave, Dorchester Center, MA 02124",(617) 825-5544,https://bonappetitgroup.com/,https://www.zomato.com/boston/bon-appetit-dorchester/menu,42.28544617,-71.09073639
+92,B R E D,Restaurant,"2255 Dorchester Ave, Boston, MA 02124",(617) 698-0103,https://www.bredgourmet.com/,https://places.singleplatform.com/bred-gourmet/menu?ref=Microsoft,42.27338409,-71.06796265
+93,Cape Verde Taste,Restaurant,"481 Geneva Ave, Boston, MA 02122",(617) 506-8824,https://cape-verde-taste.business.site/,,42.29932022,-71.06471252
+94,Restaurante Cesaria,Restaurant,"266 Bowdoin St, Boston, MA 02122",(617) 282-1998,http://www.restaurantcesaria.com/,https://www.restaurantcesaria.com/menu/,42.30691528,-71.06658936
+95,Clarke's Cakes & Cookies,Restaurant,"196 Quincy St., Dorchester, MA 02121",,http://clarkescakesandcookies.com/,,42.31288528,-71.07485199
+96,Down Home Delivery,Restaurant,"2 Bowdoin St, Dorchester, MA 02124",(617) 288-0813,http://www.downhomedelivery.com/,http://www.downhomedelivery.com/menus.cfm,42.29951477,-71.07324982
+97,Family Affair Restaurant,Restaurant,"554 Columbia Rd, Dorchester, MA 02125",(617) 514-4458,https://www.facebook.com/FamAffairBoston/,https://places.singleplatform.com/family-affair-restaurant-6/menu?ref=Microsoft,42.31627274,-71.06599426
+98,Next Step Soul Food Cafe,Restaurant,"657 Washington St, Dorchester Center, MA 02124",(617) 514-4916,https://www.facebook.com/bostonsoulfood/,,42.28886795,-71.07116699
+99,Irie Jamaican Style Restaurant,Restaurant,"855 Washington St, Dorchester Center, MA 02124",(617) 929-3866,http://www.iriejamaicanstylerestaurant.net/,http://www.iriejamaicanstylerestaurant.net/menu,42.2818985,-71.0712204
+100,Island Style,Restaurant,"183 Washington St, Dorchester, MA 02121",(617) 288-8300,https://www.facebook.com/islandstyle183/,http://www.islandstylerestaurant.com/menu.html,42.30342484,-71.07855988
+101,J P Roti Shop,Restaurant,"482 Washington St, Dorchester, MA 02124",(617) 825-4860,https://www.facebook.com/JP-ROTI-SHOP-1106702066057742/,,42.29465103,-71.07199859999999
+102,Levi's Restaurant,Restaurant,"323 Washington St, Boston, MA 02121",(617) 265-1009,https://www.facebook.com/Levis323/,,42.29995728,-71.07430267
+103,M & M BBQ,Restaurant,"1250 Massachusetts Ave, Dorchester, MA 02125",(617) 307-7674,https://www.mandmribs.com/,https://www.mandmribs.com/menu,42.32199478,-71.06282043
+104,Murl's Kitchen,Restaurant,"143 Washington St, Dorchester, MA 02121",(617) 506-7331,https://www.facebook.com/murlskitchen/,,42.30453873,-71.0794754
+105,NatifNatal,Restaurant,"830 Blue Hill Ave, Dorchester, MA 02124",(617) 326-6929,https://natifnatalma.com/?utm_source=bing&utm_medium=websiteurl&utm_campaign=search,https://www.natifnatalma.com/#/,42.29620743,-71.08718872
+106,Next Step Soul Food Cafe,Restaurant,"657 Washington St, Dorchester Center, MA 02124",(617) 514-4916,https://www.facebook.com/nextstepsoulfoodcafe/,,42.28886795,-71.07116699
+107,Oasis Cafe,Restaurant,"340 Washington St, Dorchester, MA 02121",(617) 506-7192,https://oasis-restaurant-caribbean-restaurant.business.site/,,42.29944992,-71.07372284
+108,Oasis Vegan Veggie Parlor,Restaurant,"340 Washington St, Dorchester, MA 02121",(617) 237-9033,https://www.facebook.com/OasisVeganVeggieParlor/,https://places.singleplatform.com/oasis-vegan-veggie-parlor/menu?ref=Microsoft,42.29944992,-71.07372284
+109,One Family Diner,Restaurant,"260 Bowdoin St, Boston, MA 02122",(617) 436-1577,https://www.facebook.com/OnefamilydinerDorchester/,,42.30680466,-71.06671906
+110,Only One Jamaican Restaurant,Restaurant,"160 Norfolk St, Dorchester Center, MA 02124",(617) 822-0444,http://www.onlyonerestaurant.com/,https://www.onlyonerestaurant.com/menus-1,42.28721619,-71.07876587
+111,Raphael Caribbean Cuisine,Restaurant,"487 Washington St, Dorchester Center, MA 02124",(617) 506-7875,https://www.facebook.com/Raphaels-Caribbean-Cuisine-1503478686549420/,,42.2946701,-71.07215118
+112,Ripple Cafe,Restaurant,"1906 Dorchester Ave, Boston, MA 02124",(617) 297-5621,https://ripple-cafe.business.site/,https://kaosamai.business.site/,42.28442764,-71.06467438
+113,Singh's Roti Shop,Restaurant,"692 Columbia Rd, Dorchester, MA 02125",(617) 282-7977,http://www.singhsrotishop.net/,http://www.singhsrotishop.net/menu,42.32009125,-71.06227875
+114,Taste Of Eden,Restaurant,"38 Norfolk St, Boston, MA 02124",(617) 282-0077,https://www.tasteofedenjamerican.net/,https://places.singleplatform.com/taste-of-eden-ja-american-restaurant/menu?ref=Microsoft,42.28921509,-71.07284546
+115,Vaughan Fish & Chips,Restaurant,"1 Erie St, Dorchester, MA 02121",(617) 825-1194,https://www.facebook.com/pages/Vaughan-Fish-Chips/100849106625946,https://www.zomato.com/boston/vaughan-fish-chips-dorchester/menu,42.30321121,-71.07868958
+116,Wingz & Tingz,Restaurant,"388 Blue Hill Ave, Dorchester, MA 02121",(617) 652-8580,http://wingzandtingz.com/,https://www.wingzandtingz.com/menu/,42.311435700000004,-71.08109283
+117,Yelus,Restaurant,"116 Washington St, Dorchester, MA 02121",(857) 271-3926,https://www.yelusrestaurant.com/,https://places.singleplatform.com/yelus/menu?ref=Microsoft,42.30513,-71.0802002
+119,The Taproom,Bar,"1 Mill Valley Rd Ste C, Hadley, MA 01035",(413) 387-0600,http://www.thetaproomhadley.com/,,42.34890747,-72.56830597
+120,Hot Oven Cookies,Restaurant,"1597 Main St, Springfield, MA",(413) 889-4099,https://www.hotovencookies.com/,https://www.hotovencookies.com/menu,42.1038475,-72.59315491
+121,D Coal Pot,Restaurant,"984 Hyde Park Ave, Hyde Park, MA 02136",(857) 345-9512,https://www.facebook.com/D-Coal-Pot-137261126484637/,https://places.singleplatform.com/d-coal-pot/menu?ref=Microsoft,42.26605225,-71.12107849
+122,Farah S Cafe Restaurant,Restaurant,"1158 River St, Hyde Park, MA 02136",(617) 910-3203,https://www.facebook.com/Farah-cafe-restaurant-560110081032362/,,42.25639725,-71.12052155
+123,Las Vegas Seafood Restaurant,Restaurant,"6 Maple St, Hyde Park, MA 02136",(617) 364-2772,https://www.facebook.com/LasVegasHydePark/,,42.25576782,-71.12223816
+124,Little Haiti International Cuisine1184. Call them at - 617 364-1313.,Restaurant,"1184 Hyde Park Ave, Hyde Park, MA 02136",(617) 364-1313,https://www.facebook.com/littlehaitiinternationalcuisine/,,42.25824738,-71.12352753
+125,Wingz And Tingz,Restaurant,"10 Fairmount Ave, Boston, MA 02136",(617) 474-9464,https://www.wingzandtingz.com/,https://www.wingzandtingz.com/menu/,42.25566483,-71.12104034
+126,Zaz Restaurant,Restaurant,"1238 River St, Boston, MA 02136",(617) 276-3729,https://www.zazrestaurant.com/,https://www.zazrestaurant.com/menu,42.25593185,-71.12303925
+127,Reps Fitness Studio,Gym/Fitness,"316 Cambridge St Ste 2, Boston, MA 02114",(857) 250-4616,http://www.reps57.com/,,42.35983658,-71.07054138
+128,Blue Nile,Restaurant,"389 Centre St, Jamaica Plain, MA 02130",(617) 522-6453,http://bluenilejp.com/,https://places.singleplatform.com/blue-nile-34/menu?ref=Microsoft,42.32211304,-71.10951996
+129,Exodus Bagels,Restaurant,"3346 Washington St, Jamaica Plain, MA 02130",,http://www.exodusbagels.com/,,42.30959702,-71.10444641
+130,Jamaica Mi Hungry LLC,Restaurant,"225 Centre St, Roxbury, MA 02119",(617) 708-0465,https://www.jamaicamihungry.com/,,42.32287598,-71.09931183
+131,MadJacks BBQ,Restaurant,"126 S Main St, Lanesborough, MA 01237",(413) 442-2290,http://www.madjacksbbqonline.com/,,42.51292419,-73.22897339
+132,Habakkuk Media Services,Photographer,"100 Commercial Rd, Leominster, MA 01453",(978) 537-7778,http://habakkukmedia.com/,,42.52993774,-71.73986816
+133,Comeketo Brazilian Steakhouse,Restaurant,"23 Sack Blvd, Leominster, MA 01453",(978) 466-1224,https://www.comeketo.com/,https://www.comeketo.com/menu,42.53233719,-71.74496459999997
+134,Infused Kreyol,Restaurant,"423 Main St, Malden, MA 02148",(781) 388-0938,http://infusedkreyol.com/,https://places.singleplatform.com/infused-kreyol/menu?ref=Microsoft,42.42657089,-71.06694031
+135,Hair It Is Barbershop,Health/Beauty,"1186 Blue Hill Ave, Mattapan, MA",(617) 322-1664,https://www.hairitisbarbershop.com/,,42.28397751,-71.09144592
+136,Ali's Roti Restaurant,Restaurant,"1188 Blue Hill Ave, Mattapan, MA 02126",(617) 298-9850,https://www.facebook.com/Alis-Roti-Restaurant-163231053700708/,,42.28379059,-71.09150696
+137,Au Beurre Chaud Bakery,Restaurant,"721 River St, Hyde Park, MA 02136",(617) 364-3066,https://www.grubhub.com/restaurant/au-beurre-chaud-bakery-725-river-st-hyde-park/506264,,42.26361847,-71.10250092
+138,Blue Mountain Jamaican Restaurant,Restaurant,"884 Morton St, Boston, MA 02126",(617) 533-7255,http://bluemountainjamaicanrestaurant.com/,https://places.singleplatform.com/blue-mountain-jamaican-restaurant/menu?ref=Microsoft,42.28085327,-71.08467865
+139,JUICE UP,Restaurant,"1290 Blue Hill Ave, Mattapan, MA 02126",(857) 267-4569,http://squareup.com/STORE/CAFEJUICEUP,https://places.singleplatform.com/cafe-juice-up/menu?ref=Microsoft,42.27968979,-71.09264374
+140,Golden Krust Caribbean Restaurant,Restaurant,"1614 Blue Hill Ave, Mattapan, MA 02126",(617) 696-6200,http://www.goldenkrust.com/,https://www.goldenkrust.com/menu/,42.26886749,-71.09340668
+141,Le Foyer Bakery,Restaurant,"132 Babson St, Mattapan, MA 02126",(617) 298-0535,https://www.facebook.com/pages/Le-Foyer-Bakery/111731602196380,https://www.zomato.com/boston/le-foyer-bakery-boston/menu,42.27042007,-71.09294128
+142,P & R Ice Cream,Restaurant,"1284 Blue Hill Ave, Mattapan, MA 02126",(617) 296-0922,http://www.eatpandr.com/,https://www.zomato.com/boston/p-r-ice-cream-and-restaurant-dorchester/menu,42.27994919,-71.0927887
+143,Pit Stop Barbecue,Restaurant,"888A Morton St, Boston, MA 02126",(617) 436-0485,http://www.pitstopbarbecue.com/,https://locu.com/places/pit-stop-barbeque-mattapan-us/,42.2807579,-71.08421326
+144,Prestige Cuisine,Restaurant,"924 Morton St., Mattapan, MA 02126",(617) 615-8009,https://www.grubhub.com/restaurant/prestige-cuisine-568-broad-st-providence/1273704,https://mymozo.com/myrestaurant/default?CompanyId=1021,42.28067398,-71.08286285
+145,Shea Butter Smoothies,Restaurant,"1556 Blue Hill Ave, Mattapan, MA 02126",(617) 296-2245,https://www.facebook.com/Shea-Butter-Smoothies-834607166718287/,https://places.singleplatform.com/shea-butter-smoothies/menu?ref=Microsoft,42.27039719,-71.09358978
+147,French Press Bakery,Restaurant,"2020-74 Chapel St, Needham, MA",(781) 400-2660,https://www.frenchpressbakery.com/,https://www.frenchpressbakery.com/lunch-menu/,42.2815094,-71.23672485
+148,Glitterati Prom & Pagent Superstore,Clothing,"30 Maple St, Danvers, MA 01923",(978) 539-8580,http://www.glitteratistyle.com/,,42.56618118,-70.93621063
+149,92nd Sauce,Catering,"239 Onota St, Pittsfield, MA 01201",(413) 344-4206,https://www.92ndsauce.com/,,42.45890808,-73.26356506
+150,Roman's Restaurant and Cuchifritos,Restaurant,"496A Tyler St, Pittsfield, MA 01201",(413) 344-4947,http://romans-rc.com/,,42.45726395,-73.24019623
+151,Smokey Divas,Restaurant,"239 Onota St, Pittsfield, MA 01201",(413) 344-4206,https://www.facebook.com/pages/Smokey-Divas/1798995240181102,https://places.singleplatform.com/smokey-divas/menu?ref=Microsoft,42.45890808,-73.26356506
+152,Larry J's BBQ Cafe Revere,Restaurant,"1148 N Shore Rd, Revere, MA 02151",(781) 286-6781,http://larryjsbbqcafe.com/,https://places.singleplatform.com/larry-js-bbq/menu?ref=Microsoft,42.41767120000001,-70.99102020000002
+153,Obosa Restaurant,Restaurant,"146 Belgrade Ave, Roslindale, MA 02131",(617) 327-3700,http://obosafoods.com/,,42.28612137,-71.13678741
+154,R & S Jamaican Restaurant.,Restaurant,"770 Blue Hill Ave, Dorchester Center, MA 02124",(617) 287-8600,"No website, call (617) 477-4292",,42.29844666,-71.08673096
+155,Frugal Bookstore,Bookstore,"57 Warren St, Roxbury, MA 02119",(617) 541-1722,https://frugalbookstore.net/,,42.32903671,-71.08341217
+156,Ali's Roti Restaurant & Takeout,Restaurant,"1035 Tremont St, Roxbury Crossing, MA 02120",(617) 427-1079,https://www.facebook.com/Alis-Roti-Restaurant-Takeout-113549678677915/,,42.33646774,-71.08544922
+157,Anshur Restaurant,Restaurant,"291 Roxbury St, Roxbury, MA 02119",(617) 427-0599,https://www.beyondmenu.com/36032/boston/ashur-restaurant-boston-02119/info.aspx,https://www.beyondmenu.com/28187/salem/china-wok-salem-24153.aspx,42.33025742,-71.09437561
+158,Dayib Cafe,Restaurant,"722 Shawmut Ave, Roxbury, MA 02119",(617) 427-0099,https://www.facebook.com/pages/Dayib-Cafe/115704861786008,,42.33245468,-71.08369446
+159,District 7 Tavern,Restaurant,"380 Warren St, Boston, MA 02119",,https://www.facebook.com/District7Tavern/,,42.31805038,-71.08192444
+160,Fasika Cafe,Restaurant,"51 Roxbury St, Roxbury, MA 02119",(617) 238-7979,https://www.facebook.com/Fasika-Cafe-392717221226084/,https://places.singleplatform.com/fasika-ethopian-cafe/menu?ref=Microsoft,42.32948685,-71.08570099
+161,Fort Hill Bar & Grill,Restaurant,"2805 Washington St, Boston, MA 02119",(617) 442-7000,http://forthillbarngrill.com/,,42.32160568,-71.09204102
+163,Maxine's On Saint James,Restaurant,"304 Dudley St, Roxbury, MA 02119",(617) 427-0927,http://www.maxinesonsaintjames.com/,http://www.maxinesonsaintjames.com/menu,42.32786942,-71.07759857
+164,Nos Casa Cafe,Restaurant,"475 Dudley St, Roxbury, MA 02119",(617) 606-7060,https://www.noscasacafe.com/,https://locu.com/places/nos-casa-boston-us/,42.32334518,-71.07350922
+165,Silver Slipper Restaurant,Restaurant,"2387 Washington St, Roxbury, MA 02119",(617) 442-4853,https://www.facebook.com/pages/Silver-Slipper-Restaurant/105921002783527,https://www.zomato.com/boston/silver-slipper-restaurant-roxbury/menu,42.32909393,-71.08493042
+166,Soleil Restaurant,Restaurant,"2306 Washington St, Boston, MA 02119",(617) 652-7574,https://www.soleilboston.com/,https://places.singleplatform.com/soleil-49/menu?ref=Microsoft,42.33017731,-71.08418274
+167,Suya Joint Restaurant,Restaurant,"185 Dudley St, Roxbury, MA 02119",(617) 708-0245,https://suyajoint.com/,https://places.singleplatform.com/suya-joint-0/menu?ref=Microsoft,42.32851791,-71.08183289
+168,Top Mix Bar & Kitchen,Restaurant,"257 Norfolk Ave, Boston, MA 02119",(617) 652-8976,https://www.topmixbar.com/,https://www.topmixbar.com/menu,42.3237915,-71.06795502
+169,Gypsy Apple,Restaurant,"65 Bridge St, Shelburne Falls, MA 01370",(413) 625-6345,https://www.gypsyapplebistro.com/,https://www.gypsyapplebistro.com/menu,42.60361099,-72.73822784
+170,Fasika Ethiopian Restaurant,Restaurant,"145 Broadway, Somerville, MA 02145",(617) 628-9300,https://www.fasikaethiopian.com/,https://www.fasikaethiopian.com/menu.aspx,42.38829041,-71.08493805
+171,Highland Creole Cuisine,Restaurant,"2 Highland Ave, Somerville, MA 02143",(617) 625-8333,https://highlandcreolecuisine.com/,https://highlandcreolecuisine.com/menu,42.38445282,-71.09264374
+172,Petsi Pies,Restaurant,"285 Beacon St, Somerville, MA 02143",(617) 661-7437,https://petsipies.com/information-1,https://www.zomato.com/boston/petsi-pies-somerville/menu,42.38349915,-71.1128006
+173,Pikliz International Kitchen,Restaurant,"288 Broadway, Somerville, MA 02145",(617) 625-6255,https://www.piklizint.com/,https://www.piklizint.com/menu,42.39168549,-71.09223938
+174,Tanam,Restaurant,"1 Bow Market Way, Somerville, MA 02143",(617) 669-2144,https://www.facebook.com/tanamofficial/,https://places.singleplatform.com/tanam/menu?ref=Microsoft,42.38103104,-71.09825897
+175,Darryl's Corner Bar & Kitchen,Restaurant,"604 Columbus Ave, Boston, MA 02118",(617) 536-1100,http://darrylscornerbarboston.com/,https://locu.com/places/darryls-corner-bar-and-kitchen-boston-us/,42.33988571,-71.08263397
+176,Lucy Ethiopian Cafe,Restaurant,"334 Massachusetts Ave, Boston, MA 02115",(617) 536-0415,https://www.facebook.com/Lucy-Ethiopian-Cafe-and-Restaurant-311582795592880/,https://places.singleplatform.com/lucy-ethiopian-cafe/menu?ref=Microsoft,42.34243393,-71.0844574
+177,MIDA,Restaurant,"782 Tremont St, Boston, MA 02118",(617) 936-3490,http://www.midaboston.com/,https://www.midaboston.com/all-menus,42.33899307,-71.08053589
+178,Slade's Bar & Grill,Restaurant,"958 Tremont St, Boston, MA 02120",(617) 442-4600,https://www.sladesbarandgrill.com/home,https://www.sladesbarandgrill.com/menu,42.3372612,-71.08364105
+179,Wally's Cafe,Restaurant,"427 Massachusetts Ave, Boston, MA 02118",(617) 424-1408,http://wallyscafe.com/,,42.34071732,-71.08222961
+180,White Lion Brewing Company,Bar/Brewery,"1477 Main St, Springfield, MA 01101",(413) 326-1829,http://whitelionbrewing.com/,,42.10307693,-72.59149933
+181,Olive Tree Books,Bookstore,"97 Hancock St, Springfield, MA 01109",(413) 737-6400,http://olivetreebooksonline.com/,,42.10718918,-72.56839752
+182,Smokey Joe's Cigar Lounge,Cigar Shop/Smoke Shop,"395 Dwight St, Springfield, MA 01103",(413) 391-7944,http://www.smokeyjoescigars.com/,,42.10569763,-72.59142303
+183,The Head Shop,Cigar Shop/Smoke Shop,"524 Main St, West Springfield, MA 01089",(413) 273-1720,http://www.theheadshop413.com/,,42.10203171,-72.60952759
+185,Gardening the Community,Farm,"200 Walnut St, Springfield, MA 01105",(413) 693-5340,http://www.gardeningthecommunity.org/,,42.10381317,-72.57094574
+186,Bumpys Natural & Organic Foods,Grocery Store,"908 Allen St, Springfield, MA 01118",(413) 209-9471,http://bumpysbargains.com/,,42.09112167,-72.53063965
+188,Cantina Curbside Grill,Restaurant,"Riverfront Park, Springfield, MA 01103",(413) 426-2604,https://www.facebook.com/cantinacurbside/,,42.09986115,-72.58441162
+190,Big Mamou,Restaurant,"63 Liberty St, Springfield, MA 01103",(413) 732-1011,https://chefwaynes-bigmamou.com/,https://chefwaynes-bigmamou.com/lunch-menu,42.10637283,-72.59570313
+191,Chick,Restaurant,"1375 Carew St, Springfield, MA 01104",(413) 301-8582,https://d.facebook.com/chick.e.d/?__tn__=C-R,,42.13682938,-72.5690918
+192,Crispy's,Restaurant,"17 Rutland St, Springfield, MA 01109",(413) 310-3722,https://www.facebook.com/pages/Crispys-Wings-N-Fish/2126563604250213,,42.11184692,-72.56083679
+193,D&G Jamaican Cuisine,Restaurant,"5 Preston St, Springfield, MA 01109",(413) 746-3642,http://restaurantwebx.com/DandG/,http://places.singleplatform.com/d-and-g-jamaican-cuisine/menu,42.12546921,-72.53561401
+194,Erica's Hall of Fame Kitchen,Restaurant,"666 State St, Springfield, MA 01109",(413) 391-7072,https://www.facebook.com/Ericas-Hall-of-Fame-Kitchen-893214307380784/,https://places.singleplatform.com/ericas-hall-of-fame-kitchen/menu?ref=Microsoft,42.11006546,-72.57015991
+195,Eye Seafood,Restaurant,"810 Cottage St, Springfield, MA 01104",(413) 750-8804,https://eye-seafood.business.site/,https://kaosamai.business.site/,42.14191818,-72.52410126
+196,Garden of Eat'n,Restaurant,"439 White St, Springfield, MA 01108",(413) 233-7216,https://www.facebook.com/Garden-of-Eatn-Springfield-355919694804583/,,42.08802414,-72.54975128
+197,Golden Krust Caribbean Restaurant,Restaurant,"320 Wilbraham Rd, Springfield, MA 01109",(413) 731-7720,http://www.goldenkrust.com/,https://www.goldenkrust.com/menu/,42.11296463,-72.55243683
+198,Grannys Baking Table,Restaurant,"309 Bridge St, Springfield, MA 01103",(413) 333-4828,https://www.grannysbakingtable.com/,,42.10419464,-72.59087372
+199,Hot Oven Cookies,Restaurant,"1597 Main St, Springfield, MA",(413) 889-4099,https://www.hotovencookies.com/,https://www.hotovencookies.com/menu,42.1038475,-72.59315491
+200,Hummingbird Restaurant,Restaurant,"347 Orange St, Springfield, MA 01108",(413) 734-3490,,https://places.singleplatform.com/hummingbird-restaurant-2/menu?ref=Microsoft,42.09327698,-72.55645752
+201,Iona's Cafe & Grill,Restaurant,"37 Oak St, Indian Orchard, MA 01151",(413) 543-1718,https://www.facebook.com/ionascafegrill1/,https://places.singleplatform.com/ionas-cafe--grill/menu?ref=Microsoft,42.15934372,-72.50302887
+202,Khi & Eli's Food For The Soul,Restaurant,"882 Sumner Ave, Springfield, MA 01108",(413) 732-0860,http://www.yummycuisinespringfield.com/,http://www.allmenus.com/ma/springfield/501226-khi--elis-food-for-the-soul/menu/,42.08872223,-72.54488373
+203,Penny's Southern Style Soul Food,Restaurant,"606 Page Blvd, Springfield, MA 01104",(413) 301-8178,https://www.facebook.com/Pennys-Southern-Style-Soul-Food-506842476021879/,https://locu.com/places/pennys-southern-style-soul-food-springfield-us/,42.14058685,-72.55866241
+204,SouLao'd Kitchen,Restaurant,"606 Page Blvd, Springfield, MA 01104",(413) 316-3202,https://soulaod-kitchen.business.site/,https://kaosamai.business.site/,42.14058685,-72.55866241
+206,Souper Sweet Sandwich Shop,Restaurant,"929 Belmont Ave, Springfield, MA 01108",(413) 209-8260,http://www.soupersweetsandwichshop.com/,http://www.soupersweetsandwichshop.com/menu.html,42.08373642,-72.54456329
+207,Try Me Too,Restaurant,"827 State St, Springfield, MA 01109",(413) 333-2144,http://trymetoospringfield.com/,https://places.singleplatform.com/try-me-too/menu?ref=Microsoft,42.11098862,-72.56424713
+208,Veganish Foodies,Restaurant,"685 Bay St, Springfield, MA 01109",(413) 310-2493,,,42.12553787,-72.55898285
+209,Wing Madness Springfield LLC,Restaurant,"1287 Liberty St, Springfield, MA 01104",(413) 209-8516,https://www.seamless.com/menu/wing-madness-1287-liberty-st-springfield/1751447,,42.13779068,-72.58320618
+210,Wingz & Wafflez,Restaurant,"74 Island Pond Rd, Springfield, MA 01118",(413) 417-6292,http://wingzwafflez.com/,,42.09552002,-72.55078125
+211,Yaad Food Jamaican Restaurant,Restaurant,"89 Main St, Indian Orchard, MA 01151",(413) 883-8364,https://www.facebook.com/Yaad-Food-Jamaican-Restaurant-1592794164311469/,https://places.singleplatform.com/yaad-food-jamaican-restaurant/menu?ref=Microsoft,42.15994263,-72.50623322
+212,Ore a Love Story Restaurant,Restaurant,"434 Pearl St, Stoughton, MA 02072",(781) 436-8641,https://orealovestory.netwaiter.com/,https://cafemoxo.netwaiter.com/springfield/about/,42.13618469,-71.11174011
+213,Karibu Restaurant,Restaurant,"10 Crescent St, Waltham, MA 02453",(781) 899-7444,http://tasteofkaribu.com/cgi-sys/suspendedpage.cgi,https://locu.com/places/karibu-restaurant-waltham-us/,42.37176132,-71.23728179999998
+215,Belmont Vegetarian,Restaurant,"157 Belmont St, Worcester, MA 01608",(508) 798-8898,http://belmontvegetarian.com/,http://www.belmontvegetarian.com/menu.html,42.27244186,-71.78907776
+216,Accra Girls,Restaurant,"1280 Grafton St Ste 1, Worcester, MA 01604",(508) 459-0054,Call +1 (508) 459-0054,https://places.singleplatform.com/accra-girls/menu?ref=Microsoft,42.23640823,-71.75158691
+217,Addie Lee's Soul Food,Restaurant,"596 Main St, Worcester, MA 01608",(508) 752-0569,https://www.facebook.com/addieleessoulfood/,https://www.zomato.com/worcester-ma/addie-lees-soul-food-worcester-rest-of-massachusetts/menu,42.26040268,-71.80421448
+218,Anokye Krom,Restaurant,"687 Millbury St, Worcester, MA 01607",(508) 753-8471,https://anokyekromafricanamericanrestaurant.netwaiter.com/worcester/about,https://cafemoxo.netwaiter.com/springfield/about/,42.23819733,-71.79808044
+219,Aretha's Kitchen,Restaurant,"118 Cambridge St, Worcester, MA 01603",(774) 530-6114,http://www.arethaskitchenjamaicanrestaurant.com/,http://www.arethaskitchenjamaicanrestaurant.com/menu.html,42.24362946,-71.82621002
+220,Belmont Vegetarian,Restaurant,"157 Belmont St, Worcester, MA 01608",(508) 798-8898,http://belmontvegetarian.com/,http://www.belmontvegetarian.com/menu.html,42.27244186,-71.78907776
+222,Caribbean Flaavor,Restaurant,"976A Main St, Worcester, MA 01603",(774) 823-3590,https://www.facebook.com/CaribbeanFlaavor/,,42.24896622,-71.82449341
+224,Fatima's Cafe,Restaurant,"43 W Boylston St, Worcester, MA 01605",(508) 762-9797,http://www.fatimascafe.com/,http://www.fatimascafe.com/menu/,42.29008102,-71.80652618
+225,Gold Coast Catering,Restaurant,"8 Blackstone River Rd, Worcester, MA 01607",(774) 420-7766,https://goldcoastone.com/,,42.23466492,-71.7960968
+226,Home Style Restaurant,Restaurant,"82 Harrison St, Worcester, MA 01604",(508) 752-6973,https://www.facebook.com/worcesterjamaicanfood/,https://places.singleplatform.com/homestyle-restaurant-2/menu?ref=Microsoft,42.254673,-71.79219818
+229,Jamaica Thymes,Restaurant,"482 Park Ave, Worcester, MA 01610",(774) 530-6080,,,42.25359344,-71.82701111
+230,Joyful Way Restaurant Inc,Restaurant,"47 Blackstone River Rd, Worcester, MA 01607",(508) 753-3406,,,42.23255539,-71.79460907
+231,Onelove Cafe,Restaurant,"800 Main St, Worcester, MA 01610",(508) 753-8663,,http://www.allmenus.com/ma/worcester/42510-one-love-cafe/menu/,42.25587082,-71.81175995
+232,PHILIPS’ E&N Seafood,Restaurant,"264 Grafton St, Worcester, MA 01604",(508) 345-7235,https://philips-en-seafood.business.site/,https://kaosamai.business.site/,42.25630569,-71.78866577
+233,Pregame on Park,Bar,"413 park Ave, Worcester, MA 01610",(508) 459-9940,https://www.facebook.com/PREGAMEonPark/,,42.25690842,-71.82318115
+235,The Vegan Nest Cafe,Restaurant,"6 Waldo St, Worcester, MA 01608",(508) 333-0095,http://thevegannestcafe.com/,,42.26580429,-71.80003357
+238,Kings & Queens Hairstudio,Health/Beauty,"50 Maine St, Brunswick, ME 04011",(207) 373-0966,https://www.vagaro.com/kingsandqueensllc,,43.91771698,-69.96646118
+239,Taste Jamaica,Restaurant,"190 State St, Ellsworth, ME 04605",(207) 412-2449,https://tastejamaicamaine.wixsite.com/fastfood,https://olabbq.wixsite.com/home/menu,44.55002213,-68.42703247
+240,Jeff's Jamaican Cuisine,Restaurant,"20 BOW St, Freeport, ME 04032",(207) 312-1191,https://www.facebook.com/Cuisinejamaica/,,43.85687256,-70.10171509
+241,Baraka,Grocery Store,"234 Lisbon St, Lewiston, ME 04240",(207) 782-7838,https://www.facebook.com/pages/Baraka/115706815155230,,44.09491348,-70.21621704
+242,Goshen Supermarket,Grocery Store,"179 Lincoln St, Lewiston, ME 04240",(207) 784-6000,"No website, call (207) 784-6000",,44.09217453,-70.21871948
+243,Global Halal Market,Grocery Store,"263 Lisbon St, Lewiston, ME 04240",(207) 786-9000,https://www.facebook.com/MahramHalaalMarket,,44.09432983,-70.21585083
+244,Mashallah Store,Grocery Store,"248 Lisbon St, Lewiston, ME 04240",(207) 755-0417,https://mashallahstore.net/,,44.09457397,-70.21601105
+245,Mogadishu Store,Grocery Store,"240 Lisbon St Ste 1, Lewiston, ME 04240",(207) 777-7757,https://www.facebook.com/pages/Mogadishu-Store/161340300551297,,44.09482193,-70.21616364
+246,Nasri Grocery Store,Grocery Store,"205 Main St, Lewiston, ME 04240",(207) 784-3779,"No website, call (207) 221-0015",,44.09946442,-70.21713257
+247,Alabama's BBQ Catering,Restaurant,"415 Sabattus St, Lewiston, ME 04240",(207) 423-6666,http://alabamasbbq.com/,,44.10084534,-70.19448853
+249,American Diamond Cleaning,Cleaning Service,"18 Cumberland St, Westbrook, ME 04092",(207) 887-9204,http://adcleanmaine.com/,,43.68157959,-70.34788513
+250,Portland Trading Company,Clothing,"157 Middle St, Portland, ME 04101",(207) 899-0228,http://www.portlandtradingco.com/,,43.65802765,-70.25402832
+253,Rwanda Bean Coffee,Coffee Shop,"463 Stevens Ave, Portland, ME 04103",(207) 956-6686,http://rwandabean.com/,https://places.singleplatform.com/rwanda-bean-coffee/menu?ref=Microsoft,43.67427444,-70.29524231
+254,Knitting Nook,Coffee Shop,"124 Sawyer St, South Portland, ME 04106",(207) 767-5648,http://knittingnookme.com/,,43.64735031,-70.24068451
+255,Cultivating Community,Farm,"52 Mayo St, Portland, ME 04101",(207) 761-4769,http://www.cultivatingcommunity.org/,,43.66405869,-70.25574493
+256,African Grocery Store,Grocery Store,"803 Congress St, Portland, ME 04102",(207) 347-4990,No website,,43.65417099,-70.27293396
+257,African SuperMarket,Grocery Store,"44 Washington Ave, Portland, ME 04101",(207) 409-4085,https://www.facebook.com/AfricanSuperMarket/,,43.66481018,-70.25183868
+258,Banadir Halal Market,Grocery Store,"630 Forest Ave, Portland, ME 04101",(207) 772-9464,"No website, call (207) 772-9464",,43.66991425,-70.28350067
+259,Ebenezer African Grocery Store,Grocery Store,"656 Congress St, Portland, ME 04101",(207) 774-2241,"No website, call (207) 774-2241",,43.65338516,-70.26511383
+260,Moriah STORE,Grocery Store,"364 Cumberland Ave, Portland, ME 04101",(207) 252-4605,https://www.facebook.com/Moriah-STORE-982291558539730/,,43.65752792,-70.26220703
+262,Peace Food Market,Grocery Store,"21 Chestnut St, Portland, ME 04101",(207) 541-3969,https://www.facebook.com/pages/Peace-Food-Market/111642168891232,,43.65956116,-70.25841522
+264,Mariama's Beauty Supply,Health/Beauty,"1037 Forest Ave, Portland, ME 04103",(207) 536-4644,http://www.mariamasbeautysupply.com/,,43.68279648,-70.29059601
+266,Asmara Restaurant,Restaurant,"51 Oak St, Portland, ME 04101",(207) 253-5122,http://www.asmaramaine.com/,http://www.asmaramaine.com/menu.html,43.65500259,-70.26152039
+268,Magnus on Water,Restaurant,"12 Water St, Biddeford, ME 04005",(207) 494-9052,https://www.magnusonwater.com/,https://www.magnusonwater.com/menu,43.49245071,-70.4500885
+269,Red Sea,Restaurant,"30 Washington Ave, Portland, ME 04101",(207) 805-1488,https://www.facebook.com/habrom2/,https://www.zomato.com/portland-me/red-sea-portland-portland/menu,43.66434479,-70.25159454
+270,Yardie Ting,Restaurant,"28 Monument Sq, Portland, ME 04101",(207) 835-0236,http://www.yardieting.com/,https://places.singleplatform.com/yardie-ting/menu?ref=Microsoft,43.65711975,-70.25919342
+272,Hair Extreme Barber Shop,Health/Beauty,"890 Main St, Sanford, ME 04073",(207) 459-4574,https://www.instagram.com/craiggrant41/,,43.44074631,-70.77549744
+273,One Love Cuisine,Restaurant,"6 Lebanon St, Sanford, ME 04073",(207) 850-1024,https://www.facebook.com/1nelovecuisine/,https://places.singleplatform.com/one-love-cuisine-0/menu?ref=Microsoft,43.44050598,-70.77787018
+274,Richie's Jerk & BBQ,Restaurant,"35 Washington St, Sanford, ME 04073",(772) 634-2735,https://www.richiesbbq.org/,https://kaosamai.business.site/,43.43990326,-70.77401733
+275,Me Lon Togo - Waterville,Restaurant,"220 Main St., Waterville, ME 04901",,http://www.melontogobistro.com/,,44.55423737,-69.63156891
+276,Sunshine Cook Shop,Restaurant,"37 Pleasant St, Claremont, NH 03743",(603) 543-0003,https://www.sunshinecookshop.com/,,43.37179184,-72.33868408
+277,Vibes of Style,Dance Class/Instruction,"66 Perley St, Concord, NH 03301",(603) 892-9251,https://www.facebook.com/DanceCrewshowstoppers/,,43.19617844,-71.53853607
+278,Drinkwater Productions & Marketing,Marketing,"6 Franklin St, Exeter, NH 03833",(978) 375-2252,https://www.facebook.com/Drinkwater-Productions-Marketing-594670373969124/,,42.98057175,-70.94432068
+279,Clyde's Cupcakes,Restaurant,"104 Epping Rd, Exeter, NH 03833",(603) 583-4850,https://clydescupcakes.com/,https://locu.com/places/clydes-cup-cakes-exeter-us/,42.98910904,-70.96746063
+281,Yahso Jamaican Grille,Restaurant,"149 MAIN St, Keene, NH",(603) 338-0025,https://yahsojamaicangrille.com/,https://places.singleplatform.com/yahso-jamaican-grille/menu?ref=Microsoft,42.93028641,-72.27784729
+283,The Lancaster Motel,Lodging,"112 Main St, Lancaster, NH 03584",(603) 788-4921,https://www.thelancastermotel.com/,,44.49036789,-71.5697937
+288,Samson Duclair Heating & Air Conditioning,Construction,"31 Merrick Rd, Raymond, NH 03077",(603) 895-4729,,,43.04329681,-71.23949432
+290,Glow Hair Braiding,Health/Beauty,"389 Chestnut St, Manchester, NH 03104",(603) 232-0858,https://www.facebook.com/Glow-Hair-Braiding-1786411418295884/,,42.99082947,-71.46063995
+291,Heavenly Touch Salon,Health/Beauty,"655 Chestnut St, Manchester, NH 03104",(603) 935-9035,https://www.facebook.com/heavenlytouch655/,,43.001296999999994,-71.46208954
+292,Rootz Natural Hair Shop llc,Health/Beauty,"186 Granite St, Manchester, NH 03106",(857) 204-4555,http://rootznaturalhairshopllc.booksy.com/,,43.09862137,-71.45185852
+293,Shear Talk Prov. 18:10,Health/Beauty,"396 Spruce St, Manchester, NH 03103",(603) 820-9646,https://sheartalk42.business.site/,,42.9865303,-71.44602203
+294,The Hop Knot,Restaurant,"1000 Elm St, Manchester, NH 03101",(603) 232-3731,https://www.thehopknot.com/manchester-new-hampshire,https://www.thehopknot.com/menu,42.99268723,-71.46425629
+295,Madear's Southern Eatery & Bakery,Restaurant,"141 Main St, Pembroke, NH 03265",,http://www.madears603.com/,,43.13135910000001,-71.45267487
+296,MR. BAKER CHEESECAKE CO.,Restaurant,"443 Lake Ave, Manchester, NH 03103",(603) 263-4743,https://mrbakercheesecakeco.com/,https://places.singleplatform.com/mr-baker-cheesecake-llc/menu?ref=Microsoft,42.98727417,-71.44611359
+297,The Pint Publik House,Restaurant,"1111 Elm St, Manchester, NH 03101",(603) 206-5463,https://www.pintpublikhouse.com/,http://www.allmenus.com/nh/manchester/393111-the-pint-public-house/menu/,42.99394989,-71.46282959
+298,Greenleaf,Restaurant,"54 Nashua St, Milford, NH 03055",(603) 213-5447,http://greenleafmilford.com/,https://greenleafmilford.com/food-drinks,42.8355217,-71.64802551
+303,Grounds,Coffee Shop,"374 Main St, New London, NH 03257",(603) 526-6010,http://www.grounds374.com/,,43.41347122,-71.98278809
+304,Cup of Joe,Coffee Shop,"31 Market St, Portsmouth, NH 03801",(603) 294-9404,https://www.cupofjoenh.com/,https://www.cupofjoenh.com/menu,43.07760239,-70.75751495
+305,The Office Lounge,Restaurant,"150 Lafayette Rd, Rye, NH 03870",(603) 379-2175,https://theofficeloungenh.com/,http://theofficeloungenh.com/site/menu/,43.0095253,-70.80558014
+307,Leroy's Styles LLC,Health/Beauty,"59 High St, Somersworth, NH 03878",(603) 692-9999,http://www.leroysstylesnh.com/,,43.26221085,-70.86502075
+308,New England Sweetwater Farm & Distillery,Liquor Store/Distillery,"136 Main St, Winchester, NH 03470",(603) 852-8356,http://newenglandsweetwater.com/,,42.77322388,-72.38349152
+310,BANGIN WINGS,Restaurant,"258 Greenville Ave, Johnston, RI 02919",(401) 204-6733,https://bangin-wings.business.site/,https://kaosamai.business.site/,41.83884048,-71.48303986
+311,Humming Bird,Restaurant,"104 Broadway, Newport, RI 02840",(401) 619-0032,http://www.hummingbirdnewport.com/,https://www.hummingbirdnewport.com/menu,41.49057007,-71.31311798
+312,White Dog Distilling,Distillery,"560 Mineral Spring Ave 2-116, Pawtucket, RI 02860",(401) 475-3789,https://www.whitedogdistilling.com/,,41.87271118,-71.40749359
+313,Bake. Eat. Love,Restaurant,"1005 Main St Ste 8231-a, Pawtucket, RI 02860",(401) 302-0207,https://bakeeatlovebakery.com/,,41.86308289,-71.3992691
+315,Monte Cara Restaurant,Restaurant,"528 Lonsdale Ave, Pawtucket, RI 02860",(401) 728-2480,http://montecararestaurant.com/,http://montecararestaurant.com/menu,41.88151932,-71.40020752
+316,Village Restaurant,Restaurant,"200 Main St, Pawtucket, RI 02860",(401) 727-8444,https://www.villagepawtucket.com/,https://www.villagepawtucket.com/menu.aspx,41.87678146,-71.38422394
+318,Baker Street Cafe,Restaurant,"75 Baker St, Providence, RI 02905",(401) 490-5025,http://bakerstreetcafe.org/,https://locu.com/places/baker-street-rue-providence-us/,41.79335785,-71.40007782
+320,Brooklyn Coffee & Tea House,Restaurant,"209 Douglas Ave, Providence, RI 02908",(401) 345-9099,http://brooklyncoffeeteahouse.com/,https://www.zomato.com/providence/brooklyn-coffee-tea-house-providence/menu,41.83743286,-71.42288971
+321,Bucktown,Restaurant,"471 W Fountain St, Providence, RI 02903",(401) 343-0441,https://www.bucktownpvd.com/,https://www.bucktownpvd.com/menus/,41.81853867,-71.42568207
+322,Flames,Restaurant,"734 Eddy St, Providence, RI 02903",(401) 331-2225,https://www.facebook.com/pages/Flame-Restaurant/1127845017233807,https://places.singleplatform.com/flames-restaurant-5/menu?ref=Microsoft,41.80819321,-71.40724182
+323,Food For The Soul,Restaurant,"149 Admiral St, Providence, RI 02908",(401) 490-2796,https://www.facebook.com/Food-For-The-Soul-185821341455383/,https://places.singleplatform.com/food-for-the-soul-4/menu?ref=Microsoft,41.84267807,-71.42191315
+324,Four/29 Brunch & Supper Club,Restaurant,"302 Wickenden St, Providence, RI 02903",,http://dinewith429.com/,,41.81954193,-71.39712524
+325,Garden Of Eve Restaurant,Restaurant,"405 Harris Ave, Providence, RI 02909",(401) 688-5166,http://gardenofeveri.com/,http://gardenofeveri.com/menu/,41.82492447,-71.43373871
+326,Glorious African Food,Restaurant,"1230 Elmwood Ave, Providence, RI 02907",(401) 228-7070,http://gloriousafricanfood.com/,http://gloriousafricanfood.com/menu/,41.77797699,-71.42099762
+328,Island House Restaurant,Restaurant,"242 Broad St, Providence, RI 02903",(401) 572-3011,https://islandhouserestaurantri.com/,https://places.singleplatform.com/island-house-1/menu?ref=Microsoft,41.81610107,-71.41983795
+329,Pan-A-Day,Restaurant,"7 Parade St, Providence, RI 02909",(401) 273-1506,https://www.facebook.com/Pan-a-Day-Take-Away-707306776122157/,,41.81611252,-71.43335724
+333,The District,Restaurant,"54 South St, Providence, RI 02903",(401) 421-0050,http://thedistrictri.com/,https://www.zomato.com/providence/the-district-1-jewelry-district/menu,41.81732941,-71.40763855
+334,The Glow Cafe & Juice Bar,Restaurant,"389 Admiral St, Providence, RI 02908",(401) 421-7000,https://eatdrinkglow.com/,,41.84608078,-71.42897034
+335,Troop PVD,Restaurant,"60 Valley St, Providence, RI 02908",(401) 473-2900,https://www.trooppvd.com/,https://www.trooppvd.com/menus,41.81922150000001,-71.44068146
+338,Bugg'd Outt BBQ,Restaurant,"614 N Main St, Woonsocket, RI 02896",(401) 524-2745,https://www.buggdouttbbq.com/,,42.01357651,-71.51383972
+339,Genuine Jamaican,Restaurant,"609 Barnet Center Rd, Barnet, VT 05821",(802) 633-2676,http://genuinejamaican.com/,,44.31748962,-72.0850296
+340,Jamaican Jewelz Catering,Restaurant/Food Truck,"15 Depot Sq, Bellows Falls, VT 05101",(888) 991-6523,http://www.jamaicanjewelz.com/,,43.13568115,-72.44513702
+341,Arkham,Bar,"16 Harmony Pl, Brattleboro, VT 05301",(802) 251-0800,http://arkhambar.com/,,42.85219574,-72.5594101
+343,Strafford Organic Creamery,Dairy Farm,"53 Rockbottom Rd, Strafford, VT 05072",(802) 765-4180,http://straffordcreamery.com/,,43.86125946,-72.41325378
+344,Atlas Hair Studio,Health/Beauty,"71 Main St, Winooski, VT 05404",(802) 355-5590,https://www.facebook.com/pages/category/Hair-Salon/Atlas-Hair-Studio-545933542266682/,,44.49184036,-73.18652344
+162,Ideal Sub Shop,Restaurant,"522 Dudley St, Roxbury, MA 02119",(617) 442-1560,https://www.facebook.com/pages/Ideals-Sub-Shop/204762512890620,,42.32233047,-71.07244873
+146,The Neighborhood Restaurant & Bakery,Restaurant,"25 Bow St, Somerville, MA 02143",(617) 623-9710,http://theneighborhoodrestaurant.com/,http://theneighborhoodrestaurant.com/our-menu/,42.38155746459961,-71.09736633300781
+271,Bellas & Fellas,Health/Beauty,"51A Elm St, Saco, ME 04072",(207) 602-9001,http://www.bellasandfellas.us/,,43.499942779541016,-70.44778442382812
+299,"Mcnulty & Foley Caterers, Inc.",Catering,"124 E Hollis St, Nashua, NH 03060",(603) 882-1921,https://mcnultycatering.com/,,42.761661529541016,-71.44906616210938
