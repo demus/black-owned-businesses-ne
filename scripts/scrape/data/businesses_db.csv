@@ -4,7 +4,7 @@ row_id,business_title,business_type,address,phone,website,menu_url,latitude,long
 3,SURF VS TURF,Restaurant,"2043 FAIRFIELD Ave, BRIDGEPORT, CT 06605",(203) 923-2019,https://ordersurfvsturfct.com/?utm_source=bing&utm_medium=websiteurl&utm_campaign=search,https://OrderSurfVsTurfCT.com/?utm_source=bing&utm_medium=menuurl&utm_campaign=search,41.16602325,-73.21772003
 4,Ten20CT,Restaurant,"1450 Barnum Ave, Bridgeport, CT 06610",(203) 549-8029,https://www.ten20-ct.com/,,41.1870842,-73.163414
 5,Trap Chicken LLC,Restaurant,"1725 Barnum Ave, Bridgeport, CT 06610",,https://www.facebook.com/trapchicken/,,41.18888855,-73.15823364
-7,Perfect Poundcakes,Restaurant,"221 Burnside Ave, East Hartford, CT 06108",(860) 834-2229,https://perfectpoundcakes.org/,https://places.singleplatform.com/perfect-poundcakes-at-burnside-fish-market/menu?ref=Microsoft,41.775463099999996,-72.62997437
+7,Perfect Poundcakes,Restaurant,"221 Burnside Ave, East Hartford, CT 06108",(860) 834-2229,https://perfectpoundcakes.org/,https://places.singleplatform.com/perfect-poundcakes-at-burnside-fish-market/menu?ref=Microsoft,41.7754631,-72.62997437
 8,Sidibe African Resaurant - Nhyira,Restaurant,"242 Burnside Ave, East Hartford, CT 06108",(860) 216-6780,https://www.facebook.com/sidibeafricanresaurant/,,41.77562714,-72.62866974
 9,Sun Splash Jamaican Restaurant,Restaurant,"692 Maple Ave, Hartford, CT 06114",(860) 548-3050,https://www.sunsplashbarandgrill.com/,https://www.sunsplashbarandgrill.com/menus,41.74131775,-72.6832962
 10,Bomb Wings & Rice Bar,Restaurant,"2373 Whitney Ave, Hamden, CT 06518",(203) 745-5510,http://www.toobomb.com/,https://www.toobomb.com/menu,41.38375473,-72.90151978
@@ -105,7 +105,7 @@ row_id,business_title,business_type,address,phone,website,menu_url,latitude,long
 113,Singh's Roti Shop,Restaurant,"692 Columbia Rd, Dorchester, MA 02125",(617) 282-7977,http://www.singhsrotishop.net/,http://www.singhsrotishop.net/menu,42.32009125,-71.06227875
 114,Taste Of Eden,Restaurant,"38 Norfolk St, Boston, MA 02124",(617) 282-0077,https://www.tasteofedenjamerican.net/,https://places.singleplatform.com/taste-of-eden-ja-american-restaurant/menu?ref=Microsoft,42.28921509,-71.07284546
 115,Vaughan Fish & Chips,Restaurant,"1 Erie St, Dorchester, MA 02121",(617) 825-1194,https://www.facebook.com/pages/Vaughan-Fish-Chips/100849106625946,https://www.zomato.com/boston/vaughan-fish-chips-dorchester/menu,42.30321121,-71.07868958
-116,Wingz & Tingz,Restaurant,"388 Blue Hill Ave, Dorchester, MA 02121",(617) 652-8580,http://wingzandtingz.com/,https://www.wingzandtingz.com/menu/,42.311435700000004,-71.08109283
+116,Wingz & Tingz,Restaurant,"388 Blue Hill Ave, Dorchester, MA 02121",(617) 652-8580,http://wingzandtingz.com/,https://www.wingzandtingz.com/menu/,42.3114357,-71.08109283
 117,Yelus,Restaurant,"116 Washington St, Dorchester, MA 02121",(857) 271-3926,https://www.yelusrestaurant.com/,https://places.singleplatform.com/yelus/menu?ref=Microsoft,42.30513,-71.0802002
 119,The Taproom,Bar,"1 Mill Valley Rd Ste C, Hadley, MA 01035",(413) 387-0600,http://www.thetaproomhadley.com/,,42.34890747,-72.56830597
 120,Hot Oven Cookies,Restaurant,"1597 Main St, Springfield, MA",(413) 889-4099,https://www.hotovencookies.com/,https://www.hotovencookies.com/menu,42.1038475,-72.59315491
@@ -250,7 +250,7 @@ row_id,business_title,business_type,address,phone,website,menu_url,latitude,long
 283,The Lancaster Motel,Lodging,"112 Main St, Lancaster, NH 03584",(603) 788-4921,https://www.thelancastermotel.com/,,44.49036789,-71.5697937
 288,Samson Duclair Heating & Air Conditioning,Construction,"31 Merrick Rd, Raymond, NH 03077",(603) 895-4729,,,43.04329681,-71.23949432
 290,Glow Hair Braiding,Health/Beauty,"389 Chestnut St, Manchester, NH 03104",(603) 232-0858,https://www.facebook.com/Glow-Hair-Braiding-1786411418295884/,,42.99082947,-71.46063995
-291,Heavenly Touch Salon,Health/Beauty,"655 Chestnut St, Manchester, NH 03104",(603) 935-9035,https://www.facebook.com/heavenlytouch655/,,43.001296999999994,-71.46208954
+291,Heavenly Touch Salon,Health/Beauty,"655 Chestnut St, Manchester, NH 03104",(603) 935-9035,https://www.facebook.com/heavenlytouch655/,,43.001297,-71.46208954
 292,Rootz Natural Hair Shop llc,Health/Beauty,"186 Granite St, Manchester, NH 03106",(857) 204-4555,http://rootznaturalhairshopllc.booksy.com/,,43.09862137,-71.45185852
 293,Shear Talk Prov. 18:10,Health/Beauty,"396 Spruce St, Manchester, NH 03103",(603) 820-9646,https://sheartalk42.business.site/,,42.9865303,-71.44602203
 294,The Hop Knot,Restaurant,"1000 Elm St, Manchester, NH 03101",(603) 232-3731,https://www.thehopknot.com/manchester-new-hampshire,https://www.thehopknot.com/menu,42.99268723,-71.46425629

@@ -1,36 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.89b977a5.chunk.css",
-    "main.js": "/static/js/main.e7c5195d.chunk.js",
-    "main.js.map": "/static/js/main.e7c5195d.chunk.js.map",
+    "main.css": "/static/css/main.ba15b975.chunk.css",
+    "main.js": "/static/js/main.4808d038.chunk.js",
+    "main.js.map": "/static/js/main.4808d038.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d328ce48.js",
     "runtime-main.js.map": "/static/js/runtime-main.d328ce48.js.map",
-    "static/js/2.856f6091.chunk.js": "/static/js/2.856f6091.chunk.js",
-    "static/js/2.856f6091.chunk.js.map": "/static/js/2.856f6091.chunk.js.map",
+    "static/js/2.d4f36895.chunk.js": "/static/js/2.d4f36895.chunk.js",
+    "static/js/2.d4f36895.chunk.js.map": "/static/js/2.d4f36895.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.59daa98f0e90541dd0047d455562fe14.js": "/precache-manifest.59daa98f0e90541dd0047d455562fe14.js",
+    "precache-manifest.f613260e4cc20b74a41ca01fd8531047.js": "/precache-manifest.f613260e4cc20b74a41ca01fd8531047.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.89b977a5.chunk.css.map": "/static/css/main.89b977a5.chunk.css.map",
-    "static/js/2.856f6091.chunk.js.LICENSE.txt": "/static/js/2.856f6091.chunk.js.LICENSE.txt",
-    "static/media/bar.jpg": "/static/media/bar.07a8f90e.jpg",
-    "static/media/catering.jpg": "/static/media/catering.91213931.jpg",
-    "static/media/cleaning.jpg": "/static/media/cleaning.dc60dcc8.jpg",
-    "static/media/coffee.jpg": "/static/media/coffee.90893a8f.jpg",
-    "static/media/dairy.jpg": "/static/media/dairy.e8a90f1f.jpg",
-    "static/media/farm.jpg": "/static/media/farm.c324bfc7.jpg",
-    "static/media/food.jpg": "/static/media/food.69f1e3f5.jpg",
-    "static/media/gym.jpg": "/static/media/gym.2266d98f.jpg",
-    "static/media/health.jpg": "/static/media/health.f6850e0b.jpg",
-    "static/media/hotel.jpg": "/static/media/hotel.b1616787.jpg",
-    "static/media/marketing.jpg": "/static/media/marketing.d8fc4e75.jpg",
-    "static/media/photographer.jpg": "/static/media/photographer.83a4d5b6.jpg",
-    "static/media/restaurant.jpg": "/static/media/restaurant.25fe64fb.jpg",
-    "static/media/retail.jpg": "/static/media/retail.0f5196cc.jpg"
+    "static/css/main.ba15b975.chunk.css.map": "/static/css/main.ba15b975.chunk.css.map",
+    "static/js/2.d4f36895.chunk.js.LICENSE.txt": "/static/js/2.d4f36895.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d328ce48.js",
-    "static/js/2.856f6091.chunk.js",
-    "static/css/main.89b977a5.chunk.css",
-    "static/js/main.e7c5195d.chunk.js"
+    "static/js/2.d4f36895.chunk.js",
+    "static/css/main.ba15b975.chunk.css",
+    "static/js/main.4808d038.chunk.js"
   ]
 }
