@@ -4,8 +4,6 @@ import time
 import usaddress
 from selenium import webdriver
 from selenium.common.exceptions import TimeoutException
-from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
-from selenium.webdriver.firefox.firefox_profile import FirefoxProfile
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions as EC
@@ -38,7 +36,7 @@ class MapsDriver:
         text = " ".join([x for x in [title, city, state] if x is not None])
         tries = 3
         place_details_element = None
-        for i in range(3):
+        for i in range(tries):
             place_details_element = self.search(text)
             if place_details_element != None:
                 break
@@ -75,17 +73,24 @@ class MapsDriver:
     def search(self, text):
         self.driver.get("https://www.bing.com/maps/")
 
-        # prevents clicks on search bar while present
-        search_bar_primer_element = WebDriverWait(self.driver, 5).until(
-            EC.presence_of_element_located((By.ID, "maps_sb_primer"))
-        )
-        WebDriverWait(self.driver, 20).until(EC.staleness_of(search_bar_primer_element))
+        # sometimes element doesn't appear, possibly for slower connections
+        try:
+            # prevents clicks on search bar while present
+            search_bar_primer_element = WebDriverWait(self.driver, 5).until(
+                EC.presence_of_element_located((By.ID, "maps_sb_primer"))
+            )
+            WebDriverWait(self.driver, 20).until(
+                EC.staleness_of(search_bar_primer_element)
+            )
+        except TimeoutException:
+            pass
 
         search_bar_element = WebDriverWait(self.driver, 20).until(
             EC.element_to_be_clickable((By.ID, "maps_sb"))
         )
         search_bar_element.clear()
         search_bar_element.send_keys(text)
+        # click is sometimes necessary for some reason
         search_bar_element.click()
         search_bar_element.send_keys(Keys.RETURN)
 
@@ -93,15 +98,6 @@ class MapsDriver:
         start_time = time.monotonic()
 
         while time.monotonic() - start_time < 20:
-            # no search results
-            try:
-                WebDriverWait(self.driver, 1).until(
-                    EC.element_to_be_clickable((By.CLASS_NAME, "errmsg"))
-                )
-                raise NoSearchResultError(f"No matches found for {text}")
-            except TimeoutException:
-                pass
-
             # happy path: 1 search result
             try:
                 place_details_element = WebDriverWait(self.driver, 1).until(
@@ -123,6 +119,15 @@ class MapsDriver:
                     )
                 )
                 break
+            except TimeoutException:
+                pass
+
+            # no search results, at end cause it usually isn't the case
+            try:
+                WebDriverWait(self.driver, 1).until(
+                    EC.element_to_be_clickable((By.CLASS_NAME, "errmsg"))
+                )
+                raise NoSearchResultError(f"No matches found for {text}")
             except TimeoutException:
                 pass
 
