@@ -7,7 +7,8 @@ from usaddress import RepeatedLabelError
 
 from scrape.util.feature_collection import FeatureCollection
 from scrape.util.maps_driver import (
-    MapsDriver,
+    BingMapsDriver,
+    GoogleMapsDriver,
     NoAddressError,
     NoSearchResultError,
     StateValidationError,
@@ -41,7 +42,7 @@ if __name__ == "__main__":
         tags = row.business_type.split("/")
         [feature_collections[tag].add_point(*point_args) for tag in tags]
 
-    with MapsDriver() as md:
+    with BingMapsDriver() as bmd:
         for index, row in businesses_list_df.iterrows():
             logging.debug(f"Row {index}: Started processing row")
 
@@ -50,8 +51,8 @@ if __name__ == "__main__":
                 continue
 
             try:
-                place_details = md.place_details(
-                    row.business_name, city=row.town, state=row.state
+                place_details = bmd.place_details(
+                    title=row.business_name, city=row.town, state=row.state
                 )
             except (
                 NoSearchResultError,
@@ -59,8 +60,17 @@ if __name__ == "__main__":
                 StateValidationError,
                 RepeatedLabelError,
             ) as e:
-                logging.error(f"Row {index}: Exception {type(e).__name__}")
-                continue
+                try:
+                    with GoogleMapsDriver() as gmd:
+                        place_details = gmd.scrape_details(
+                            title=row.business_name, city=row.town, state=row.state
+                        )
+                except (NoSearchResultError, NoAddressError) as e:
+                    logging.error(f"Row {index}: Exception {type(e).__name__}")
+                    continue
+                except TimeoutException:
+                    logging.error(f"Row {index}: Exception TimeoutException")
+                    continue
             except TimeoutException:
                 logging.error(f"Row {index}: Exception TimeoutException")
                 continue
