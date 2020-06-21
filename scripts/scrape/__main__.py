@@ -1,12 +1,13 @@
 import logging
+from pprint import pprint
 
 import numpy as np
 import pandas as pd
 from selenium.common.exceptions import TimeoutException
 from usaddress import RepeatedLabelError
 
-from scrape.util.feature_collection import FeatureCollection
-from scrape.util.maps_driver import (
+from util.feature_collection import FeatureCollection
+from util.maps_driver import (
     BingMapsDriver,
     GoogleMapsDriver,
     NoAddressError,
@@ -42,8 +43,10 @@ if __name__ == "__main__":
         tags = row.business_type.split("/")
         [feature_collections[tag].add_point(*point_args) for tag in tags]
 
+    failed_locations = []
     with BingMapsDriver() as bmd:
         for index, row in businesses_list_df.iterrows():
+            print(f"Bing {index}")
             logging.debug(f"Row {index}: Started processing row")
 
             if (businesses_db_df.row_id == index).any():
@@ -60,17 +63,9 @@ if __name__ == "__main__":
                 StateValidationError,
                 RepeatedLabelError,
             ) as e:
-                try:
-                    with GoogleMapsDriver() as gmd:
-                        place_details = gmd.scrape_details(
-                            title=row.business_name, city=row.town, state=row.state
-                        )
-                except (NoSearchResultError, NoAddressError) as e:
-                    logging.error(f"Row {index}: Exception {type(e).__name__}")
-                    continue
-                except TimeoutException:
-                    logging.error(f"Row {index}: Exception TimeoutException")
-                    continue
+                logging.error(f"Row {index}: Exception {type(e).__name__}")
+                failed_locations.append(index)
+                continue
             except TimeoutException:
                 logging.error(f"Row {index}: Exception TimeoutException")
                 continue
@@ -107,21 +102,41 @@ if __name__ == "__main__":
                     "longitude",
                 ],
             )
-            businesses_db_df = businesses_db_df.append(
-                place_details_row, ignore_index=True
-            )
+            # businesses_db_df = businesses_db_df.append(
+            #     place_details_row, ignore_index=True
+            # )
 
-            # add to db df
-            point_args = (
-                place_details["latitude"],
-                place_details["longitude"],
-                place_details,
-            )
-            feature_collection.add_point(*point_args)
-            tags = place_details_row.business_type.split("/")
-            [feature_collections[tag].add_point(*point_args) for tag in tags]
+            # # add to db df
+            # point_args = (
+            #     place_details["latitude"],
+            #     place_details["longitude"],
+            #     place_details,
+            # )
+            # feature_collection.add_point(*point_args)
+            # tags = place_details_row.business_type.split("/")
+            # [feature_collections[tag].add_point(*point_args) for tag in tags]
 
-    feature_collection.dump("features.json")
-    for k, v in feature_collections.items():
-        v.dump(f"{k}.json")
-    businesses_db_df.to_csv("./scrape/data/businesses_db.csv", index=False)
+    with GoogleMapsDriver() as gmd:
+        for index in failed_locations:
+            print(f"Google {index}")
+            row = businesses_list_df.iloc[index]
+
+            if (businesses_db_df.row_id == index).any():
+                logging.debug(f"Row {index}: Skipping row. Row exists in DB.")
+                continue
+
+            try:
+                place_details = gmd.scrape_details(
+                    title=row.business_name, city=row.town, state=row.state
+                )
+            except (NoSearchResultError, NoAddressError) as e:
+                logging.error(f"Row {index}: Exception {type(e).__name__}")
+                continue
+            except TimeoutException:
+                logging.error(f"Row {index}: Exception TimeoutException")
+                continue
+
+    # feature_collection.dump("features.json")
+    # for k, v in feature_collections.items():
+    #     v.dump(f"{k}.json")
+    # businesses_db_df.to_csv("./scrape/data/businesses_db.csv", index=False)

@@ -293,7 +293,7 @@ class GoogleMapsDriver:
                 "longitude": longitude,
             }
 
-        return None
+        raise NoSearchResultError(f"No matches found for {self.query}")
 
 
 STATE_ABBREVIATIONS = {
