@@ -9,6 +9,8 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
+TIMEOUT = 30
+
 
 class NoSearchResultError(Exception):
     pass
@@ -22,7 +24,7 @@ class StateValidationError(Exception):
     pass
 
 
-class MapsDriver:
+class BingMapsDriver:
     def __init__(self):
         self.driver = webdriver.Firefox()
 
@@ -79,13 +81,13 @@ class MapsDriver:
             search_bar_primer_element = WebDriverWait(self.driver, 5).until(
                 EC.presence_of_element_located((By.ID, "maps_sb_primer"))
             )
-            WebDriverWait(self.driver, 20).until(
+            WebDriverWait(self.driver, 10).until(
                 EC.staleness_of(search_bar_primer_element)
             )
         except TimeoutException:
             pass
 
-        search_bar_element = WebDriverWait(self.driver, 20).until(
+        search_bar_element = WebDriverWait(self.driver, TIMEOUT).until(
             EC.element_to_be_clickable((By.ID, "maps_sb"))
         )
         search_bar_element.clear()
@@ -132,6 +134,148 @@ class MapsDriver:
                 pass
 
         return place_details_element
+
+
+class GoogleMapsDriver:
+    def __init__(self):
+        self.driver = webdriver.Firefox()
+
+    def __enter__(self):
+        return self
+
+    def __exit__(self, type, value, traceback):
+        self.driver.close()
+
+    def _search_maps(self):
+        self.driver.get("https://www.google.com/maps")
+
+        search_box = WebDriverWait(self.driver, TIMEOUT).until(
+            EC.element_to_be_clickable((By.ID, "searchboxinput"))
+        )
+        search_box.clear()
+        search_box.send_keys(self.query)
+        # click is sometimes necessary for some reason
+        search_box.click()
+        search_box.send_keys(Keys.RETURN)
+
+    @property
+    def business_title(self):
+        try:
+            business_title_element = WebDriverWait(self.driver, TIMEOUT).until(
+                EC.presence_of_element_located(
+                    (By.CSS_SELECTOR, "h1.section-hero-header-title-title span")
+                )
+            )
+            return business_title_element.get_attribute("innerText")
+        except TimeoutException:
+            results = WebDriverWait(self.driver, TIMEOUT).until(
+                EC.presence_of_all_elements_located((By.CLASS_NAME, "section-result"))
+            )
+            if len(results) > 1:
+                # multiple results found
+                return None
+            else:
+                # raise NoSearchResultError(f"No matches found for {self.query}")
+                return None
+
+    @property
+    def business_type(self):
+        business_type_element = self.driver.find_elements_by_css_selector(
+            "span.section-rating-term button.widget-pane-link"
+        )[-2]
+        return business_type_element.get_attribute("innerText")
+
+    @property
+    def address(self):
+        address_element = self.driver.find_elements_by_css_selector(
+            "button[data-tooltip='Copy address']"
+        )
+
+        if not address_element:
+            raise NoAddressError()
+
+        return address_element[0].get_attribute("aria-label").split(":")[1].strip()
+
+    @property
+    def phone(self):
+        phone_element = self.driver.find_elements_by_css_selector(
+            "button[data-tooltip='Copy phone number']"
+        )
+        if not phone_element:
+            return None
+        return phone_element[0].get_attribute("aria-label").split(":")[1].strip()
+
+    @property
+    def website(self):
+        website = ""
+        try:
+            website_element = WebDriverWait(self.driver, TIMEOUT).until(
+                EC.element_to_be_clickable(
+                    (By.CSS_SELECTOR, "button[data-tooltip='Open website']")
+                )
+            )
+            website_element.click()
+            # switch focus to newly opened tab and wait for the redirect to finish
+            self.driver.switch_to.window(self.driver.window_handles[1])
+
+            WebDriverWait(self.driver, TIMEOUT).until(
+                lambda driver: (driver.current_url != "about:blank")
+                & (not driver.current_url.startswith("https://www.google.com/"))
+            )
+            website = self.driver.current_url
+            self.driver.close()
+            self.driver.switch_to.window(self.driver.window_handles[0])
+        except TimeoutException:
+            pass
+        return website
+
+    @property
+    def menu_url(self):
+        menu_url_element = self.driver.find_elements_by_css_selector(
+            "button[data-tooltip='Open menu link']"
+        )
+
+        if not menu_url_element:
+            return None
+
+        menu_url_element[0].click()
+        # switch focus to newly opened tab and wait for the redirect to finish
+        self.driver.switch_to.window(self.driver.window_handles[1])
+        WebDriverWait(self.driver, TIMEOUT).until(
+            lambda driver: (driver.current_url != "about:blank")
+            & (not driver.current_url.startswith("https://www.google.com/"))
+        )
+        menu_url = self.driver.current_url
+        self.driver.close()
+        self.driver.switch_to.window(self.driver.window_handles[0])
+
+        # Remove google reference in URL
+        return menu_url[:-11] if menu_url.endswith("?ref=google") else menu_url
+
+    @property
+    def location(self):
+        return self.driver.current_url.split("@")[1].split(",")[:2]
+
+    def place_details(self, title, city=None, state=None):
+        self.query = " ".join([x for x in [title, city, state] if x is not None])
+        self._search_maps()
+
+        business_title = self.business_title
+        if business_title is None:
+            # raise NoSearchResultError(f"No matches found for {self.query}")
+            return None
+
+        latitude, longitude = self.location
+        return {
+            "business_title": business_title,
+            "business_type": self.business_type,
+            "address": self.address,
+            "phone": self.phone,
+            "website": self.website,
+            "menu_url": self.menu_url,
+            "latitude": latitude,
+            "longitude": longitude,
+        }
 
 
 STATE_ABBREVIATIONS = {
